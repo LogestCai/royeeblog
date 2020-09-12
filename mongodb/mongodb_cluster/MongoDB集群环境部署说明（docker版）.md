@@ -503,7 +503,7 @@ Server has startup warnings:
 2020-09-12T13:04:33.786+0800 I CONTROL  [main] ** WARNING: Access control is not enabled for the database.
 2020-09-12T13:04:33.786+0800 I CONTROL  [main] **          Read and write access to data and configuration is unrestricted.
 2020-09-12T13:04:33.786+0800 I CONTROL  [main] 
-###查看同期数据库 具体操作可以参看下方备注
+###查看同期数据库 具体操作可以参看下方注释处【MongoDB使用说明】
 mongos> show dbs;
 admin   0.000GB
 config  0.001GB
