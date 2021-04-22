@@ -1,0 +1,271 @@
+<div class="layuimini-container">
+    <form id="app-form" class="layui-form layuimini-form">
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">用户信息</label>
+            <div class="layui-input-block">
+                <textarea  class="layui-textarea" placeholder="请输入备注信息">{$row.drg010|default=''}^{$row.drg017|default=''}^{$row.drg002|default=''}^{$row.drg003|default=''}^{$row.drg004|default=''}^{$row.drg005|default=''}^{$row.drg006|default=''}^{$row.drg007|default=''}</textarea>
+                <p>注：数据格式说明</p>
+                <p clor="red">医院名称-姓名-入院时间-出院时间^科室名称^病案匹配标识^费用异常标识^校正优先级^反馈类型^反馈说明</p>
+
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">反馈说明</label>
+            <div class="layui-input-block">
+                <textarea  name="drg007" class="layui-textarea" placeholder="如果数据不用修改请备注原因">{$row.drg007|default=''}</textarea>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">主诊断编码</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg018" class="layui-input" placeholder="请输主诊断编码" value="{$row.drg018|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">主诊断名称</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg019" class="layui-input"  placeholder="请输入主诊断名称" value="{$row.drg019|default=''}">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断编码1</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg020" class="layui-input"  placeholder="请输入副诊断编码1" value="{$row.drg020|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断名称1</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg021" class="layui-input"  placeholder="请输入副诊断名称1" value="{$row.drg021|default=''}">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断编码2</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg022" class="layui-input"  placeholder="请输入副诊断编码2" value="{$row.drg022|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断名称2</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg023" class="layui-input"  placeholder="请输入副诊断名称2" value="{$row.drg023|default=''}">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断编码3</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg024" class="layui-input"  placeholder="请输入副诊断编码3" value="{$row.drg024|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断名称3</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg025" class="layui-input"  placeholder="请输入副诊断名称3" value="{$row.drg025|default=''}">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断编码4</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg026" class="layui-input"  placeholder="请输入副诊断编码4" value="{$row.drg026|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断名称4</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg027" class="layui-input"  placeholder="请输入副诊断名称4" value="{$row.drg027|default=''}">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断编码5</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg028" class="layui-input"  placeholder="请输入副诊断编码5" value="{$row.drg028|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断名称5</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg029" class="layui-input"  placeholder="请输入副诊断名称5" value="{$row.drg029|default=''}">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断编码6</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg030" class="layui-input"  placeholder="请输入副诊断编码6" value="{$row.drg030|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断名称6</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg031" class="layui-input"  placeholder="请输入副诊断名称6" value="{$row.drg031|default=''}">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断编码7</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg032" class="layui-input"  placeholder="请输入副诊断编码7" value="{$row.drg032|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断名称7</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg033" class="layui-input"  placeholder="请输入副诊断名称7" value="{$row.drg033|default=''}">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断编码8</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg034" class="layui-input"  placeholder="请输入副诊断编码8" value="{$row.drg034|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">副诊断名称8</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg034" class="layui-input"  placeholder="请输入副诊断名称8" value="{$row.drg034|default=''}">
+                </div>
+            </div>
+        </div>
+
+        <!--手术信息开始-->
+        <hr>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">主手术编码</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg052" class="layui-input"  placeholder="请输入主手术编码" value="{$row.drg052|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">主手术名称</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg053" class="layui-input"  placeholder="请输入主手术名称" value="{$row.drg053|default=''}">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">其他手术编码1</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg054" class="layui-input"  placeholder="请输入其他手术编码1" value="{$row.drg054|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">其他手术名称1</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg055" class="layui-input"  placeholder="请输入其他手术名称1" value="{$row.drg055|default=''}">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">其他手术编码2</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg056" class="layui-input"  placeholder="请输入其他手术编码2" value="{$row.drg056|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">其他手术名称2</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg057" class="layui-input"  placeholder="请输入其他手术名称2" value="{$row.drg057|default=''}">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">其他手术编码3</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg058" class="layui-input"  placeholder="请输入其他手术编码3" value="{$row.drg058|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">其他手术名称3</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg059" class="layui-input"  placeholder="请输入其他手术名称3" value="{$row.drg059|default=''}">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">其他手术编码4</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg060" class="layui-input"  placeholder="请输入其他手术编码4" value="{$row.drg060|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">其他手术名称4</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg061" class="layui-input"  placeholder="请输入其他手术名称4" value="{$row.drg061|default=''}">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">其他手术编码5</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg062" class="layui-input"  placeholder="请输入其他手术编码5" value="{$row.drg062|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">其他手术名称5</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg063" class="layui-input"  placeholder="请输入其他手术名称5" value="{$row.drg063|default=''}">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">其他手术编码6</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg064" class="layui-input"  placeholder="请输入其他手术编码6" value="{$row.drg064|default=''}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">其他手术名称6</label>
+                <div class="layui-input-block">
+                    <input type="text" name="drg065" class="layui-input"  placeholder="请输入其他手术名称6" value="{$row.drg065|default=''}">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="hr-line"></div>
+        <div class="layui-form-item text-center">
+            <button type="submit" class="layui-btn layui-btn-normal layui-btn-sm" lay-submit>确认</button>
+            <button type="reset" class="layui-btn layui-btn-primary layui-btn-sm">重置</button>
+        </div>
+
+    </form>
+</div>

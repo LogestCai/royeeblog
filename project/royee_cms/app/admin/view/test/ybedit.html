@@ -1,0 +1,333 @@
+<div class="layuimini-container">
+    <form id="app-form" class="layui-form layuimini-form " style="text-align: center" method="post">
+        <input type="hidden" name="rowid" value="{$row['ID']}">
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">中心项目编码</label>
+                <div class="layui-input-block">
+                    <input type="text" name="项目编码" class="layui-input" lay-verify="required" placeholder="中心项目编码" value="{$row['项目编码']}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">中心项目名称</label>
+                <div class="layui-input-block">
+                    <input type="text" name="项目名称" class="layui-input" lay-verify="required" placeholder="中心项目名称" value="{$row['项目名称']}">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">国家目录编码</label>
+                <div class="layui-input-block">
+                    <input type="text" name="国家目录编码" class="layui-input"  placeholder="国家目录编码" value="{$row['国家目录编码']}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">国家目录名称</label>
+                <div class="layui-input-block">
+                    <input type="text" name="国家目录名称" class="layui-input"  placeholder="国家目录名称" value="{$row['国家目录名称']}">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">收费类别</label>
+                <div class="layui-input-block">
+                    <input type="text" name="收费类别" class="layui-input" id="tableSelect" ts-selected="{$row['收费类别']}" placeholder="收费类别" value="{$row['收费类别']}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">项目类别</label>
+                <div class="layui-input-block">
+                    <input type="text" name="项目类别" id="xmlbSelect" ts-selected="{$row['项目类别']}" class="layui-input"  placeholder="项目类别" value="{$row['项目类别']}">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">项目等级</label>
+                <div class="layui-input-block">
+                    <input type="text" name="项目等级" class="layui-input" placeholder="项目等级" value="{$row['项目等级']}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">单位</label>
+                <div class="layui-input-block">
+                    <input type="text" name="单位" class="layui-input"  placeholder="单位" value="{$row['单位']}">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">规格</label>
+                <div class="layui-input-block">
+                    <input type="text" name="规格" class="layui-input" placeholder="规格" value="{$row['规格']}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">剂型</label>
+                <div class="layui-input-block">
+                    <input type="text" name="剂型" id="jxSelect" ts-selected="{$row['剂型']}" class="layui-input"  placeholder="剂型" value="{$row['剂型']}">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">型号</label>
+                <div class="layui-input-block">
+                    <input type="text" name="型号" class="layui-input" placeholder="型号" value="{$row['型号']}">
+                </div>
+            </div>
+
+            <div class="layui-inline">
+                <label class="layui-form-label">药品商品名</label>
+                <div class="layui-input-block">
+                    <input type="text" name="药品商品名" class="layui-input"  placeholder="药品商品名" value="{$row['药品商品名']}">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">药品厂家</label>
+                <div class="layui-input-block">
+                    <input type="text" name="药品厂家" class="layui-input" placeholder="药品厂家" value="{$row['药品厂家']}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">国药准字</label>
+                <div class="layui-input-block">
+                    <input type="text" name="国药准字" class="layui-input"  placeholder="国药准字" value="{$row['国药准字']}">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">拼音简码</label>
+                <div class="layui-input-block">
+                    <input type="text" name="拼音简码" class="layui-input" placeholder="拼音简码" value="{$row['拼音简码']}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">备注</label>
+                <div class="layui-input-block">
+                    <input type="text" name="备注" class="layui-input"  placeholder="备注" value="{$row['备注']}">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">包装材质</label>
+                <div class="layui-input-block">
+                    <input type="text" name="包装材质" class="layui-input" placeholder="包装材质" value="{$row['包装材质']}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">最小包装数量</label>
+                <div class="layui-input-block">
+                    <input type="text" name="最小包装数量" class="layui-input"  placeholder="最小包装数量" value="{$row['最小包装数量']}">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">最小制剂单位</label>
+                <div class="layui-input-block">
+                    <input type="text" name="最小制剂单位" class="layui-input" placeholder="最小制剂单位" value="{$row['最小制剂单位']}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">最小包装单位</label>
+                <div class="layui-input-block">
+                    <input type="text" name="最小包装单位" class="layui-input"  placeholder="最小包装单位" value="{$row['最小包装单位']}">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">药监局药品编码</label>
+                <div class="layui-input-block">
+                    <input type="text" name="药监局药品编码" class="layui-input" placeholder="药监局药品编码" value="{$row['药监局药品编码']}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">参考价</label>
+                <div class="layui-input-block">
+                    <input type="text" name="参考价" class="layui-input" placeholder="参考价" value="{$row['参考价']}">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+
+            <div class="layui-inline">
+                <label class="layui-form-label">UDI</label>
+                <div class="layui-input-block">
+                    <input type="text" name="UDI" class="layui-input"  placeholder="UDI" value="{$row['UDI']}">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">其他</label>
+                <div class="layui-input-block">
+                    <input type="text"  class="layui-input"   value="">
+                </div>
+            </div>
+        </div>
+
+        <div class="hr-line"></div>
+        <div class="layui-form-item text-center">
+            <button type="submit" class="layui-btn layui-btn-normal layui-btn-sm" lay-submit lay-filter="demo1"" >确认</button>
+            <button type="reset" class="layui-btn layui-btn-primary layui-btn-sm">重置</button>
+        </div>
+
+    </form>
+</div>
+<script src="__STATIC__/plugs/lay-module/tableSelect/tableSelect.js?v={$version}" charset="utf-8"></script>
+<script>
+    layui.use(['form', 'layedit','element', 'tableSelect','laydate'], function () {
+        var form = layui.form
+            , layer = layui.layer
+            , layedit = layui.layedit
+            , laydate = layui.laydate
+            , tableSelect = layui.tableSelect
+            , element = layui.element;
+
+        //监听提交
+        form.on('submit(demo1)', function (data) {
+            var dd = data.field;
+            // console.log(JSON.stringify(data.field));
+            // layer.alert(dd.title,{'title':"这是提交的信息"})
+            $.ajax({
+                'type': 'post',
+                'url': '/admin/test/ybedit',
+                dataType: 'json',
+                data: dd,
+                success: function (data) {
+                    //弹框提示 后刷新父窗口
+                    layer.msg(
+                        data.msg
+                        ,{
+                            icon: 1,
+                            time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                        }
+                        ,function(){
+                            //关闭父弹窗
+                            parent.layer.closeAll();
+                            location.reload();
+                        })
+
+//                    //弹出提示后两秒自动关闭  并且重置表单方便继续录入
+//                    layer.msg(data.msg,{icon:1,time:2000},function(){
+//                        document.getElementById('app-form').reset();
+//                    });
+                }
+            })
+            return false;
+        });
+
+        //定义tableselect搜索用于功能搜索 搜索收费类别
+        tableSelect.render({
+            elem: "#tableSelect" ,
+            checkedKey: '代码值',
+            searchType: 'more',
+            searchList: [
+                {searchKey: 'keywords', searchPlaceholder: '名称搜索'},
+            ],
+            table: {
+                url: '/admin/test/getDic?type=收费类别',
+                cols: [[
+                    {type: 'radio'},
+                    {field: '代码值', title: '编码',width:100},
+                    {field: '代码名称',  title: '收费类别',width:150 }
+                ]]
+            },
+
+            done: function (e, data) {
+                console.log(data.data);
+//                var urlArray = [];
+//                $.each(data.data, function (index, val) {
+//                    urlArray.push(val.url)
+//                });
+                //var value = data.data[0]['代码名称'];
+                var bm = data.data[0]['代码值'];
+                //console.log(value);
+                //console.log(data.data);
+                layer.msg('选择成功', function () {
+                    $(e).val(bm);
+                    $(e).trigger("input");
+                });
+            }
+        });
+
+        //定义xmlbSelect搜索用于功能搜索 搜索收费项目种类
+        tableSelect.render({
+            elem: "#xmlbSelect" ,
+            checkedKey: '代码值',
+            searchType: 'more',
+            searchList: [
+                {searchKey: 'keywords', searchPlaceholder: '名称搜索'},
+            ],
+            table: {
+                url: '/admin/test/getDic?type=收费项目种类',
+                cols: [[
+                    {type: 'radio'},
+                    {field: '代码值', title: '编码',width:100},
+                    {field: '代码名称',  title: '名称',width:150 }
+                ]]
+            },
+
+            done: function (e, data) {
+                console.log(data.data);
+//                var urlArray = [];
+//                $.each(data.data, function (index, val) {
+//                    urlArray.push(val.url)
+//                });
+                //var value = data.data[0]['代码名称'];
+                var bm = data.data[0]['代码值'];
+                //console.log(value);
+                //console.log(data.data);
+                layer.msg('选择成功', function () {
+                    $(e).val(bm);
+                    $(e).trigger("input");
+                });
+            }
+        });
+
+        //定义jxSelect搜索用于功能搜索 搜索剂型
+        tableSelect.render({
+            elem: "#jxSelect" ,
+            checkedKey: '代码值',
+            searchType: 'more',
+            searchList: [
+                {searchKey: 'keywords', searchPlaceholder: '名称搜索'},
+            ],
+            table: {
+                url: '/admin/test/getDic?type=剂型',
+                cols: [[
+                    {type: 'radio'},
+                    {field: '代码值', title: '编码',width:100},
+                    {field: '代码名称',  title: '名称',width:150 }
+                ]]
+            },
+
+            done: function (e, data) {
+                //   console.log(data.data);
+//                var urlArray = [];
+//                $.each(data.data, function (index, val) {
+//                    urlArray.push(val.url)
+//                });
+                //var value = data.data[0]['代码名称'];
+                var bm = data.data[0]['代码值'];
+                //console.log(value);
+                //console.log(data.data);
+                layer.msg('选择成功', function () {
+                    $(e).val(bm);
+                    $(e).trigger("input");
+                });
+            }
+        });
+
+    });
+
+</script>

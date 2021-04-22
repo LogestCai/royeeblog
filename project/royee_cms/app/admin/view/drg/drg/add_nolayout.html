@@ -1,0 +1,86 @@
+{__NOLAYOUT__}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{:sysconfig('site','site_name')}</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+    <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="__STATIC__/admin/css/public.css?v={$version}" media="all">
+
+    <script>
+        window.CONFIG = {
+            ADMIN: "{$adminModuleName|default='admin'}",
+            CONTROLLER_JS_PATH: "{$thisControllerJsPath|default=''}",
+            ACTION: "{$thisAction|default=''}",
+            AUTOLOAD_JS: "{$autoloadJs|default='false'}",
+            IS_SUPER_ADMIN: "{$isSuperAdmin|default='false'}",
+            VERSION: "{$version|default='1.0.0'}",
+        };
+    </script>
+    <script src="__STATIC__/plugs/layui-v2.5.6/layui.all.js?v={$version}" charset="utf-8"></script>
+    <!-- 引入editormd样式文件 -->
+    <link rel="stylesheet" href="__STATIC__/plugs/editormd/css/editormd.css" >
+    <!-- 引入editormd样式文件 -->
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="__STATIC__/plugs/editormd/editormd.js"></script>
+</head>
+<body>
+
+<div class="layuimini-container">
+    <form id="app-form" class="layui-form layuimini-form">
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">文章标题</label>
+            <div class="layui-input-block">
+                <input name="title" id="nnn" class="layui-input" placeholder="请输入标题"></input>
+                </select>
+            </div>
+        </div>
+
+
+
+        <div class="layui-form-item layui-form-text">
+            <label class="layui-form-label">内容</label>
+            <div class="layui-input-block">
+                <div id="mkdown" >
+                    <textarea name="remark"  placeholder="请输入备注信息"></textarea>
+                </div>
+            </div>
+            <div>
+        </div>
+
+        <div class="hr-line"></div>
+        <div class="layui-form-item  text-center">
+            <button type="submit" class="layui-btn layui-btn-normal layui-btn-sm" lay-submit>确认</button>
+            <button type="reset" class="layui-btn layui-btn-primary layui-btn-sm">重置</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    $(function(){
+        var editor = editormd("mkdown", {
+            height:'600px',
+            syncScrolling : "single",
+            emoji:true,
+            //启动本地图片上传功能
+            imageUpload: true,
+            watch:true,
+            imageFormats   : ["jpg", "jpeg", "gif", "png", "bmp", "webp","zip","rar"],
+            path   : "__STATIC__/plugs/editormd/lib/",
+            //imageUploadURL : "./upload.php", //文件提交请求路径
+            saveHTMLToTextarea : true, //注意3：这个配置，方便post提交表单
+            previewTheme : "dark",//预览主题样式 黑色
+        });
+    })
+
+
+</script>
+</body>
+</html>

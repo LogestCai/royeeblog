@@ -1,0 +1,179 @@
+<style>
+    .nav-bread{
+        background-color: white !important;
+        border-left:4px solid #1aa094;
+        line-height: 35px;
+        font-size: 14px;
+
+    }
+    .nav-bread span a{
+        color: #0000C0;
+        padding-left: 5px;
+    }
+    .nav-bread span a cite{
+        color: black;
+    }
+</style>
+<input type="hidden" id="table-type" value="{$type|default=1}">
+<input type="hidden" id="table-pid" value="{$pid|default=0}">
+<button type="button" class="layui-btn" id="upload-file"
+        data-upload-exts="png|jpg|ico|jpeg|zip|rar|mp4|mp3|avi|doc|docx|ppt|pptx|ws|xls|xlsx|wmv"
+        style="display: none">
+    <i class="layui-icon">&#xe67c;</i>上传图片
+</button>
+
+
+
+<div class="layuimini-container">
+    <!--<div class="nav-bread">
+        <span id="navcate">
+          <a href="">全部文件</a>>
+          <a href="">信息管理</a>>
+          <a href="">学习教程</a>>
+          <a><cite>程序</cite></a>
+        </span>
+    </div> -->
+
+    {:get_document_bread($bread,'/admin/office.document/index',$type,'/')}
+
+    <div class="layui-progress" lay-showpercent="true" lay-filter="layui-process" >
+        <div class="layui-progress-bar layui-bg-red" lay-percent="0%"></div>
+    </div>
+
+    <div  class="layuimini-main">
+        <table id="currentTable" class="layui-table layui-hide"
+               data-auth-add="{:auth('office.document/add')}"
+               data-auth-edit="{:auth('office.document/edit')}"
+               data-auth-delete="{:auth('office.document/delete')}"
+               data-auth-password="{:auth('office.document/password')}"
+               lay-filter="currentTable">
+        </table>
+    </div>
+</div>
+<script>
+    layui.use(['upload','jquery','element','table' ], function(){
+        var upload = layui.upload,
+            $ = layui.jquery,
+            table = layui.table,
+            //ea = layui.easy-admin,
+            element = layui.element;
+        var type = $("#table-type").val();
+        var pid = $("#table-pid").val();
+        var fileExts = $("#upload-file").attr('data-upload-exts');
+        //文件上传
+        var uploadInst = upload.render({
+            elem: '#upload-file'
+            ,url: '/admin/office.document/add?type='+type+'&pid='+pid //上传接口
+            ,accept: 'file'
+            ,choose: function(obj){
+                obj.preview(function(index, file, result){
+                    //对上传失败的单个文件重新上传，一般在某个事件中使用
+                    //obj.upload(index, file);
+                });
+            }
+            ,done:function(e ){
+                element.progress('layui-process', '0%');
+                if(e.code==1){
+                layer.msg('上传成功',function () {
+                    location.reload();
+                });
+                }else{
+                    layer.msg(e.msg,function(){
+                        location.reload();
+                    });
+                }
+
+            }
+
+            ,progress: function(n, elem){
+                var percent = n + '%';//获取进度百分比
+                console.log(percent);
+                element.progress('layui-process', percent); //可配合 layui 进度条元素使用
+            }
+        });
+        // 触发文件上传事件
+        $('body').on('click','.upload-file',function(){
+            $("#upload-file").click();
+        })
+
+        //=================新建文件夹功能====================
+        $("body").on('click','.new-folder',function(){
+            layer.prompt({title: '请输入文件夹名称', formType: 0}, function(vals, index){
+                //layer.msg('您输入了'+vals);
+                vals = vals.replace(/\s+/g,"");
+                if(vals==''){
+                    layer.msg('输入内容不能为空');
+                    return false;
+                }
+                var type = $("#table-type").val();
+                var pid = $("#table-pid").val();
+                $.ajax({
+                    type:'post',
+                    url:'/admin/office.document/add?type='+type+'&pid='+pid,
+                    data:{'title':vals},
+                    dataType:'json',
+                    success:function(e){
+                        layer.msg(e.msg,function(){
+                            location.reload();
+                        });
+                    }
+                })
+                layer.close(index)
+            });
+        });
+
+        //================文件查看功能=======================
+
+        $('body').on('click', '.see-file', function () {
+            var title = $(this).data('title'),
+                src = $(this).data('url'),
+                alt = $(this).data('title');
+            console.log(src);
+            var photos = {
+                "title": title,
+                "id": Math.random(),
+                "data": [
+                    {
+                        "alt": alt,
+                        "pid": Math.random(),
+                        "src": src,
+                        "thumb": src
+                    }
+                ]
+            };
+            layer.photos({
+                photos: photos,
+                anim: 5
+            });
+            return false;
+        });
+
+        //===================文件重命名功能======================
+        $('body').on('click','.edit-file',function(){
+            var id = $(this).data('id');
+            var index = layer.open({
+                title: "重命名",
+                type: 2,
+                area: ['50%', '50%'],
+                content: "/admin/office.document/edit?id="+id,
+                maxmin: true,
+                moveOut: true,
+                success: function (layero, index) {
+                    var body = layer.getChildFrame('body', index);
+                    if (body.length > 0) {
+                        $.each(body, function (i, v) {
+
+                            // todo 优化弹出层背景色修改
+                            $(v).before('<style>\n' +
+                                'html, body {\n' +
+                                '    background: #ffffff;\n' +
+                                '}\n' +
+                                '</style>');
+                        });
+                    }
+                }
+            });
+        })
+
+    });
+</script>

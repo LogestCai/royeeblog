@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="__STATIC__/admin/css/test.css?v={$version}" media="all">
+
+<div class="main-body">
+    <div class="logo-img">
+        <img src="/static/admin/images/hbjkjtyy.png" alt="" style="width:100%">
+    </div>
+    <div class="login-main">
+        <div class="login-top">
+            <span>工资查询系统</span>
+            <span class="bg1"></span>
+            <span class="bg2"></span>
+        </div>
+
+        <form id="salary-form"  class="layui-form login-bottom">
+
+            <div class="center">
+
+                <div class="item">
+                    <span class="icon icon-2"></span>
+                    <input type="text" name="idcard" lay-verify="required"  placeholder="请输入身份证号" maxlength="24"/>
+                </div>
+
+                <div class="item">
+                    <span class="icon icon-2"></span>
+                    <input type="text" name="name" lay-verify="required"  placeholder="请输入姓名" maxlength="20">
+                </div>
+
+                {if $captcha == 1}
+                <div id="validatePanel" class="item" style="width: 137px;">
+                    <input type="text" name="captcha" placeholder="请输入验证码" maxlength="4">
+                    <img id="refreshCaptcha" class="validateImg"  src="{:url('test/captcha')}" onclick="this.src='{:url(\'test/captcha\')}?seed='+Math.random()">
+                </div>
+                {/if}
+            </div>
+
+            <div class="layui-form-item" style="text-align:center; width:100%;height:100%;margin:0px;">
+                <button class="login-btn" lay-submit>查  询</button>
+            </div>
+            <div class="layui-form-item">
+                <div class="footer-small">
+                    Designed By 蔡明明
+                </div>
+            </div>
+        </form>
+
+
+        <form id="salary-content"  class="layui-form login-bottom layui-hide">
+            <div id="dis-content" class="center">
+
+            </div>
+        </form>
+
+    </div>
+</div>
+<div class="footer layui-show-md-block layui-show-lg-block layui-hide-sm layui-hide-xs">
+    Designed By 蔡明明 <span class="padding-5"></span>
+</div>

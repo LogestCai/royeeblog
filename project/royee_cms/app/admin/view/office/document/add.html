@@ -1,0 +1,68 @@
+<div class="layuimini-container">
+
+    <form id="app-form" class="layui-form layuimini-form">
+        <input type="hidden" id="file-type" value="1">
+        <div class="layui-form-item">
+            <div id="fileUpload" data-upload-number="50" data-upload-url="/admin/office.document/add?type={$type|default=1}"
+                 data-upload-exts="png|jpg|ico|jpeg|zip|rar|mp4|mp3|avi|doc|docx|ppt|pptx|ws|xls|xlsx|wmv"
+                 class="layui-upload-drag" style="width:95%;text-align: center">
+                <i class="layui-icon"></i>
+                <p>
+                    点击此处上传文件
+                </p>
+            </div>
+            <div class="layui-progress" lay-showpercent="true" lay-filter="layui-process" >
+                <div class="layui-progress-bar layui-bg-red" id="lay-upload-precnt" lay-percent="0%"></div>
+            </div>
+            <div class="uploadList">
+                <table  class="layui-table">
+                    <tbody id="table-file">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+
+    /**
+     * 页面禁用拖拽上传时 浏览器默认打开图片
+     */
+    layui.use(['upload','jquery','element'], function(){
+        var upload = layui.upload,
+            $ = layui.jquery,
+            element = layui.element,
+            type = $("#file-type").val(),
+            fileExts = $("#fileUpload").attr('data-upload-exts');
+        if(typeof(type)== "undefined" || type==''){
+            type=1;
+        }
+        var layer_pop =null;
+        //执行文件上传实例
+        var uploadInst = upload.render({
+            elem: '#fileUpload' //绑定元素
+            ,url: '/admin/office.document/add?type='+type //上传接口
+            ,exts:fileExts
+            ,done: function(res){
+                //上传完毕回调
+                var html ='<tr><td>'+res.data.title+'</td><td>'+res.data.create_time+'</td></tr>';
+                $("#table-file").append(html);
+                element.progress('layui-process', '0%');
+                layer.msg('上传成功');
+            }
+//上传进度
+            ,progress: function(n, elem){
+                var percent = n + '%';//获取进度百分比
+                console.log(percent);
+                element.progress('layui-process', percent); //可配合 layui 进度条元素使用
+            }
+            ,error: function(){
+                //请求异常回调
+                console.log("shibaile")
+            }
+        });
+    });
+
+
+</script>
