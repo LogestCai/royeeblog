@@ -1,0 +1,849 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AMessage</name>
+    </assembly>
+    <members>
+        <member name="T:AMessage.Report.ABrowserReport">
+            <summary>
+            帆软决策浏览器窗口
+            </summary>
+        </member>
+        <member name="F:AMessage.Report.ABrowserReport.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AMessage.Report.ABrowserReport.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AMessage.Report.ABrowserReport.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AMessage.F设置默认打印机.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AMessage.F设置默认打印机.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AMessage.F设置默认打印机.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AMessage.F选择打印.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AMessage.F选择打印.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AMessage.F选择打印.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AMessage.Print.APrint">
+            <summary>
+            打印管理类，运行打印格式
+            </summary>
+        </member>
+        <member name="M:AMessage.Print.APrint.RunPrint(AModelList.AForm,System.String,System.String,ABegin.AELineModel,System.String,System.Boolean,System.Boolean,System.String)">
+            <summary>
+            运行打印格式
+            </summary>
+            <param name="vpForm">打印主窗口</param>
+            <param name="vs子系统编号"></param>
+            <param name="vs打印子编号"></param>
+            <param name="aeLineModel"></param>
+            <param name="vs格式名称"></param>
+            <param name="vbToPrinter">是否直接打印</param>
+            <param name="vbDispSelectList">是否弹出列表选择</param>
+            <param name="vs格式编号">直接打印的时候指定格式编号</param>
+            <returns>打印成功或失败</returns>
+        </member>
+        <member name="M:AMessage.Print.APrint.RunPrintToFile(AModelList.AForm,System.String,System.String,System.String,System.String@,System.String)">
+            <summary>
+            指定打印格式打印到某个文件
+            </summary>
+            <param name="vpForm"></param>
+            <param name="vs子系统编号"></param>
+            <param name="vs打印子编号"></param>
+            <param name="vs格式编号"></param>
+            <param name="vsMessagInfo">输出到本地的文件信息 绝对路径</param>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.Print.APrint.RunPrintToGDI(ABegin.PrintClass,AModelList.AForm,System.Drawing.Graphics,System.String,System.String,System.String,System.Drawing.Size@)">
+            <summary>
+            指定打印到某个GDI对象
+            </summary>
+            <param name="printClass"></param>
+            <param name="vpForm"></param>
+            <param name="con"></param>
+            <param name="vs子系统编号"></param>
+            <param name="vs打印子编号"></param>
+            <param name="vs格式编号"></param>
+            <param name="iPageSize">纸张大小</param>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.Print.APrint.PrintBofore(AModelList.AForm,System.Boolean,System.String,System.String,System.String)">
+            <summary>
+            打印调用之前判断是否为打印组件，内部调用
+            </summary>
+            <param name="aFrom">打印涉及主窗口</param>
+            <param name="toPrint">是否直接打印</param>
+            <param name="vs子系统编号">子系统编号</param>
+            <param name="vs打印子编号">打印子编号</param>
+            <param name="vs格式编号">打印格式编号</param>
+            <returns>是否继续打印，true:是;false:否</returns>
+        </member>
+        <member name="M:AMessage.Print.APrint.PrintBofore(AModelList.AForm,System.Boolean,System.String,System.String,System.String,System.String)">
+            <summary>
+            调用外部组件进行打印
+            </summary>
+            <param name="aFrom">打印窗口对象</param>
+            <param name="toPrint">是否直接打印</param>
+            <param name="vs子系统编号">打印子系统编号</param>
+            <param name="vs打印子编号">打印子编码</param>
+            <param name="vs格式编号">打印格式编号</param>
+            <param name="vs打印组件">打印组件名称</param>
+            <returns>是否打印完毕</returns>
+        </member>
+        <member name="M:AMessage.Print.APrint.AddPrint(System.String,System.String)">
+            <summary>
+            添加打印格式
+            </summary>
+            <param name="vs子系统编号">子系统编号</param>
+            <param name="vs打印子编号">打印子编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.Print.APrint.DesignPrint(AModelList.AForm,System.Int64)">
+            <summary>
+            设计打印格式
+            </summary>
+            <param name="pCallForm">打印窗口</param>
+            <param name="iSysId">打印序号</param>
+        </member>
+        <member name="M:AMessage.Print.APrint.DeletePrint(System.Int64)">
+            <summary>
+            删除打印格式
+            </summary>
+            <param name="iSysId">打印序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.Print.APrint.ExportPrint(System.Int64,System.String,System.String,System.String,System.String)">
+            <summary>
+            导出打印格式
+            </summary>
+            <param name="iSysId"></param>
+            <param name="vs子系统编号"></param>
+            <param name="vs打印子编号"></param>
+            <param name="vs打印格式名称"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.Print.APrint.ImportPrint(System.String,System.String)">
+            <summary>
+            导入打印格式
+            </summary>
+            <param name="vs子系统编号"></param>
+            <param name="vs打印子编号"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AMessage.PTRead">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Z打印管理.F选择打印格式.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Z打印管理.F选择打印格式.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Z打印管理.F选择打印格式.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AMessage.F格式管理列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AMessage.F格式管理列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AMessage.F格式管理列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AMessage.ResourceData_Yd">
+            <summary>
+            资源图标文件管理类-药店系统
+            </summary>
+        </member>
+        <member name="M:AMessage.ResourceData_Yd._系统管理">
+            <summary>
+            添加资源管理模块，菜单编码和资源图片顺序对应即可
+            </summary>
+        </member>
+        <member name="F:Z打印管理.F编辑数据源.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Z打印管理.F编辑数据源.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Z打印管理.F编辑数据源.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Z打印管理.F格式属性.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Z打印管理.F格式属性.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Z打印管理.F格式属性.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AMessage.FPrintcs.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AMessage.FPrintcs.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AMessage.FPrintcs.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AMessage.TTable.BeginCalcPages">
+            <summary>
+            计算各页内容
+            </summary>
+        </member>
+        <member name="M:AMessage.GraphicsText.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.RectangleF,System.Drawing.StringFormat,System.Single)">
+            <summary>
+            绘制根据矩形旋转文本
+            </summary>
+            <param name="s">文本</param>
+            <param name="font">字体</param>
+            <param name="brush">填充</param>
+            <param name="layoutRectangle">局部矩形</param>
+            <param name="format">布局方式</param>
+            <param name="angle">角度</param>
+        </member>
+        <member name="M:AMessage.GraphicsText.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.PointF,System.Drawing.StringFormat,System.Single)">
+            <summary>
+            绘制根据点旋转文本，一般旋转点给定位文本包围盒中心点
+            </summary>
+            <param name="s">文本</param>
+            <param name="font">字体</param>
+            <param name="brush">填充</param>
+            <param name="point">旋转点</param>
+            <param name="format">布局方式</param>
+            <param name="angle">角度</param>
+        </member>
+        <member name="T:AMessage.TPrintObject">
+            <summary>
+            打印附加对象
+            </summary>
+        </member>
+        <member name="T:AMessage.ResourceData">
+            <summary>
+            资源文件管理类，用于二级菜单的图标管理
+            </summary>
+        </member>
+        <member name="F:AMessage.ResourceData.sizeImage">
+            <summary>
+            定义资源图片文件大小，和png资源图片对应
+            </summary>
+        </member>
+        <member name="F:AMessage.ResourceData.left">
+            <summary>
+            资源图标居左像素
+            </summary>
+        </member>
+        <member name="F:AMessage.ResourceData.top">
+            <summary>
+            资源图标居上像素
+            </summary>
+        </member>
+        <member name="F:AMessage.ResourceData.leftSpace">
+            <summary>
+            同行资源图片左间距
+            </summary>
+        </member>
+        <member name="F:AMessage.ResourceData.topSpace">
+            <summary>
+            同列资源图片上间距
+            </summary>
+        </member>
+        <member name="F:AMessage.ResourceData.listPoints">
+            <summary>
+            坐标集合，一个菜单编码，对应一个坐标
+            </summary>
+        </member>
+        <member name="F:AMessage.ResourceData.listImages">
+            <summary>
+            图像集合，一个菜单编码，对应一个图标
+            </summary>
+        </member>
+        <member name="F:AMessage.ResourceData.listMenus">
+            <summary>
+            模块菜单编码集合，一行代表一个模块，一个模块对应多个菜单编码，list行顺序和资源图片行顺序对应
+            </summary>
+        </member>
+        <member name="F:AMessage.ResourceData.fromImage">
+            <summary>
+            图标资源
+            </summary>
+        </member>
+        <member name="M:AMessage.ResourceData.GetBmp(System.String)">
+            <summary>
+            获取菜单图标
+            </summary>
+            <param name="vs菜单编码"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.ResourceData.CaptureImage(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            切图
+            </summary>
+            <param name="offsetX"></param>
+            <param name="offsetY"></param>
+            <param name="width"></param>
+            <param name="height"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.ResourceData._Init">
+            <summary>
+            初始化系统所有图标资源
+            </summary>
+        </member>
+        <member name="F:AMessage.FReport.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AMessage.FReport.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AMessage.FReport.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AMessage.FReport.fsLastData">
+            <summary>
+            最后一个压缩数据块
+            </summary>
+        </member>
+        <member name="F:AMessage.FReport.fbSerchChanged">
+            <summary>
+            筛选值是否改变
+            </summary>
+        </member>
+        <member name="M:AMessage.FReport.CountExp(System.String)">
+            <summary>
+            计划表达式
+            </summary>
+            <param name="sExp"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Z打印管理.F格式编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Z打印管理.F格式编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Z打印管理.F格式编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AMessage.F中心资源调阅.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AMessage.F中心资源调阅.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AMessage.F中心资源调阅.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AMessage.FlagShipManage">
+            <summary>
+            标准版模块管理，控制标准版模块和菜单注册
+            </summary>
+        </member>
+        <member name="M:AMessage.FlagShipManage.Init(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}})">
+            <summary>
+            标准版初始化模块菜单
+            </summary>
+            <param name="list"></param>
+        </member>
+        <member name="T:AMessage.ResourceData_SM">
+            <summary>
+            资源图标文件管理类-手麻系统
+            </summary>
+        </member>
+        <member name="M:AMessage.ResourceData_SM._公共数据">
+            <summary>
+            添加资源管理模块，菜单编码和资源图片顺序对应即可
+            </summary>
+        </member>
+        <member name="F:Z打印管理.F格式设计器.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Z打印管理.F格式设计器.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Z打印管理.F格式设计器.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AMessage.F本地图片设置.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AMessage.F本地图片设置.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AMessage.F本地图片设置.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AMessage.F变量值录入.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AMessage.F变量值录入.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AMessage.F变量值录入.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AMessage.ModuleManage_Yd">
+            <summary>
+            模块注册菜单控制-药店系统
+            </summary>
+        </member>
+        <member name="T:AMessage.CVRSDK">
+            <summary>
+            华视读卡器
+            </summary>
+        </member>
+        <member name="F:AMessage.FText.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AMessage.FText.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AMessage.FText.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AMessage.SystemConfig">
+            <summary>
+            平台公共配置信息库
+            </summary>
+        </member>
+        <member name="F:AMessage.SystemConfig.eSysInitMode">
+            <summary>
+            当前系统主题板报
+            </summary>
+        </member>
+        <member name="M:AMessage.SystemConfig.InitConfig">
+            <summary>
+            初始化系统配置信息，默认为云疗版
+            </summary>
+        </member>
+        <member name="M:AMessage.SystemConfig.GetSystemType">
+            <summary>
+            获取系统类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.SystemConfig.GetLoginBackImage">
+            <summary>
+            获取登录主界面背景资源
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.SystemConfig.GetInnerBackImage">
+            <summary>
+            获取系统主界面背景资源
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.SystemConfig.GetInnerLeftTips">
+            <summary>
+            获取左上角提示信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.SystemConfig.GetCloseTips">
+            <summary>
+            获取关闭提示信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.SystemConfig.GetSystemInfoTips">
+            <summary>
+            获取系统详细信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AMessage.FExport">
+            <summary>
+            批量导出报表
+            </summary>
+        </member>
+        <member name="F:AMessage.FExport.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AMessage.FExport.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AMessage.FExport.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AMessage.FExport.listGrid">
+            <summary>
+            当前需要导出的表格
+            </summary>
+        </member>
+        <member name="T:AMessage.ExtensionComponent">
+            <summary>
+            扩展组件授权控制
+            </summary>
+        </member>
+        <member name="F:AMessage.ExtensionComponent.listModules">
+            <summary>
+            定制外部组件列表
+            </summary>
+        </member>
+        <member name="T:AMessage.Report.AReport">
+            <summary>
+            报表运行库
+            </summary>
+        </member>
+        <member name="M:AMessage.Report.AReport.RunReport(System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            打开某个报表
+            </summary>
+            <param name="viSysId">报表系统序号</param>
+            <param name="vbInMain">是否在主界面打开</param>
+            <param name="vbOnlyWin">是否只能同时打开一个窗口</param>
+            <returns></returns>
+        </member>
+        <member name="T:AMessage.IDRead.CardInterFace">
+            <summary>
+            身份证读卡接口类
+            </summary>
+        </member>
+        <member name="M:AMessage.IDRead.CardInterFace.Read(System.String)">
+            <summary>
+            根据配置的不同型号的读卡器 读取身份证
+            </summary>
+            <param name="vs读卡器">参数读卡器型号</param>
+            <returns>身份证信息，为null表示未读取成功</returns>
+        </member>
+        <member name="T:AMessage.AHC_InterFace">
+            <summary>
+            医疗保险接口框架类，用于定义接口函数，供HIS调用，然后触发接口组件
+            </summary>
+        </member>
+        <member name="M:AMessage.AHC_InterFace.InterFace_U(System.String)">
+            <summary>
+            判断某个函数调用是否需要区分终端
+            </summary>
+            <param name="vsname">函数名</param>
+            <returns>true需要区分，false，不需要</returns>
+        </member>
+        <member name="T:AMessage.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:AMessage.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:AMessage.Properties.Resources.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="P:AMessage.Properties.Resources.arrcenimage">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AMessage.Properties.Resources.icon">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AMessage.Properties.Resources.icon_sm">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AMessage.Properties.Resources.icon_yd">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AMessage.Properties.Resources.inner">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AMessage.Properties.Resources.inner_flagship">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AMessage.Properties.Resources.inner_sm">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AMessage.Properties.Resources.inner_yd">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AMessage.Properties.Resources.云疗版_login">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AMessage.Properties.Resources.手麻_login">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AMessage.Properties.Resources.标准版_login">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AMessage.Properties.Resources.药店_login">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="F:Z打印管理.TTable.bRectCell">
+            <summary>
+            是否正在拖选单元格
+            </summary>
+        </member>
+        <member name="F:Z打印管理.TTable.bCanResizeCol">
+            <summary>
+            是否可拖动宽度
+            </summary>
+        </member>
+        <member name="M:Z打印管理.TTable.DoCmd(Z打印管理.EDoCmd,System.String)">
+            <summary>
+            命令
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Z打印管理.TTable.SetCell(Z打印管理.ESetCell,System.String)">
+            <summary>
+            设置选中的单元格的内容
+            </summary>
+        </member>
+        <member name="M:Z打印管理.TTable.CastColName(System.Int32)">
+            <summary>
+            将列号转换成A,B,C,D...这样的名称
+            </summary>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Z打印管理.TTable.InCell(System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            判断某个点的位置
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="r"></param>
+            <param name="c"></param>
+            <returns>0:不在表格内</returns>
+        </member>
+        <member name="T:AMessage.InterFace">
+            <summary>
+            AMessage 组件公开类，用于错误信息格式转换和数据库错误信息转换处理
+            </summary>
+        </member>
+        <member name="M:AMessage.InterFace.CastMessage(System.Exception)">
+            <summary>
+            转换未处理的异常消息
+            </summary>
+            <param name="ex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.InterFace.CSharpMessage(System.Exception)">
+            <summary>
+            处理C#异常Exception
+            </summary>
+            <param name="ex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.InterFace.OracleMessage(System.Exception)">
+            <summary>
+            处理Oracle异常提示
+            </summary>
+            <param name="ex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.InterFace._OracleError">
+            <summary>
+            登记oracle错误代码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AMessage.InterFace.MsgBoxMessage(System.String)">
+            <summary>
+            处理前台已经try catche的提示框信息，不包含数据库信息
+            </summary>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AMessage.ModuleManage">
+            <summary>
+            系统模块菜单管理类，用于控制模块和菜单对应关系
+            </summary>
+        </member>
+        <member name="F:AMessage.ModuleManage.fsSystemModel">
+            <summary>
+            当前系统模式 1区域，2单医院
+            </summary>
+        </member>
+        <member name="F:AMessage.ModuleManage.fb启用新注册">
+            <summary>
+            启用表示注册管理器里面新注册的模块生效，不启用表示不需要注册新模块也可以生效，可见下面的变量使用
+            </summary>
+        </member>
+        <member name="M:AMessage.ModuleManage.GetRegModules(System.String)">
+            <summary>
+            获取系统注册模块和菜单信息
+            </summary>
+            <param name="systemType">1区域模式，2单医院模式</param>
+            <returns></returns>
+        </member>
+        <member name="T:AMessage.DKQRead">
+            <summary>
+            新中新身份证读卡
+            </summary>
+        </member>
+    </members>
+</doc>
+@#@2018-07-24 10:55:09@#@2018-07-24 10:55:30

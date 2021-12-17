@@ -1,0 +1,1634 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ANetAccess</name>
+    </assembly>
+    <members>
+        <member name="T:ANetAccess.WebServer.LoginInfo">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.LoginInfo.fsConnectID">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.LoginInfo.fsConnectName">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.LoginInfo.fsConnectMessage">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.LoginInfo.fsConnectAddress">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.LoginInfo.fiConnectState">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.LoginInfo.fsClicenID">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.LoginInfo.fsSystemModel">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.LoginInfo.fsEnableNCLOB">
+            <remarks/>
+        </member>
+        <member name="T:ANetAccess.WebServer.ATextInfo">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ATextInfo.aName">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ATextInfo.aText">
+            <remarks/>
+        </member>
+        <member name="T:ANetAccess.WebServer.ATextClass">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ATextClass.aLicName">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ATextClass.aLicPwd">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ATextClass.aTableName">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ATextClass.aId">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ATextClass.aText">
+            <remarks/>
+        </member>
+        <member name="T:ANetAccess.WebServer.ClientClass">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ClientClass.fsClientNum">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ClientClass.fsClientMessage">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ClientClass.fsClientName">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ClientClass.fsRemark1">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ClientClass.fsRemark2">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ClientClass.fsRemark3">
+            <remarks/>
+        </member>
+        <member name="T:ANetAccess.WebServer.Sql_Batch">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.Sql_Batch.fsTsql">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.Sql_Batch.fiCount">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.Sql_Batch.sType">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.Sql_Batch.ftSqlPara">
+            <remarks/>
+        </member>
+        <member name="T:ANetAccess.WebServer.TSQLPara">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.TSQLPara.paraList">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.TSQLPara.iCount">
+            <remarks/>
+        </member>
+        <member name="T:ANetAccess.WebServer.TPara">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.TPara.sName">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.TPara.sValue">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.TPara.sType">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.TPara.bOut">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.TPara.bIntOut">
+            <remarks/>
+        </member>
+        <member name="T:ANetAccess.WebServer.ResultClass_Batch">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ResultClass_Batch.tPara">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ResultClass_Batch.vbResult">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ResultClass_Batch.vsMessage">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ResultClass_Batch.vdTables">
+            <remarks/>
+        </member>
+        <member name="T:ANetAccess.WebServer.ResultClass">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ResultClass.vbResult">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ResultClass.vsMessage">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ResultClass.vdTable">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ResultClass.viCount">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ResultClass.tPara">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ResultClass.tPara_Proc">
+            <remarks/>
+        </member>
+        <member name="T:ANetAccess.WebServer.OptClass">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.OptClass.fsUserID">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.OptClass.fsClientName">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.OptClass.fsRemark1">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.OptClass.fsRemark2">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.OptClass.fsRemark3">
+            <remarks/>
+        </member>
+        <member name="T:ANetAccess.WebServer.ServiceInfo">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ServiceInfo.fsServiceVersion">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ServiceInfo.fsTime">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ServiceInfo.fsRemark1">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ServiceInfo.fsRemark2">
+            <remarks/>
+        </member>
+        <member name="P:ANetAccess.WebServer.ServiceInfo.fsRemark3">
+            <remarks/>
+        </member>
+        <member name="T:ANetAccess.Cache">
+            <summary>
+            系统缓存操作类：2016年12月8日16:44:26
+            </summary>
+        </member>
+        <member name="M:ANetAccess.Cache.IsConnect">
+            <summary>
+            获取连接状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:ANetAccess.Cache._bConnect">
+            <summary>
+            缓存服务器是否连接
+            </summary>
+        </member>
+        <member name="M:ANetAccess.Cache.SaveCache(System.String,System.Collections.Generic.List{ANetAccess.Cache_Dict})">
+            <summary>
+            保存缓存信息
+            </summary>
+            <param name="code">换成编码</param>
+            <param name="cache_list">缓存实体</param>
+            <returns>为空表示成功,非空为错误信息</returns>
+        </member>
+        <member name="M:ANetAccess.Cache.SaveCache(System.String,ANetAccess.Cache_Dict)">
+            <summary>
+            保存缓存
+            </summary>
+            <param name="code"></param>
+            <param name="cache"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.Cache.UpdateCache(System.String,System.Collections.Generic.List{ANetAccess.Cache_Dict})">
+            <summary>
+            更新缓存信息
+            </summary>
+            <param name="code">缓存编码</param>
+            <param name="cache">缓存实体</param>
+            <returns>是否更新成功</returns>
+        </member>
+        <member name="M:ANetAccess.Cache.DeleteCache(System.String,ANetAccess.QueryModel)">
+            <summary>
+            删除缓存信息
+            </summary>
+            <param name="code">缓存编码</param>
+            <param name="id">缓存实体系统序号</param>
+            <returns>是否删除成功</returns>
+        </member>
+        <member name="M:ANetAccess.Cache.GetCache(System.String,ANetAccess.QueryModel,System.Collections.Generic.List{ANetAccess.Cache_Dict}@)">
+            <summary>
+            获取缓存信息
+            </summary>
+            <param name="code">缓存编码</param>
+            <param name="id">缓存实体系统序号</param>
+            <param name="json">输出缓存信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.Cache.toCacheList(ANetAccess.ARecordset)">
+            <summary>
+            将reset集合转换为cache对象
+            </summary>
+            <param name="res">要转换的数据源</param>
+            <returns>转换后的对象</returns>
+        </member>
+        <member name="M:ANetAccess.Cache.toRecordSet(ANetAccess.Cache_Dict)">
+            <summary>
+            将缓存对象转换为ARecordset
+            </summary>
+            <param name="cache">要转换的缓存对象</param>
+            <returns>转换后的数据源</returns>
+        </member>
+        <member name="M:ANetAccess.Cache.toRecordSet(System.Collections.Generic.List{ANetAccess.Cache_Dict})">
+            <summary>
+            将缓存对象转换转换为reset集合
+            </summary>
+            <param name="cache">要转换的缓存对象</param>
+            <returns>转换后的数据源</returns>
+        </member>
+        <member name="M:ANetAccess.Cache.GetCache_Res(System.String,ANetAccess.QueryModel,System.String,ANetAccess.TSQLPara,System.Boolean,System.Int32)">
+            <summary>
+            获取缓存信息，返回Recordset对象
+            </summary>
+            <param name="code">缓存编码</param>
+            <param name="id">缓存ID</param>
+            <param name="sql">数据源T-SQL</param>
+            <param name="sqlPara">数据源T-SQL参数</param>
+            <param name="saveCache">当未找到缓存信息时,是否自动缓存</param>
+            <returns>数据集对象</returns>
+        </member>
+        <member name="M:ANetAccess.Cache.SendCache(System.String,System.String,System.String@,System.String)">
+            <summary>
+            缓存服务器操作
+            </summary>
+            <param name="code">缓存编码</param>
+            <param name="type">缓存操作命令</param>
+            <param name="json">缓存新</param>
+            <param name="successId">成功标识ID，默认为1</param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.Cache.Connect">
+            <summary>
+            检测是否连接缓存服务器，平台内部调用
+            </summary>
+        </member>
+        <member name="M:ANetAccess.Cache.ToJson``1(``0)">
+            <summary>
+            转换为Json字符串
+            </summary>
+            <typeparam name="T">要转换的对象</typeparam>
+            <param name="t"></param>
+            <returns>json</returns>
+        </member>
+        <member name="M:ANetAccess.Cache.ToCache``1(System.String)">
+            <summary>
+             将指定的Json字符串转换为T类型的对象
+            </summary>
+            <typeparam name="json">json信息</typeparam>
+            <returns>json</returns>
+        </member>
+        <member name="P:ANetAccess.QueryModel.Items">
+            <summary>
+            查询条件
+            </summary>
+        </member>
+        <member name="P:ANetAccess.FieldItem.Field">
+            <summary>
+            字段
+            </summary>
+        </member>
+        <member name="P:ANetAccess.FieldItem.Method">
+            <summary>
+            查询方式 
+            </summary>
+        </member>
+        <member name="P:ANetAccess.FieldItem.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="P:ANetAccess.FieldItem.OrGroup">
+            <summary>
+            如果使用Or组合，则此组组合为一个Or序列
+            </summary>
+        </member>
+        <member name="F:ANetAccess.EWhere.Equal">
+            <summary>
+            等于
+            </summary>
+        </member>
+        <member name="F:ANetAccess.EWhere.LessThan">
+            <summary>
+            小于
+            </summary>
+        </member>
+        <member name="F:ANetAccess.EWhere.GreaterThan">
+            <summary>
+            大于
+            </summary>
+        </member>
+        <member name="F:ANetAccess.EWhere.LessThanOrEqual">
+            <summary>
+            小于等于
+            </summary>
+        </member>
+        <member name="F:ANetAccess.EWhere.GreaterThanOrEqual">
+            <summary>
+            大于等于
+            </summary>
+        </member>
+        <member name="F:ANetAccess.EWhere.Like">
+            <summary>
+            Like
+            </summary>
+        </member>
+        <member name="F:ANetAccess.EWhere.In">
+            <summary>
+            In
+            </summary>
+        </member>
+        <member name="F:ANetAccess.EWhere.DateBlock">
+            <summary>
+            输入一个时间获取当前天的时间块操作,  
+            </summary>
+        </member>
+        <member name="F:ANetAccess.F终端注册.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ANetAccess.F终端注册.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ANetAccess.F终端注册.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ANetAccess.ARecordset.Close">
+            <summary>
+            关闭数据集
+            </summary>
+        </member>
+        <member name="M:ANetAccess.ARecordset.HaveColName(System.String)">
+            <summary>
+            检测某个列名是否存在
+            </summary>
+            <param name="vsColName">列名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.ARecordset.GetValue(System.String)">
+            <summary>
+            返回某列的值
+            </summary>
+            <param name="vsColName">列名</param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.ARecordset.GetFieldName(System.Int32)">
+            <summary>
+            文件列索引获取列名
+            </summary>
+            <param name="idx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.ARecordset.GetValue(System.Int32)">
+            <summary>
+            返回某列的值
+            </summary>
+            <param name="viColIdx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.ARecordset.GetColCount">
+            <summary>
+            获取列数量
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.ARecordset.MoveNext">
+            <summary>
+            移动行索引到下一行
+            </summary>
+        </member>
+        <member name="M:ANetAccess.ARecordset.MoveFirst">
+            <summary>
+            将行索引移动到第一行
+            </summary>
+        </member>
+        <member name="M:ANetAccess.ARecordset.IsEof">
+            <summary>
+            当前行索引是否是最后一行 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.ARecordset.GetRowCount">
+            <summary>
+            获取查询结果集总记录数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ANetAccess.NCLOBDB">
+            <summary>
+            AHC.NCLOB字段类型存储数据服务
+            </summary>
+        </member>
+        <member name="T:ANetAccess.ANCLOBInfo">
+            <summary>
+            AHC.NCLOB存储相关文本信息
+            </summary>
+        </member>
+        <member name="M:ANetAccess.ANCLOBInfo.#ctor(System.String,System.String)">
+            <summary>
+            初始化NCLOB文本新,可用于删除快速初始化
+            </summary>
+            <param name="id">系统序号</param>
+            <param name="tableName">表名</param>
+        </member>
+        <member name="M:ANetAccess.ANCLOBInfo.#ctor(System.String,System.String,System.String)">
+            <summary>
+            初始化NCLOB文本新,可用于查询快速初始化
+            </summary>
+            <param name="id">系统序号</param>
+            <param name="tableName">表名</param>
+            <param name="colunmName">列名</param>
+        </member>
+        <member name="M:ANetAccess.ANCLOBInfo.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+             初始化NCLOB文本新,可用于新增、修改快速初始化
+            </summary>
+            <param name="id">系统序号</param>
+            <param name="tableName">表名</param>
+            <param name="colunmName">列名</param>
+            <param name="text">文本信息</param>
+        </member>
+        <member name="M:ANetAccess.ANCLOBInfo.#ctor(System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            初始化NCLOB文本信息,可用于新增、修改快速初始化,多个字段
+            </summary>
+            <param name="id">系统序号</param>
+            <param name="tableName">表名</param>
+            <param name="colunmNames">列名</param>
+            <param name="texts">文本信息</param>
+        </member>
+        <member name="M:ANetAccess.ANCLOBInfo.#ctor(System.String,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            初始化NCLOB文本信息,可用于多列查询
+            </summary>
+            <param name="id">系统序号</param>
+            <param name="tableName">表名</param>
+            <param name="colunmNames">列名</param>
+        </member>
+        <member name="M:ANetAccess.ANCLOBInfo.SerializeObject">
+            <summary>
+            序列化JSON,并去除无效字符
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:ANetAccess.ANCLOBInfo.fsId">
+            <summary>
+            数据ID,对应系统序号.表必须有系统序号列
+            </summary>
+        </member>
+        <member name="P:ANetAccess.ANCLOBInfo.fsTableName">
+            <summary>
+            NCLOB所在表名,不区分大小写
+            </summary>
+        </member>
+        <member name="P:ANetAccess.ANCLOBInfo.fsColumnNames">
+            <summary>
+            NCLOB字段列名,不区分大小写,列名需和文本内容对应
+            </summary>
+        </member>
+        <member name="P:ANetAccess.ANCLOBInfo.fsTexts">
+            <summary>
+            NCLOB文本内容,文本内容需和列名对应
+            </summary>
+        </member>
+        <member name="F:ANetAccess.FCallDB.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ANetAccess.FCallDB.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ANetAccess.FCallDB.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ANetAccess.KBServerNet">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ANetAccess.KBServerNet.fiTargetVersion">
+            <summary>
+            后台服务目标版本
+            </summary>
+        </member>
+        <member name="F:ANetAccess.KBServerNet.fiServiceVersion">
+            <summary>
+            实际后台服务版本
+            </summary>
+        </member>
+        <member name="F:ANetAccess.KBServerNet.webServerNet">
+            <summary>
+            Web数据访问对象
+            </summary>
+        </member>
+        <member name="F:ANetAccess.AKBSysIds.sysIds">
+            <summary>
+            当前已同步的ID数据
+            </summary>
+        </member>
+        <member name="T:ANetAccess.APrimaryKey">
+            <summary>
+            主键信息,可添加一个或多个主键
+            </summary>
+        </member>
+        <member name="F:ANetAccess.APrimaryKey.keyValue">
+            <summary>
+            存储当前主键信息,主键列名-主键列值
+            </summary>
+        </member>
+        <member name="M:ANetAccess.APrimaryKey.#ctor">
+            <summary>
+            初始化一个空主键信息
+            </summary>
+        </member>
+        <member name="M:ANetAccess.APrimaryKey.AddKey(System.String,System.String)">
+            <summary>
+            添加一个主键信息
+            </summary>
+            <param name="_name">主键列名</param>
+            <param name="_value">主键列值</param>
+        </member>
+        <member name="M:ANetAccess.APrimaryKey.#ctor(System.String,System.String)">
+            <summary>
+            初始化一个主键信息
+            </summary>
+            <param name="_name">主键列名</param>
+            <param name="_value">主键列值</param>
+        </member>
+        <member name="T:ANetAccess.ASubTable">
+            <summary>
+            子表或关联表信息,可添加一个或多个子表\关联表
+            </summary>
+        </member>
+        <member name="F:ANetAccess.ASubTable.subTables">
+            <summary>
+            子表集合,存储当前子表信息. 子表名称-外键名称
+            </summary>
+        </member>
+        <member name="F:ANetAccess.ASubTable.unionTables">
+            <summary>
+            关联表集合
+            </summary>
+        </member>
+        <member name="M:ANetAccess.ASubTable.#ctor">
+            <summary>
+            初始化一个空子表信息
+            </summary>
+        </member>
+        <member name="M:ANetAccess.ASubTable.AddSubTable(System.String,System.String)">
+            <summary>
+            添加一个子表信息
+            </summary>
+            <param name="subTableName">子表表名</param>
+            <param name="foreignKey">子表外键列名</param>
+        </member>
+        <member name="M:ANetAccess.ASubTable.#ctor(System.String,System.String)">
+            <summary>
+            初始化一个子表信息
+            </summary>
+            <param name="subTableName">子表表名</param>
+            <param name="foreignKey">子表外键列名</param>
+        </member>
+        <member name="M:ANetAccess.ASubTable.#ctor(System.String,ANetAccess.APrimaryKey)">
+            <summary>
+            初始化一个关联表信息
+            </summary>
+            <param name="subTableName">关联表表名</param>
+            <param name="primaryKey">关联表主键</param>
+        </member>
+        <member name="M:ANetAccess.ASubTable.AddUnionTable(System.String,ANetAccess.APrimaryKey)">
+            <summary>
+            添加一个关联表信息
+            </summary>
+            <param name="subTableName">关联表表名</param>
+            <param name="primaryKey">关联表主键</param>
+        </member>
+        <member name="F:ANetAccess.AKBClass.aLicName">
+            <summary>
+            授权用户
+            </summary>
+        </member>
+        <member name="F:ANetAccess.AKBClass.aLicPwd">
+            <summary>
+            授权口令
+            </summary>
+        </member>
+        <member name="F:ANetAccess.AKBClass.aText">
+            <summary>
+            本次上传的知识库数据
+            </summary>
+        </member>
+        <member name="F:ANetAccess.AKBClass.aLoginId">
+            <summary>
+            登录用户ID
+            </summary>
+        </member>
+        <member name="F:ANetAccess.AKBClass.aUserId">
+            <summary>
+            用户序号
+            </summary>
+        </member>
+        <member name="F:ANetAccess.AKBClass.aUserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="F:ANetAccess.AKBClass.aClientName">
+            <summary>
+            终端名称
+            </summary>
+        </member>
+        <member name="M:ANetAccess.AKBClass.SerializeObject">
+            <summary>
+            序列化为JSON格式
+            </summary>
+            <returns>JSON格式</returns>
+        </member>
+        <member name="T:ANetAccess.KBDB">
+            <summary>
+            知识库数据处理核心服务
+            </summary>
+        </member>
+        <member name="M:ANetAccess.KBDB.Enable">
+            <summary>
+            当前知识库服务是否启用 平台内部使用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.KBDB.Init">
+            <summary>
+            当前知识库服务是否连接成功 平台内部使用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.KBDB.InitWebNet(System.String,System.String)">
+            <summary>
+            初始化连接知识库服务 平台内部使用
+            </summary>
+            <param name="_licensees">授权用户</param>
+            <param name="_licensekey">授权码</param>
+        </member>
+        <member name="M:ANetAccess.KBDB.UpLoad(System.String,ANetAccess.APrimaryKey,ANetAccess.KBDB.UpFieldReplaceHand,System.Boolean,System.Boolean)">
+            <summary>
+            上传知识库数据
+            </summary>
+            <param name="tableName">上传表名</param>
+            <param name="key">当前表主键信息</param>
+            <param name="autoSyn">当前新增数据是否自动同步审核状态,true表示当前数据新增后需要审核才可以使用.false表示只是新增数据,使用不受控制</param>
+            <param name="msgTips">操作成功与否是否自动提示</param>
+            <returns>大于0表示成功</returns>
+        </member>
+        <member name="M:ANetAccess.KBDB.UpLoad(System.String,ANetAccess.APrimaryKey,ANetAccess.ASubTable,ANetAccess.KBDB.UpFieldReplaceHand,System.Boolean,System.Boolean)">
+            <summary>
+            上传知识库数据
+            </summary>
+            <param name="tableName">上传主表表名</param>
+            <param name="key">主表主键信息</param>
+            <param name="subTable">子表信息</param>
+            <param name="autoSyn">当前新增数据是否自动同步审核状态,true表示当前数据新增后需要审核才可以使用.false表示只是新增数据,使用不受控制</param>
+            <param name="msgTips">操作成功与否是否自动提示</param>
+            <returns>大于0表示成功</returns>
+        </member>
+        <member name="M:ANetAccess.KBDB.DownLoad(System.String,ANetAccess.KBDB.DownFieldReplaceHand,System.Object)">
+            <summary>
+            下载知识库数据
+            </summary>
+            <param name="tableName">下载表名,和上传保持表名一致</param>
+            <param name="hand">可重写当前同步的数据值</param>
+            <param name="objElse">其他参数-平台内部使用</param>
+            <returns>是否操作成功</returns>
+        </member>
+        <member name="M:ANetAccess.KBDB.DownLoad(System.String,ANetAccess.QueryModel,ANetAccess.KBDB.DownFieldReplaceHand,System.Object)">
+            <summary>
+            下载知识库数据-支持自定条件过滤
+            </summary>
+            <param name="tableName">下载表名,和上传保持表名一致</param>
+            <param name="queryModel">过滤条件</param>
+            <param name="hand">可重写当前同步的数据值</param>
+            <param name="objElse">其他参数-平台内部使用</param>
+            <returns>是否操作成功</returns>
+        </member>
+        <member name="T:ANetAccess.KBDB.DownFieldReplaceHand">
+            <summary>
+            特殊处理同步数据字段信息
+            </summary>
+            <param name="tableName">当前同步数据表名</param>
+            <param name="mainId">当前有主表系统序号的情况下,此值为主表系统序号</param>
+            <param name="filedName">当前同步字段</param>
+            <param name="value">当前同步数据</param>
+            <param name="kbData">当前数据的所有信息</param>
+            <returns>处理后实际同步数据</returns>
+        </member>
+        <member name="T:ANetAccess.KBDB.UpFieldReplaceHand">
+            <summary>
+            特殊处理上传数据字段信息
+            </summary>
+            <param name="tableName">上传表名</param>
+            <param name="mainId">当前有主表系统序号的情况下,此值为主表系统序号</param>
+            <param name="filedName">当前上传字段</param>
+            <param name="value">当前数据</param>
+            <returns>处理后的数据</returns>
+        </member>
+        <member name="T:ANetAccess.Cache_Dict">
+            <summary>
+            缓存基础模块类
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.系统序号">
+            <summary>
+            系统唯一标示，当前缓存对象唯一标示
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.同步序号">
+            <summary>
+            同步序号
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.编码">
+            <summary>
+            字典编码
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.名称">
+            <summary>
+            字典名称
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.拼音简码">
+            <summary>
+            简码信息
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.显示顺序">
+            <summary>
+            显示顺序
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.有效状态b">
+            <summary>
+            有效状态B
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.已用否b">
+            <summary>
+            已用否B
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.正单序号i">
+            <summary>
+            正单序号i
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.备注">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.操作时间">
+            <summary>
+            操作时间
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.操作人r">
+            <summary>
+            操作人R
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.内置否b">
+            <summary>
+            内置否B
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.分级编码">
+            <summary>
+            分级编码
+            </summary>
+        </member>
+        <member name="P:ANetAccess.Cache_Dict.隶属机构i">
+            <summary>
+            隶属机构i
+            </summary>
+        </member>
+        <member name="M:ANetAccess.DB.IsNet3">
+            <summary>
+            判断当前终端是否为三层网络访问
+            </summary>
+            <returns>true:三层  false:ADO直连</returns>
+        </member>
+        <member name="M:ANetAccess.DB.IsWebNet">
+            <summary>
+            是否是WebService模式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.DB.IsConnectNet2">
+            <summary>
+            是否是两层直连模式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.DB.ConnectNet2">
+            <summary>
+            直连是否成功
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.DB.ExecSQLNet2(System.String)">
+            <summary>
+            直连模式下 查询数据集对象
+            </summary>
+            <param name="vsSQLText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.DB.ExecCmdNet2(System.String,ANetAccess.TSQLPara)">
+            <summary>
+            直连模式下 执行新增、修改、删除语句
+            </summary>
+            <param name="vsSQLText"></param>
+            <param name="tPara"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.DB.LoadDBToForm(System.String,System.Int64,System.Windows.Forms.Control,System.Boolean,System.Boolean)">
+            <summary>
+            将Select中的值读取面板中
+            </summary>
+            <param name="vsViewName">符合AHC规范视图名称</param>
+            <param name="vpDestBar">目标控件面板</param>
+        </member>
+        <member name="M:ANetAccess.DB.LockThemEnum(System.Windows.Forms.Control,System.Boolean,System.Boolean)">
+            <summary>
+            锁定指定面板的控件
+            </summary>
+            <param name="t">指定面板容器</param>
+            <param name="vbLock">是否锁定</param>
+            <param name="fb">暂时未用</param>
+        </member>
+        <member name="M:ANetAccess.DB.SetSaveFormByCustomID(System.Int64)">
+            <summary>
+            为DB.SaveForm 方法指定ID
+            </summary>
+            <param name="vlLongID"></param>
+        </member>
+        <member name="M:ANetAccess.DB.SetLoadFormByCustomWhere(System.String)">
+            <summary>
+            为DB.LoadForm 指定自定义where条件
+            </summary>
+            <param name="vsWhere"></param>
+        </member>
+        <member name="M:ANetAccess.DB.SaveFormToDB(System.Windows.Forms.Control,System.String,System.Int64,System.Int32)">
+            <summary>
+            将面板中的内容保存到数据库指定表中
+            </summary>
+            <param name="vpScrBar">指定面板</param>
+            <param name="vsTableName">指定表</param>
+            <param name="vlSysid">0:新建 >0:修改</param>
+            <param name="viSycnNo">同步序号,修改时搭配使用</param>
+        </member>
+        <member name="M:ANetAccess.DB.SaveFormToDB_GetSql(System.Windows.Forms.Control,System.String,System.Int64@,System.Int32)">
+            <summary>
+            获取界面保存语句，只获取语句，不保存数据库
+            </summary>
+            <param name="vpScrBar">指定获取的容器</param>
+            <param name="vsTableName">保存表名</param>
+            <param name="vlSysid">0新增 >0:修改 且为修改记录的 系统序号</param>
+            <param name="viSycnNo">同步序号 和系统序号搭配使用</param>
+            <returns>TSQL集合</returns>
+        </member>
+        <member name="M:ANetAccess.DB.SaveSubTable(ACtrllist.AGridList,System.Int64)">
+            <summary>
+            保存子表 平台内部使用
+            </summary>
+            <param name="pSubList">子表表格</param>
+            <param name="viParentId">主表序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.DB.SaveSubTable_GetSql(ACtrllist.AGridList,System.Int64)">
+            <summary>
+            获取保存子表相关SQL语句，只获取，不保存到数据库
+            </summary>
+            <param name="pSubList">子表表格</param>
+            <param name="viParentId">主表序号</param>
+            <returns>TSQL集合</returns>
+        </member>
+        <member name="M:ANetAccess.DB.ComboObjName(System.String,System.String,System.String)">
+            <summary>
+            根据一个表名称，组织成对应的透视函数、存储过程或其它对象
+            </summary>
+            <param name="vsMainName"></param>
+            <param name="b"></param>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.DB.BeginTran">
+            <summary>
+            开始事务 前台谨慎使用
+            </summary>
+        </member>
+        <member name="M:ANetAccess.DB.CommitTran">
+            <summary>
+            提交事务 和开始使用配套使用
+            </summary>
+        </member>
+        <member name="M:ANetAccess.DB.RollbackTran">
+            <summary>
+            回退事务 和开启事务配套使用
+            </summary>
+        </member>
+        <member name="M:ANetAccess.DB.ExecSQL_Batch(System.String[],ANetAccess.TSQLPara[],System.Int32)">
+            <summary>
+            批量查询数据集
+            </summary>
+            <param name="vsSQLText">查询SQL集合</param>
+            <param name="tPara">查询SQL涉及参数集合,顺序和SQL集合顺序保持一致</param>
+            <param name="viDataScr">是否压缩,不为0表示压缩查询结果</param>
+            <returns>结果集集合,顺序和SQL集合顺序保持一致,使用索引进行获取</returns>
+        </member>
+        <member name="M:ANetAccess.DB.ExecCursorXML(System.String,ANetAccess.TSQLPara)">
+            <summary>
+            执行存储过程 查询数据集
+            </summary>
+            <param name="vsXml">要查询的存储过程XML</param>
+            <returns>结果集</returns>
+        </member>
+        <member name="M:ANetAccess.DB.ExecCursorXML_Batch(System.String,ANetAccess.TSQLPara)">
+            <summary>
+            执行存储过程 查询数据集,可返回多个数据集
+            </summary>
+            <param name="vsXml">要查询的存储过程XML</param>
+            <param name="outSqlPara">存储过程out输出参数,可传可不传XML</param>
+            <returns>查询结果集,与存储过程数据游标顺序一致</returns>
+        </member>
+        <member name="M:ANetAccess.DB.ExecSQL(System.String,System.Int32,ANetAccess.TSQLPara,System.Int32)">
+            <summary>
+            查询数据集 不常用此函数
+            </summary>
+            <param name="vsSQLText">查询SQL</param>
+            <param name="viCompress">是否压缩</param>
+            <param name="tPara">查询参数</param>
+            <param name="viDataScr">未用</param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.DB.ExecSQL_CompressVal(System.String,ANetAccess.TSQLPara)">
+            <summary>
+            执行SQL压缩查询，将返回压缩字符串，自行解析和存储
+            </summary>
+            <param name="vsSQLText"></param>
+            <param name="tPara"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.DB.ExecSQL(System.String,ANetAccess.TSQLPara,System.Int32)">
+            <summary>
+            查询数据集 常用
+            </summary>
+            <param name="vsSQLText">执行的SQL</param>
+            <param name="tPara">查询参数</param>    
+            <param name="viDataScr">0:普通  1:本地（缓存） 2:数据仓库（用于查询） 未用 </param>
+            <returns>数据集对象，具体使用，参见ARecordset</returns>
+        </member>
+        <member name="M:ANetAccess.DB.GetNextValName(System.String)">
+            <summary>
+            获取下一个序列发生器的值的表达式
+            </summary>
+            <param name="vsTableName">相关表名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.DB.GetNextId(System.String)">
+            <summary>
+            获取序列下一个值
+            </summary>
+            <param name="vsTableName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.DB.ExecSingle(System.String,ANetAccess.TSQLPara)">
+            <summary>
+            获取单个值
+            </summary>
+            <param name="vsSQLText">查询sql语句</param>
+            <param name="tPara">sql参数</param>
+            <returns>结果值</returns>
+        </member>
+        <member name="M:ANetAccess.DB.ExecSingle_Compress(System.String,ANetAccess.TSQLPara)">
+            <summary>
+            查询单个值，该值被压缩传输，用于单个值内容很大的情况使用
+            </summary>
+            <param name="vsSQLText">查询sql语句</param>
+            <param name="tPara">sql参数</param>
+            <returns>结果集</returns>
+        </member>
+        <member name="M:ANetAccess.DB.ExecCmd_Batch(ANetAccess.TSQL[],System.Boolean)">
+            <summary>
+            批量执行增删改T-SQL语句
+            </summary>
+            <param name="vtSqls">T-SQL集合,包含sql语句、sql参数、sql影响行数</param>
+            <param name="vbTran">是否开启事务</param>
+            <returns>空,函数未抛出异常，说明执行成功!</returns>
+        </member>
+        <member name="M:ANetAccess.DB.ExecCmd_Batch(ANetAccess.TSQL[],System.String[],System.String[]@,System.Boolean)">
+            <summary>
+            批量执行增删改语句，当需要同时执行多个语句的时候，强烈推荐使用此函数，效率提升明显
+            </summary>
+            <param name="vtSqls">要执行的SQL集合</param>
+            <param name="vsCallDBXml">执行SQL的同时附加多个XML执行</param>
+            <param name="vsSysID">执行的XML返回的主表序号,和vsCallDBXml的个数和顺序相对应</param>
+            <param name="vbTran">本次批量执行是否开启事务</param>
+            <returns>执行XML返回的参数对象,和vsCallDBXml的个数和顺序相对应,当有XML执行的时候才返回</returns>
+        </member>
+        <member name="M:ANetAccess.DB.ExecCmd_Batch(ANetAccess.TSQL[],System.String,System.String@,System.Boolean)">
+            <summary>
+            批量执行增删改T-SQL语句,可附带存储过程执行
+            </summary>
+            <param name="vtSqls">T-SQL集合,包含sql语句、sql参数、sql影响行数</param>
+            <param name="vsCallDBXml">CallDB XML格式</param>
+            <param name="vsSysID">CallDB Xml主表系统序号</param>
+            <param name="vbTran">是否开启事务</param>
+            <returns>CallDB Xml存储过程输出参数,未见异常表示成功</returns>
+        </member>
+        <member name="M:ANetAccess.DB.CallDB_Thread(System.String)">
+            <summary>
+            执行CallDB语句，当前函数没有返回结果,函数的执行会另起一个线程，通常用于保存不重要的数据(成功不成功都不影响主体业务)
+            当前执行不会开启事务
+            </summary>
+            <param name="vsSQLText"></param>
+        </member>
+        <member name="M:ANetAccess.DB.ExecCmd_Thread(System.String,ANetAccess.TSQLPara)">
+            <summary>
+            执行TSQL语句，当前函数没有返回结果,函数的执行会另起一个线程，通常用于保存不重要的数据(成功不成功都不影响主体业务)
+            当前执行不会开启事务
+            </summary>
+            <param name="vsSQLText"></param>
+            <param name="tPara"></param>
+        </member>
+        <member name="M:ANetAccess.DB.ExecCmd_Batch_Thread(ANetAccess.TSQL[])">
+            <summary>
+            批量执行TSQL语句，当前函数没有返回结果,函数的执行会另起一个线程，通常用于保存不重要的数据(成功不成功都不影响主体业务)
+            当前执行不会开启事务
+            </summary>
+            <param name="vtSqls"></param>
+        </member>
+        <member name="M:ANetAccess.DB.ExecCmd(System.String,ANetAccess.TSQLPara)">
+            <summary>
+            执行一条SQL语句，一般用于Insert/Update/Delete
+            </summary>
+            <param name="vsSQLText">要执行的SQL语句 注意不能执行select SQL</param>
+            <param name="tPara">SQL涉及参数</param>
+            <returns>当前SQL的影响行数</returns>
+        </member>
+        <member name="M:ANetAccess.DB.UpdateCLOB_Compress(System.String,System.String)">
+            <summary>
+            更新NCLOB数据类型字段 带压缩功能
+            </summary>
+            <param name="vsSQLText">更新的SQL语句</param>
+            <param name="vsValue">NCLOB 数值</param>
+        </member>
+        <member name="M:ANetAccess.DB.UpdateCLOB(System.String,System.String)">
+            <summary>
+            更新NCLOB数据类型字段 不带压缩功能
+            </summary>
+            <param name="vsSQLText">更新的SQL语句</param>
+            <param name="vsValue">NCLOB 数值</param>
+        </member>
+        <member name="M:ANetAccess.DB.ExecProc(System.String,ANetAccess.TSQLPara)">
+            <summary>
+            执行存储过程 已取消，建议使用XML执行
+            </summary>
+            <param name="vsName"></param>
+            <param name="tPara"></param>
+        </member>
+        <member name="M:ANetAccess.DB.ExecSQLExist(System.String,ANetAccess.TSQLPara,System.Int32)">
+            <summary>
+            检测当前SQL是否能够检索到数据记录
+            </summary>
+            <param name="vsSQLText">要检测的SQL语句</param>
+            <param name="tPara">SQL语句涉及参数</param>
+            <param name="viDataScr">未用</param>
+            <returns>true：有结果集 false：无对象返回</returns>
+        </member>
+        <member name="M:ANetAccess.DB.SaveOptLog(System.String)">
+            <summary>
+            保存业务日志
+            </summary>
+            <param name="vsText">日志内容,尽量详细易懂,记录相应关键字以供检索</param>
+        </member>
+        <member name="M:ANetAccess.DB.SelectALog(System.String)">
+            <summary>
+            查询操作日志,平台内部使用
+            </summary>
+            <param name="vsInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.DB.IsUpgrading">
+            <summary>
+            当前服务是否正在升级过程中
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.DB.BeginUpgrade(System.String)">
+            <summary>
+            开始升级
+            </summary>
+        </member>
+        <member name="M:ANetAccess.DB.EndUpgrade">
+            <summary>
+            结束升级
+            </summary>
+        </member>
+        <member name="M:ANetAccess.DB.SetParameter(System.String,System.String)">
+            <summary>
+            设置服务参数
+            </summary>
+            <param name="vsParameterName"></param>
+            <param name="vsValue"></param>
+        </member>
+        <member name="M:ANetAccess.DB.Text_Insert(System.String,System.String,ANetAccess.TextValInfo[])">
+            <summary>
+            文本字符串新增操作
+            </summary>
+            <param name="vsTableName">当前表名</param>
+            <param name="vsID">表主键</param>
+            <param name="textVals">字符串信息,包括字段名称和字段数据</param>
+            <returns>大于0表示成功</returns>
+        </member>
+        <member name="M:ANetAccess.DB.Text_Insert(System.String,System.String,System.String,System.String)">
+            <summary>
+            文本字符串新增操作
+            </summary>
+            <param name="vsTableName">当前表名</param>
+            <param name="vsID">表主键</param>
+            <param name="vsColumnName">当前表存储的字符串字段名称</param>
+            <param name="vsValue">存储的字段值</param>
+            <returns>大于0表示成功</returns>
+        </member>
+        <member name="M:ANetAccess.DB.Text_Update(System.String,System.String,ANetAccess.TextValInfo[])">
+            <summary>
+            文本字符串修改操作
+            </summary>
+            <param name="vsTableName">当前表名</param>
+            <param name="vsID">表主键</param>
+            <param name="textVals">字符串信息,包括字段名称和字段数据</param>
+            <returns>大于0表示成功,=0表示无可更新记录,小于0表示失败</returns>
+        </member>
+        <member name="M:ANetAccess.DB.Text_Update(System.String,System.String,System.String,System.String)">
+            <summary>
+            文本字符串修改操作
+            </summary>
+            <param name="vsTableName">当前表名</param>
+            <param name="vsID">表主键</param>
+            <param name="vsColumnName">当前表存储的字符串字段名称</param>
+            <param name="vsValue">存储的字段值</param>
+            <returns>大于0表示成功,=0表示无可更新记录,小于0表示失败</returns>
+        </member>
+        <member name="M:ANetAccess.DB.Text_Delete(System.String,System.String)">
+            <summary>
+            文本字符串操作删除
+            </summary>
+            <param name="vsTableName">当前表名</param>
+            <param name="vsID">表主键</param>
+            <returns>大于0表示成功,=0表示无可更新记录,小于0表示失败</returns>
+        </member>
+        <member name="M:ANetAccess.DB.Text_Select(System.String,System.String,System.String)">
+            <summary>
+            文本字符串操作查询
+            </summary>
+            <param name="vsTableName">当前表名</param>
+            <param name="vsID">表主键</param>
+            <param name="vsColumnName">查询的列名</param>
+            <returns>查询结果</returns>
+        </member>
+        <member name="M:ANetAccess.DB.Text_Select(System.String,System.String,System.String[])">
+            <summary>
+            文本字符串操作查询
+            </summary>
+            <param name="vsTableName">当前表名</param>
+            <param name="vsID">表主键</param>
+            <param name="vsColumnName">查询的列名集合</param>
+            <returns>查询结果,和查询的列名对应</returns>
+        </member>
+        <member name="T:ANetAccess.TSQLPara">
+            <summary>
+            SQL参数对象
+            </summary>
+        </member>
+        <member name="M:ANetAccess.TSQLPara.AddInPara(System.String,System.Object,System.String)">
+            <summary> 
+            增加输入参数
+            </summary>
+            <param name="vsName">参数名称</param>
+            <param name="vsValue">参数值</param>
+            <param name="vsType">参数类型</param>
+        </member>
+        <member name="M:ANetAccess.TSQLPara.SetInPara(System.String,System.Object)">
+            <summary>
+            设置参数值
+            </summary>
+            <param name="vsName">参数名称</param>
+            <param name="vsValue">参数值</param>
+        </member>
+        <member name="M:ANetAccess.TSQLPara.AddInPara(System.String,System.Object)">
+            <summary>
+            增加输入参数
+            </summary>
+            <param name="vsName">参数名称</param>
+            <param name="vsValue">参数值</param>
+        </member>
+        <member name="M:ANetAccess.TSQLPara.AddOutPara(System.String,System.Int32)">
+            <summary>
+            增加输出参数
+            </summary>
+            <param name="vsName">参数名称</param>
+            <param name="viBufLen">参数长度</param>
+        </member>
+        <member name="M:ANetAccess.TSQLPara.AddOutPara(System.String,System.String,System.Boolean)">
+            <summary>
+            增加输出参数
+            </summary>
+            <param name="vsName">参数名称</param>
+            <param name="viBufLen">参数长度</param>
+        </member>
+        <member name="M:ANetAccess.TSQLPara.GetParaList">
+            <summary>
+            获取参数列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.TSQLPara.Format(System.String)">
+            <summary>
+            格式化参数
+            </summary>
+            <param name="vsOutList"></param>
+        </member>
+        <member name="M:ANetAccess.TSQLPara.HavePara(System.String)">
+            <summary>
+            指定参数是否存在
+            </summary>
+            <param name="vsParaName">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.TSQLPara.GetValue(System.String)">
+            <summary>
+            获取参数值
+            </summary>
+            <param name="vsName">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.AutoSQL.CallDB(System.String,System.String@,System.Boolean)">
+            <summary>
+            通过XML语法，调用SQL批处理
+            </summary>
+            <param name="vsSQLText">符合格式的XML字符串</param>
+            <param name="bAutoTran">是否内含事务单元</param>
+            <returns></returns>
+        </member>
+        <member name="T:ANetAccess.WebServerNet">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fiTargetVersion_sub">
+            <summary>
+            后台服务目标版本-子版本
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fiTargetVersion">
+            <summary>
+            后台服务目标版本
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fiServiceVersion">
+            <summary>
+            实际后台服务版本
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fsConnectMsg">
+            <summary>
+            当初始化连接失败的情况下的连接信息
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fsRegPort">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fsRegAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fsSystemModel">
+            <summary>
+            当前系统模式：1：区域模式，2：单医院模式
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fbWebNet">
+            <summary>
+            是否启用WebService模式,true情况下优先使用
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fsCenterName">
+            <summary>
+            中心服务名称
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fsCenterAddress">
+            <summary>
+            中心服务地址
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fsFileAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fsClientID">
+            <summary>
+            客户端ID
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fsKey">
+            <summary>
+            数据连接Key
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fsServerAddress">
+            <summary>
+            服务地址
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fsPoint">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fiBatchCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fsParentHos">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.fbCompress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ANetAccess.WebServerNet.webServerNet">
+            <summary>
+            Web数据访问对象
+            </summary>
+        </member>
+        <member name="M:ANetAccess.WebServerNet.Init(System.String,System.String,System.Boolean)">
+            <summary>
+            Web初始化,进行初始化连接和终端验证
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ANetAccess.NetAccess">
+            <summary>
+            AHC通讯服务
+            </summary>
+        </member>
+        <member name="M:ANetAccess.NetAccess.Connect(System.String,System.String,System.String)">
+            <summary>
+            连接AHCServer，并验证身份
+            </summary>
+            <param name="vsUserCode">用户工号</param>
+            <param name="vsPwd">登录口令</param>
+            <returns>空，正常，非空：失败原因</returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess.DisConnect">
+            <summary>
+            断开与AHC的连接
+            </summary>
+        </member>
+        <member name="M:ANetAccess.NetAccess.ExecuteSQL(System.String,System.String,System.Int32@,System.Int32@)">
+            <summary>
+            执行一条SQL语句,可以是select,update,insert，等
+            </summary>
+            <param name="vsSQLText">Oracle SQL语句</param>
+            <param name="hadnle">当为select要返回的记录集时，为记录集的句柄（后面会使用到）</param>
+            <param name="iRowCount">（当为Update,insert,delete时，返回影响行数</param>
+            <returns>空：成功，非空：失败描述</returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess.GetFileAddress">
+            <summary>
+            获取文件地址IP 平台内部调用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess._GetHostId">
+            <summary>
+            获取机构ID 平台内部调用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess._GetRegAddress">
+            <summary>
+            获取注册地址IP 平台内部调用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess._GetWebAddress">
+            <summary>
+            获取Web服务所在IP
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess._GetWebPort">
+            <summary>
+            获取Web服务所在端口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess._GetRegPort">
+            <summary>
+            获取注册地址端口 平台内部调用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess._GetCloudCenterName">
+            <summary>
+            获取中心地址和服务名称 平台内部调用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess._DisConnectAppServer">
+            <summary>
+            断开数据库连接 平台内部调用
+            </summary>
+        </member>
+        <member name="M:ANetAccess.NetAccess._ConnectAppServer(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            验证用户登录链接数据库
+            </summary>
+            <param name="vsUserCode">操作员编号</param>
+            <param name="vsPwd">操作员密码</param>
+            <param name="licensees">授权用户</param>
+            <param name="licensekey">授权口令</param>
+            <param name="vbMsgTips">连接失败是否弹出提示框</param>
+            <returns>是否操作成功</returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess._RegAHCMsgType(AModelList.AForm,System.String)">
+            <summary>
+            向服务器注册一个接收消息 已停用
+            </summary>
+            <param name="pCallForm"></param>
+            <param name="vsMsgType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess._UnRegAHCMsgType(AModelList.AForm,System.String)">
+            <summary>
+            向服务器取消注册一个接收消息 已停用
+            </summary>
+            <param name="pCallForm"></param>
+            <param name="vsMsgType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess.SendAHCMsg(System.String,System.Object,System.String)">
+            <summary>
+            向其它终端发送一条消息 已停用
+            </summary>
+            <param name="vsMsgType">消息类型，对应InterFace.ReceiveMsg的vsMsgType参数</param>
+            <param name="vsMsgList">消息类型，一般为字符串或结构体</param>
+            <param name="vsDestSubCode">接收的目标子系统，为null时，为当前子系统</param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess.SendTelMessage(System.String,System.String)">
+            <summary>
+            向指定手机号发送 已停用
+            </summary>
+            <param name="vsTelNo"></param>
+            <param name="vsText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess.SendEMail(System.String,System.String)">
+            <summary>
+            发送一封电子邮件 已停用
+            </summary>
+            <param name="vsRecvAddr"></param>
+            <param name="vsText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.NetAccess._UpdateDBStruct">
+            <summary>
+             未用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ANetAccess.TFormRegMsg">
+            <summary>
+            注册某种消息
+            </summary>
+        </member>
+        <member name="F:ANetAccess.KBServer.F知识库下载.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ANetAccess.KBServer.F知识库下载.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ANetAccess.KBServer.F知识库下载.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ANetAccess.KBServer.AKBDownLoadOut">
+            <summary>
+            下载拉取数据信息
+            </summary>
+        </member>
+        <member name="F:ANetAccess.KBServer.AKBDownLoadOut.tablesData">
+            <summary>
+            主表数据
+            </summary>
+        </member>
+        <member name="F:ANetAccess.KBServer.AKBDownLoadOut.aSubTables">
+            <summary>
+            子表数据
+            </summary>
+        </member>
+        <member name="M:ANetAccess.GZip.ToCompressDataTable(System.Data.DataTable)">
+            <summary>
+            将datatable进行压缩
+            </summary>
+            <param name="tableWrite"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.GZip.ToCompress(System.String)">
+            <summary>
+            压缩字符串
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.GZip.XmlConvertToDataTable(System.String)">
+            <summary>
+            将压缩的字符串解压为datatable
+            </summary>
+            <param name="buffer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ANetAccess.GZip.Decompress(System.Byte[])">
+            <summary>
+            解压字符串
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
+@#@2018-12-24 15:39:42

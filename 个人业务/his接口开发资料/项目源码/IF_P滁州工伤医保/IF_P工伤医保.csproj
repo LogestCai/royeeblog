@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1ECA27A6-3C6C-4E4C-AA3F-C081638C63B9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IF_P工伤医保</RootNamespace>
+    <AssemblyName>IF_P工伤医保</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>D:\九阵云端\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>3</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>D:\九阵云端\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ABegin, Version=11.2.1.2, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\九阵云端\ABegin.exe</HintPath>
+    </Reference>
+    <Reference Include="ACtrllist, Version=11.2.1.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\九阵云端\ACtrllist.dll</HintPath>
+    </Reference>
+    <Reference Include="AHC_InterFace, Version=11.2.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\九阵云端\AHC_InterFace.dll</HintPath>
+    </Reference>
+    <Reference Include="AJSON, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\九阵云端\AJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="AModelList, Version=11.2.1.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\九阵云端\AModelList.dll</HintPath>
+    </Reference>
+    <Reference Include="ANetAccess, Version=11.2.1.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\九阵云端\ANetAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.4, Version=4.6.20132.781, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\九阵云端\C1.Win.C1FlexGrid.4.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\九阵云端\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="NationECCodeCall, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\九阵云端\NationECCodeCall.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="baseCode\bas住院业务.cs" />
+    <Compile Include="baseCode\bas保险业务.cs" />
+    <Compile Include="baseCode\bas充值业务.cs" />
+    <Compile Include="baseCode\bas医技业务.cs" />
+    <Compile Include="baseCode\bas手麻业务.cs" />
+    <Compile Include="baseCode\bas挂号业务.cs" />
+    <Compile Include="baseCode\bas留观业务.cs" />
+    <Compile Include="baseCode\bas药库业务.cs" />
+    <Compile Include="baseCode\bas门特业务.cs" />
+    <Compile Include="baseCode\bas门诊业务.cs" />
+    <Compile Include="baseComm\basComm.cs" />
+    <Compile Include="baseComm\DB.cs" />
+    <Compile Include="baseData\basData.cs" />
+    <Compile Include="baseForm\Fg结算信息查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baseForm\Fg结算信息查询.Designer.cs">
+      <DependentUpon>Fg结算信息查询.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baseForm\Fg工伤备案.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baseForm\Fg工伤备案.Designer.cs">
+      <DependentUpon>Fg工伤备案.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterFace.cs" />
+    <Compile Include="MyCode\CardDC.cs" />
+    <Compile Include="MyCode\CardHSSFZ.cs" />
+    <Compile Include="MyCode\GSYB.cs" />
+    <Compile Include="MyCode\Tools.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="baseForm\Fg结算信息查询.resx">
+      <DependentUpon>Fg结算信息查询.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baseForm\Fg工伤备案.resx">
+      <DependentUpon>Fg工伤备案.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

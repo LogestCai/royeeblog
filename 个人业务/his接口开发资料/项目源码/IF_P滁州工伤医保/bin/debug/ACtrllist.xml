@@ -1,0 +1,2728 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ACtrllist</name>
+    </assembly>
+    <members>
+        <member name="F:ACtrllist.AMainNav.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AMainNav.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AMainNav.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <!-- 对于成员“M:ACtrllist.AMainNav.LoadData”忽略有格式错误的 XML 注释 -->
+        <member name="T:ACtrllist.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:ACtrllist.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:ACtrllist.Properties.Resources.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AInputBase.ResetDefValue">
+            <summary>
+            返回执行SaveDefValue时的值
+            恢复asid 和 asText
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AInputBase.SaveDefValue">
+            <summary>
+            将当前数据保存为默认值
+            asId 和 asText
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AInputBase.SetCaption(System.String)">
+            <summary>
+            设置标题
+            </summary>
+            <param name="s">标题文本</param>
+        </member>
+        <member name="M:ACtrllist.AInputBase.GetCaption">
+            <summary>
+            获取标题
+            </summary>
+            <returns>标题文本</returns>
+        </member>
+        <member name="M:ACtrllist.AInputBase.SetText(System.String)">
+            <summary>
+            设置文本
+            </summary>
+            <param name="s">文本字符串</param>
+        </member>
+        <member name="M:ACtrllist.AInputBase.GetText">
+            <summary>
+            获取文本
+            </summary>
+            <returns>文本字符串</returns>
+        </member>
+        <member name="M:ACtrllist.AInputBase.GetId">
+            <summary>
+            获取id
+            </summary>
+            <returns>id字符串</returns>
+        </member>
+        <member name="M:ACtrllist.AInputBase.SetId(System.String)">
+            <summary>
+            设置id
+            </summary>
+            <param name="vsId">id字符串</param>
+        </member>
+        <member name="M:ACtrllist.AInputBase._GetTextRule">
+            <summary>
+            判断本控制是否符合规则
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AInputBase.GetInputLeft">
+            <summary>
+            获取录入框的左边界
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:ACtrllist.AInputBase.abEnterTab">
+            <summary>
+            是否支持回车键跳转到下一个控件
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AInputBase.abSaveId">
+            <summary>
+            是否保存asId的值,适用模板模式，不影响控件的使用
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AInputBase.asCaption">
+            <summary>
+            默认录入控件标题栏
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AInputBase.asFieldName">
+            <summary>
+            对应的数据库字段名称
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AInputBase.asText">
+            <summary>
+            设置或获取与控件关联的值
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AInputBase.asId">
+            <summary>
+            设置或获取与控件需要保存到后台值
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AImage.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AImage.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AImage.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AAddressSelectForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AAddressSelectForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ACtrllist.AAddressSelectForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AMTextBox.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AMTextBox.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AMTextBox.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AMTextBox.SelectAll">
+            <summary>
+            选中所有文件（为修改和删除做准备）
+            </summary>
+        </member>
+        <member name="E:ACtrllist.AMTextBox.OnEnter">
+            <summary>
+            当abEnterTab=False时，若操作员按回车键则触发
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AMTextBox.aiSelectionStart">
+            <summary>
+            获取或设置文本框中选定的文本起点
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AMTextBox.aiSelectionLength">
+            <summary>
+            获取或设置文本框选定的字符串长度
+            </summary>
+        </member>
+        <member name="T:ACtrllist.EDataType">
+            <summary>
+            输入格式类型
+            </summary>
+        </member>
+        <member name="F:ACtrllist.EDataType.String">
+            <summary>
+            字符型
+            </summary>
+        </member>
+        <member name="F:ACtrllist.EDataType.Number">
+            <summary>
+            数值型
+            </summary>
+        </member>
+        <member name="F:ACtrllist.EDataType.Int">
+            <summary>
+            整数型
+            </summary>
+        </member>
+        <member name="F:ACtrllist.EDataType.PInt">
+            <summary>
+            正整数
+            </summary>
+        </member>
+        <member name="T:ACtrllist.EDataRule">
+            <summary>
+            数值判断
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ACheckBox.SetText(System.String)">
+            <summary>
+            设置选中状态
+            </summary>
+            <param name="sValue">0:不选中 1：选中</param>
+        </member>
+        <member name="M:ACtrllist.ACheckBox.GetText">
+            <summary>
+            获取选中状态
+            </summary>
+            <returns>0:不选中 1：选中</returns>
+        </member>
+        <member name="F:ACtrllist.ACheckBox.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ACheckBox.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.ACheckBox.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ACheckBox.abChecked">
+            <summary>
+            设置或获取选中状态
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ACheckBox.aeCheckState">
+            <summary>
+            设置或获取选中状态
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ACheckBox.asCaption">
+            <summary>
+            设置或获取与控件关联的文本
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ACheckBox.asText">
+            <summary>
+            设置或获取选中状态  0:不选中 1：选中
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ACheckBox.afFont">
+            <summary>
+            获取或设置控件asCheckBoxText属性字体
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ACheckBox.acBackColor">
+            <summary>
+            获取或设置背景颜色
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ACheckBox.acFontColor">
+            <summary>
+            获取或设置背景颜色
+            </summary>
+        </member>
+        <member name="T:ACtrllist.ACheckBox.EventHandler">
+            <summary>
+            内容改变时触发
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AChart.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AChart.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AChart.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:ACtrllist.ARichBox.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ARichBox.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.ARichBox.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="E:ACtrllist.ARichBox.OnEnter">
+            <summary>
+            当abEnterTab=False时，若操作员按回车键则触发
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ARichBox.aiMaxLength">
+            <summary>
+            获取或设置最大字符串长度
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AProgessBar.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AProgessBar.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AProgessBar.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AInputList.abSelectedFirst">
+            <summary>
+            默认选中第一行
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AInputList.GetId">
+            <summary>
+            获取Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AInputList.GetColValueN(System.String)">
+            <summary>
+            将字符串转化为数值型
+            </summary>
+            <param name="vsColName">字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AInputList.GetColValue(System.String)">
+            <summary>
+            获取游标所在行的数据
+            </summary>
+            <param name="vsColName">列名</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AInputList.ResetText">
+             <summary>
+            设置为默认值
+             </summary>
+        </member>
+        <member name="M:ACtrllist.AInputList.SelectAll">
+             <summary>
+            选中所有文本（为修改和删除做准备）
+             </summary>
+        </member>
+        <member name="M:ACtrllist.AInputList.SetCaption(System.String)">
+            <summary>
+            设置标题文本
+            </summary>
+            <param name="s">文本</param>
+        </member>
+        <member name="M:ACtrllist.AInputList.OnSelected2">
+            <summary>
+            选择就跳出
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AInputList.AInputList_Resize(System.Object,System.EventArgs)">
+            <summary>
+            当大小改变时执行
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ACtrllist.AInputList.UpdateLabelColor">
+            <summary>
+            更新label的前景色
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AInputList.GetCaption">
+            <summary>
+            获取标题栏
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AInputList.GetText">
+            <summary>
+             获取输入框中的字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AInputList.SetTextPub(System.String)">
+            <summary>
+            设置输入框中的字符串
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="M:ACtrllist.AInputList.SetText(System.String)">
+            <summary>
+            设置输入框中的字符串
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="F:ACtrllist.AInputList._allFilter">
+            <summary>
+            根据类型获取对应的编码
+            </summary>
+            <param name="vsType">枚举</param>
+            <returns></returns>
+        </member>
+        <member name="F:ACtrllist.AInputList.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AInputList.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AInputList.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AInputList.abRefreshPoint">
+            <summary>
+            是否刷新坐标
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AInputList.atListType">
+            <summary>
+            设置类型
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AInputList.abAHCStyle">
+            <summary>
+            是否显示AHC样式
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AInputList.asDictTableName">
+            <summary>
+            是否自动打开下面的列表
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AInputList.abEnterPrompt">
+            <summary>
+            是否自动打开下面的列表
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AInputList.asFormat">
+            <summary>
+            设置表格列格式
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AInputList.asSQLText">
+            <summary>
+            查询脚本
+            </summary>
+        </member>
+        <member name="T:ACtrllist.TListType">
+            <summary>
+            列表类型
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AFNumSelect.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AFNumSelect.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AFNumSelect.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.WebSocket.start(System.Int32)">
+            <summary>
+            启动WebSocket服务
+            </summary>
+        </member>
+        <member name="M:ACtrllist.WebSocket.Accept(System.IAsyncResult)">
+            <summary>
+            处理客户端连接请求
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:ACtrllist.WebSocket.Recieve(System.IAsyncResult)">
+            <summary>
+            处理接受的数据
+            </summary>
+            <param name="socket"></param>
+        </member>
+        <member name="M:ACtrllist.WebSocket.PackageHandShakeData(System.Byte[],System.Int32)">
+            <summary>
+            打包请求连接数据
+            </summary>
+            <param name="handShakeBytes"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.WebSocket.AnalyzeClientData(System.Byte[],System.Int32)">
+            <summary>
+            处理接收的数据
+            参考 http://www.cnblogs.com/smark/archive/2012/11/26/2789812.html
+            </summary>
+            <param name="recBytes"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.WebSocket.PackageServerData(System.String)">
+            <summary>
+            把发送给客户端消息打包处理（拼接上谁什么时候发的什么消息）
+            </summary>
+            <returns>The data.</returns>
+            <param name="message">Message.</param>
+        </member>
+        <member name="F:ACtrllist.AAddressInputControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AAddressInputControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AAddressInputControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ImageDrawRect.DrawRect(System.Drawing.Graphics,System.Drawing.Bitmap,System.Drawing.Rectangle,System.Drawing.Rectangle,System.Int32,System.Int32)">
+            <summary>
+            绘图对像
+            </summary>
+            <param name="g">绘图对像</param>
+            <param name="img">图片</param>
+            <param name="r">绘置的图片大小、坐标</param>
+            <param name="lr">绘置的图片边界</param>
+            <param name="index">当前状态</param> 
+            <param name="Totalindex">状态总数</param>
+        </member>
+        <member name="M:ACtrllist.ImageDrawRect.DrawRect(System.Drawing.Graphics,System.Drawing.Bitmap,System.Drawing.Rectangle,System.Int32,System.Int32)">
+            <summary>
+            绘图对像
+            </summary>
+            <param name="g"> 绘图对像</param>
+            <param name="obj">图片对像</param>
+            <param name="r">绘置的图片大小、坐标</param>
+            <param name="index">当前状态</param>
+            <param name="Totalindex">状态总数</param>
+        </member>
+        <member name="F:ACtrllist.ASplitLine.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ASplitLine.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.ASplitLine.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ASplitLine.aiLineHeight">
+            <summary>
+            设置或获取选中状态
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ASplitLine.acLineColor">
+            <summary>
+            设置或获取选中状态
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ADateInput.GetOrclDtFormat(ACtrllist.EDispFormat)">
+            <summary>
+            获取oralce的时间标准格式
+            </summary>
+            <param name="veDispFormt"></param>
+            <returns></returns>
+        </member>
+        <member name="F:ACtrllist.ADateInput.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ADateInput.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.ADateInput.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="E:ACtrllist.ADateInput.OnChanged">
+            <summary>
+            当日期值变化时
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ADateInput.afFont">
+            <summary>
+            获取或设置控件字体
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ADateInput.acBackColor">
+            <summary>
+            获取或设置背景颜色
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ADateInput.acFontColor">
+            <summary>
+            获取或设置背景颜色
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AComboBox.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AComboBox.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AComboBox.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AComboBox.GetCaption">
+            <summary>
+            获取标签
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AComboBox.SetCaption(System.String)">
+            <summary>
+            设置标签文本
+            </summary>
+            <param name="s">文本</param>
+        </member>
+        <member name="M:ACtrllist.AComboBox.GetId">
+            <summary>
+            获取选中项值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AComboBox.SetId(System.String)">
+            <summary>
+            设置选中项目值
+            </summary>
+            <param name="vsId">值</param>
+        </member>
+        <member name="M:ACtrllist.AComboBox.GetText">
+            <summary>
+            获取下拉录入选中文本
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AComboBox.SetText(System.String)">
+            <summary>
+            设置选中文本
+            </summary>
+            <param name="s">文本</param>
+        </member>
+        <member name="M:ACtrllist.AComboBox.Clear">
+            <summary>
+            清除下拉项目
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AComboBox.LoadSQLList(System.String,System.Boolean)">
+            <summary>
+            根据Select语句来加载内容
+            </summary>
+            <param name="vsSQLText">Select [系统序号,]名称[,备注] From ...</param>
+            <param name="vbDefFirst">是否默认第1行为Text</param>
+        </member>
+        <member name="M:ACtrllist.AComboBox.LoadProcSQLList(System.String,System.Boolean)">
+            <summary>
+            根据游标存储过程来执行加载内容
+            </summary>
+            <param name="vsSQLText">Select [系统序号,]名称[,备注] From ...</param>
+            <param name="vbDefFirst">是否默认第1行为Text</param>
+        </member>
+        <member name="M:ACtrllist.AComboBox.GetListText(System.Int32)">
+            <summary>
+            获取项目中文本
+            </summary>
+            <param name="n">索引</param>
+            <returns>文本</returns>
+        </member>
+        <member name="E:ACtrllist.AComboBox.OnEnter">
+            <summary>
+            当abEnterTab=False时，若操作员按回车键则触发
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AComboBox.aeDropDownStyle">
+            <summary>
+            获取或设置背景颜色
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AComboBox.afFont">
+            <summary>
+            获取或设置控件字体
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AComboBox.acBackColor">
+            <summary>
+            获取或设置背景颜色
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AComboBox.acFontColor">
+            <summary>
+            获取或设置背景颜色
+            </summary>
+        </member>
+        <member name="F:ACtrllist.ImagePanel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ImagePanel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.ImagePanel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AListCheckBox.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AListCheckBox.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AListCheckBox.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AMainTable.LoadData">
+            <summary>
+            加载数据
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AMainTable.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AMainTable.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AMainTable.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:ACtrllist.ATextBox.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ATextBox.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.ATextBox.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ATextBox.SelectAll">
+            <summary>
+            选中所有文件（为修改和删除做准备）
+            </summary>
+        </member>
+        <member name="E:ACtrllist.ATextBox.OnEnter">
+            <summary>
+            当abEnterTab=False时，若操作员按回车键则触发
+            </summary>
+        </member>
+        <member name="E:ACtrllist.ATextBox.OnFocus">
+            <summary>
+            控件获取焦点时触发
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ATextBox.acPasswordChar">
+            <summary>
+            密码字符
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ATextBox.aiMaxLength">
+            <summary>
+            获取或设置最大字符串长度
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ATextBox.aiSelectionStart">
+            <summary>
+            获取或设置文本框中选定的文本起点
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ATextBox.aiSelectionLength">
+            <summary>
+            获取或设置文本框选定的字符串长度
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ATextBox.abUnDoFlag">
+            <summary>
+            这是指当单据被冲销时，这一列是否被*-1,在模型中使用
+            </summary>
+        </member>
+        <member name="F:ACtrllist.ARadioButton.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ARadioButton.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.ARadioButton.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ARadioButton.asCaption">
+            <summary>
+            设置或获取与控件关联的文本
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ARadioButton.abChecked">
+            <summary>
+            设置或获取选中状态
+            </summary>
+        </member>
+        <member name="F:ACtrllist.APatientSerch.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.APatientSerch.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.APatientSerch.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:ACtrllist.APatientSerch.asCaption">
+            <summary>
+            筛选文本标签
+            </summary>
+        </member>
+        <member name="P:ACtrllist.APatientSerch.asText">
+            <summary>
+            修改文本显示值
+            </summary>
+        </member>
+        <member name="E:ACtrllist.APatientSerch.OnSerchAfter">
+            <summary>
+            在查询完成之后触发,Sender存储返回的健康序号
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AMenuSelectForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AMenuSelectForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ACtrllist.AMenuSelectForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AGridList.fbReportPrintSums">
+            表格数据是否加载完毕
+        </member>
+        <member name="F:ACtrllist.AGridList._SelectionMode">
+            <summary>
+            选择样式
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AGridList.abCacheSql">
+            <summary>
+            是否缓存查询数据结果
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AGridList.abCheckAll">
+            <summary>
+            点击左上角行号，是否选中所有数据，在复选行下有效
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AGridList._dataSourcePK">
+            <summary>
+            DataSource主键
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetDataSourcePrimaryKey(System.String)">
+            <summary>
+            为数据源设置主键
+            </summary>
+            <param name="pkColumnName">主键列名</param>
+        </member>
+        <!-- 对于成员“M:ACtrllist.AGridList.UpdateDataSource(ANetAccess.ARecordset,System.Int32)”忽略有格式错误的 XML 注释 -->
+        <member name="M:ACtrllist.AGridList.GetFormatXml">
+            <summary>
+            获取当前表格设置的xml
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:ACtrllist.AGridList.abCompress">
+            <summary>
+            当前表格查询是否使用压缩查询
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetSelectRows">
+            <summary>
+            获取选中的行集合，仅在连选单元格模式下使用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetSortingType(ACtrllist.ESorting)">
+            <summary>
+            设置排序规则
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetSortingType">
+            <summary>
+            获取排序规则
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetAbAllowResizing(ACtrllist.EAllowResizingEnum)">
+            <summary>
+            设置是否允许拖动行列的样式
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetText(System.Int32,System.String,System.String)">
+            <summary>
+            设置单元格文本
+            </summary>
+            <param name="r">行索引,-1：选中的当前行</param>
+            <param name="vsColName">列名</param>
+            <param name="vsValue">文本</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetText_Batch(System.Int32,System.String,System.String)">
+            <summary>
+            批量设置文本，用于批量快速设置文本，批量设置完成后需要调用BatchEnd结束设置
+            </summary>
+            <param name="r"></param>
+            <param name="vsColName"></param>
+            <param name="vsValue"></param>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetText_Batch(System.Int32,System.Int32,System.String)">
+            <summary>
+            批量设置文本，用于批量快速设置文本，批量设置完成后需要调用BatchEnd结束设置
+            </summary>
+            <param name="r"></param>
+            <param name="viColIndex"></param>
+            <param name="vsValue"></param>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetData(System.Int32,System.Int32)">
+            <summary>
+            获取单元格数据，单元格不存在的情况下会抛出异常
+            </summary>
+            <param name="r">行索引</param>
+            <param name="viColIndex">列索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetData(System.Int32,System.String)">
+            <summary>
+            获取单元格数据，单元格不存在的情况下会抛出异常
+            </summary>
+            <param name="r">行索引</param>
+            <param name="vsColName">列名</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetText(System.Int32,System.Int32,System.String)">
+            <summary>
+            设置单元格文本
+            </summary>
+            <param name="r">行索引,-1：选中的当前行</param>
+            <param name="viColIndex">列索引</param>
+            <param name="vsValue">值</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetText(System.Int32,System.Int32)">
+            <summary>
+            获取单元格字符串
+            </summary>
+            <param name="r">行索引</param>
+            <param name="c">列索引</param>
+            <returns>返回文本</returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetSysId(System.Int32)">
+            <summary>
+            获取指定行的系统序号
+            </summary>
+            <param name="viRow">指定行（-1为当前行）</param>
+            <returns>系统序号 或  -1(无数据可选择，总行数小于等于FixedRow)</returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetText(System.Int32,System.String)">
+            <summary>
+            获取单元格字符串
+            </summary>
+            <param name="r">行索引</param>
+            <param name="vsColName">列名</param>
+            <returns>返回文本</returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetRightMenu(System.String)">
+            <summary>
+            设置右键菜单
+            </summary>
+            <param name="vsMenuList">add|添加;edit|修改</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.Remove(System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            删除（移除）一行
+            </summary>
+            <param name="r">行索引号，-1为当前选中行</param>
+            <param name="bTmpSave">逻辑删除，当编辑状态为DEL时设为Visible</param>
+            <param name="bAutoNo">是否自动更新行号（若有“行号”列）</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetColName(System.Int32)">
+            <summary>
+            根据列序号获取列名称
+            </summary>
+            <param name="viColIdx">列索引号，当为-1时，代表当前列</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetColTitle(System.Int32)">
+            <summary>
+            获取列标题
+            </summary>
+            <param name="viColIdx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetColTitle(System.Int32,System.String)">
+            <summary>
+            根据列索引,设置列标题
+            </summary>
+            <param name="viColIdx">列索引号，当为-1时，代表当前列</param>
+            <param name="vsTitle">列标题</param>
+            <returns>是否设置成功</returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetColType(System.Int32)">
+            <summary>
+            根据列序号获取列类型
+            </summary>
+            <param name="viColIdx">列索引号，当为-1时，代表当前列</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetColIndex(System.String)">
+            <summary>
+            根据列名获取列序号
+            </summary>
+            <param name="vsName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetAlignValue(System.String)">
+            <summary>
+            获取对齐格式
+            </summary>
+            <param name="v">^:居中对齐 ：右对齐 小于号左对齐</param>
+            <example></example>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetAlignTextAlign(System.String)">
+            <summary>
+            获取对齐格式
+            </summary>
+            <param name="v">^:居中对齐 ：右对齐 小于号左对齐</param>
+            <example></example>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetCellAlignText(System.Int32,System.Int32,System.String)">
+            <summary>
+            设置单元格格式对齐
+            </summary>
+            <param name="aRow">行索引</param>
+            <param name="aCol">列索引</param>
+            <param name="align">AHC对齐格式></param>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetCellAlignText(System.Int32,System.Int32,ACtrllist.ECellTextAlign)">
+            <summary>
+            设置表格对齐
+            </summary>
+            <param name="aRow">行</param>
+            <param name="aCol">列</param>
+            <param name="align">对齐</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetCellAlignText(System.Int32,System.Int32)">
+            <summary>
+            获取单元格文本对齐样式
+            </summary>
+            <param name="aRow">行索引</param>
+            <param name="aCol">列索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetCellAlignText(System.Int32,System.String)">
+            <summary>
+            获取单元格文本对齐样式
+            </summary>
+            <param name="aRow">行索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetCellBackColor(System.Int32,System.Int32,System.Drawing.Color)">
+            <summary>
+            设置表格对齐
+            </summary>
+            <param name="aRow">行</param>
+            <param name="aCol">列</param>
+            <param name="aBackColor">设置背景色</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetCellBackColor(System.Int32,System.Int32)">
+            <summary>
+            获取表格背景色
+            </summary>
+            <param name="aRow">行</param>
+            <param name="aCol">列</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetCellTextDirect(System.Int32,System.Int32,ACtrllist.ETextDirection)">
+            <summary>
+            设置表格对齐
+            </summary>
+            <param name="aRow">行</param>
+            <param name="aCol">列</param>
+            <param name="aTextDirection">单元格中文字排列方向</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetColStyle(System.String)">
+            <summary>
+            获取数据样式
+            </summary>
+            <param name="aColName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetColStyle(System.Int32)">
+            <summary>
+            获取数据样式
+            </summary>
+            <param name="aCol"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetColWidth(System.Int32)">
+            <summary>
+            获取列宽度
+            </summary>
+            <param name="aCol">列索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetRowHeight(System.Int32,System.Int32)">
+            <summary>
+            设置某一行的高度
+            </summary>
+            <param name="viRow">行序号</param>
+            <param name="iValue">高度</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetRowVisible(System.Int32,System.Boolean)">
+            <summary>
+            设置某一行是否允许可见
+            </summary>
+            <param name="viRow"></param>
+            <param name="vbMode"></param>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetColVisible(System.Int32,System.Boolean)">
+            <summary>
+            设置某一列是否允许可见
+            </summary>
+            <param name="viRow"></param>
+            <param name="vbMode"></param>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetColVisible(System.String,System.Boolean)">
+            <summary>
+            设置某一列是否允许可见
+            </summary>
+            <param name="viRow"></param>
+            <param name="vbMode"></param>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetColWidth(System.Int32,System.Int32)">
+            <summary>
+            设置列宽度像素
+            </summary>
+            <param name="aCol">列索引</param>
+            <param name="aWidth">宽度 px</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetColWidth(System.String,System.Int32)">
+            <summary>
+            设置列宽度像素
+            </summary>
+            <param name="aColName">列名</param>
+            <param name="aWidth">宽度 px</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetCellLeft(System.Int32)">
+            <summary>
+            获取单元格的左边缘与其容器左边缘的距离
+            </summary>
+            <param name="iCol">指定列索引,默认当前焦点所在列</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetCellLeft(System.String)">
+            <summary>
+            获取单元格的左边缘与其容器左边缘的距离
+            </summary>
+            <param name="iCol">指定列名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetCellTop(System.Int32)">
+            <summary>
+            获取单元格的上边缘与其容器上边缘的距离
+            </summary>
+            <param name="iRow">指定行索引,默认当前焦点所在行</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetColWidth(System.String)">
+            <summary>
+            获取列宽度
+            </summary>
+            <param name="aCol">列名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetRowHeight(System.Int32)">
+            <summary>
+            获取行高
+            </summary>
+            <param name="aRow">行索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetCellEdit(System.Int32,System.Int32)">
+            <summary>
+            设置单元格为可编辑
+            </summary>
+            <param name="viRow"></param>
+            <param name="viCol"></param>
+        </member>
+        <member name="M:ACtrllist.AGridList.ClearCellEdit">
+            <summary>
+            清楚可编辑设置
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetColStyle(System.String,ACtrllist.EColStyle,System.String)">
+            <summary>
+            设置列格式
+            </summary>
+            <param name="aColName">列名</param>
+            <param name="aColStyle">格式样式</param>
+            <param name="aItemList">当为下拉框格式时，下拉的内容  "选项1;选项2;选项3;选项4"</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetColStyle(System.Int32,ACtrllist.EColStyle,System.String)">
+            <summary>
+            设置列格式
+            </summary>
+            <param name="aCol">列索引</param>
+            <param name="aColStyle">格式样式</param>
+            <param name="aItemList">当为下拉框格式时，下拉的内容  "选项1;选项2;选项3;选项4"</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.IsWrap(System.Int32,System.Int32)">
+            <summary>
+            字符是否达到当前单元格最大可见区域
+            </summary>
+            <param name="row">行索引</param>
+            <param name="col">列索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.DoMove(System.Int32,System.Int32)">
+            <summary>
+            交换行数据
+            </summary>
+            <param name="indexOld">要移动数据的老行索引</param>
+            <param name="indexNew">要移动数据的新行索引</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.ReLoadList(System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="vsWhere"></param>
+            <param name="falg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.ReLoadList(System.String,System.Int32)">
+            <summary>
+            根据上一次调用LoadList的参数再次查询，并可针对此SQL进行二次条件过滤
+            </summary>
+            <param name="vsWhere">默认为空，也可为 "Where ....”</param>
+            <param name="viRow">是否指定加载的目标行位置</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.LoadList(System.String,ANetAccess.TSQLPara,System.Int32,System.Boolean,System.String)">
+            <summary>
+            读取数据
+            </summary>
+            <param name="vsSQLText">sql命令</param>
+            <param name="tSqlPara">查询参数</param>
+            <param name="viRow">加载的目标行号，当大于0时，只加载一行数据</param>
+            <param name="vbClear">是否清空表格原内容</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetColMerg(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            平台内部使用
+            </summary>
+            <param name="viBegin"></param>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetRowUserData(System.Int32,System.Object)">
+            <summary>
+            设置行对象
+            </summary>
+            <param name="viRow"></param>
+            <param name="obj"></param>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetRowUserData(System.Int32)">
+            <summary>
+            获取行对象
+            </summary>
+            <param name="viRow"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.Do检测是否合并行(System.Int32,System.Int32)">
+            <summary>
+            合并行不进行合计信息
+            </summary>
+            <param name="viRow"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.RowIsVisible(System.Int32)">
+            <summary>
+            返回行是否显示
+            </summary>
+            <param name="r">行索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.ColIsVisible(System.Int32)">
+            <summary>
+            返回列是否显示
+            </summary>
+            <param name="r">列索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetFormatXML(System.String)">
+            <summary>
+            设置xml格式
+            </summary>
+            <param name="vsXMLText"></param>
+        </member>
+        <member name="M:ACtrllist.AGridList._UpdateTitleMerg">
+            <summary>
+            更新标题合并信息
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AGridList.listMergs">
+            <summary>
+            已合并列
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.MergedRanges(ACtrllist.TCellRange,System.Boolean)">
+            <summary>
+            合并单元格
+            </summary>
+            <param name="tcellRange">要合并的区域</param>
+            <param name="fbRefresh">是否刷新</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.RemoveMergedRanges(ACtrllist.TCellRange)">
+            <summary>
+            移除合并单元格
+            </summary>
+            <param name="tcellRange"></param>
+        </member>
+        <member name="M:ACtrllist.AGridList.DoUpdateRange">
+            <summary>
+            刷新合并信息
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetCellFocus(System.Int32,System.Int32)">
+            <summary>
+            设置某个单元格获取焦点
+            </summary>
+            <param name="viRow">行索引</param>
+            <param name="viCol">列索引</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetSelectCells(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            当表格的选中格式为：连选单元格的时候有效。设置某个区域的单元格为选中状态
+            </summary>
+            <param name="beginRow">要选中区域的开始行,-1为当前选中行</param>
+            <param name="endRow">要选中区域的结束行,-1为当选中行</param>
+            <param name="leftCol">要选中区域的开始列,-1为当选中列</param>
+            <param name="rightCol">要选中区域的结束列,-1为当选中列</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetFormat(System.String,System.Int32)">
+            <summary>
+            根据 K表格列表 中的记录来设置表格的格式
+            </summary>
+            <param name="vsSubCode">子系统编号  (T子系统列表.AHC编号)</param>
+            <param name="viGridId">K表格列表.AHC子编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SelectRowsRangeIndex">
+            <summary>
+            当不为listview模式时的获取选中行方法
+            </summary>
+            <returns>数组</returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.SelectRowsIndex">
+            <summary>
+            获取选中行索引listview模式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.BeginUpdate">
+            <summary>
+            通知平台表格需要更新数据，则不画界面（加速）
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.EndUpdate">
+            <summary>
+            通知AHC表格更新数据完成
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.CheckedAll">
+            <summary>
+            全选全部行
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.SaveLocate(System.String)">
+            <summary>
+            保存当前Row值，一般用于刷新前保存，刷新后ResetLocate当前行位置
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.ResetLocate">
+            <summary>
+            恢复当前Row位置，一般和SaveLocate配套使用
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetGroupOn(System.String,System.String)">
+            <summary>
+            设置为树结构的汇总方式
+            </summary>
+            <param name="vsGroupFNameList">待汇总的字段列表，以逗号分开（,)</param>
+            <param name="vsSumFNameList">待累加的字段列表，以豆号分开（,)</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetGridFormat(System.Boolean)">
+            <summary>
+            调出设置框设置表格格式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList._SetStyleColor(System.Int32,System.String)">
+            <summary>
+            处理通过绘制显示后，setCellStyle的漏洞，
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetCellStyle(System.Int32,System.Int32,System.Int32,System.Int32,ACtrllist.ESetCellStyle,System.String,System.String)">
+            <summary>
+            设置指定单元格的格式
+            </summary>
+            <param name="viBR">开始行</param>
+            <param name="viBC">开始列</param>
+            <param name="viER">结束行</param>
+            <param name="viEC">结束列</param>
+            <param name="veStyleMode">样式类型</param>
+            <param name="vsVar1">样式值1（参见开发指南）如: 255,255,255</param>
+            <param name="vsVar2">样式值2</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.SetCellInputMode(System.Int32,System.Int32,System.Int32,System.Int32,ACtrllist.ECellInputMode,System.String)">
+            <summary>
+            设置某个区域的录入方式
+            </summary>
+            <param name="veCellInputMode"></param>
+            <param name="vsDownList">如果 veCellInputMode==COMBOBOX则为下拉的内容，用竖线隔开（|)</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.alabel_Click(System.Object,System.EventArgs)">
+            <summary>
+            上一页
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ACtrllist.AGridList.DoResPrintPanle">
+            <summary>
+            刷新打印面板
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.isFind(System.Int32,System.String)">
+            <summary>
+            查询某个数据是否存在
+            </summary>
+            <param name="viColIndex"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.isFind(System.String,System.String)">
+            <summary>
+            查询某个数据是否存在
+            </summary>
+            <param name="vsColName"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.GetLabTitle">
+            <summary>
+            获取表格小标题
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.InsertRow(System.Int32)">
+            <summary>
+            向指定的行索引位置插入空行
+            </summary>
+            <param name="index"></param>
+        </member>
+        <member name="M:ACtrllist.AGridList.DrawLine(ACtrllist.TRolCel[],System.Boolean)">
+            <summary>
+            添加表格分组线
+            </summary>
+            <param name="tCells">要进行分组的单元格集合</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.DrawLine(ACtrllist.TRolCel[],System.Int32,System.Boolean)">
+            <summary>
+            添加表格分组线
+            </summary>
+            <param name="tCells">要进行分组的单元格集合</param>
+            <param name="viLineSize">分组线大小</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.DrawLine(ACtrllist.TRolCel[],System.Int32,System.Drawing.Color,System.Boolean)">
+            <summary>
+            添加表格分组线
+            </summary>
+            <param name="tCells">要进行分组的单元格集合</param>
+            <param name="viLineSize">分组线大小</param>
+            <param name="color">分组线颜色</param>
+            <param name="vbAdd">是否进行之前的基础上添加绘制</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.ClearLine">
+            <summary>
+            清除表格分组线
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.ClearLine(ACtrllist.TRolCel[])">
+            <summary>
+            清除指定区域的单元格分组线
+            </summary>
+            <param name="cells">要清除的单元格集合</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.CreateExcel(System.String,System.String,System.Boolean)">
+            <summary>
+            生成Excel
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.DoSaveExcel(System.String)">
+            <summary>
+            导出Excel、DBF,由平台进行路径确认选择
+            </summary>
+            <param name="vsFileName">默认文件路径</param>
+            <returns>是否导出成功</returns>
+        </member>
+        <member name="M:ACtrllist.AGridList.DoSaveExcel(System.String,System.String)">
+            <summary>
+            导出Excel,需要指定导出到指定目录
+            </summary>
+            <param name="filePath">指定文件路径</param>
+            <param name="vsTableName">导出表名</param>
+            <returns>是否导出成功</returns>
+        </member>
+        <member name="F:ACtrllist.AGridList.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGridList.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AGridList.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="E:ACtrllist.AGridList.OnMenuClick">
+            <summary>
+            菜单按钮单击事件
+            </summary>
+        </member>
+        <!-- 对于成员“E:ACtrllist.AGridList.OnMenuClick_New”忽略有格式错误的 XML 注释 -->
+        <member name="E:ACtrllist.AGridList.OnEnterCell">
+            <summary>
+            当单元格被选中时触发
+            </summary>
+        </member>
+        <member name="E:ACtrllist.AGridList.OnLeaveCell">
+            <summary>
+            当单元格被选中时触发
+            </summary>
+        </member>
+        <member name="E:ACtrllist.AGridList.OnMouseDown">
+            <summary>
+            当单元格被选中时触发
+            </summary>
+        </member>
+        <member name="E:ACtrllist.AGridList.OnMouseUp">
+            <summary>
+            当单元格被选中时触发
+            </summary>
+        </member>
+        <member name="E:ACtrllist.AGridList.OnMouseDownEvent">
+            <summary>
+            当单元格被选中时触发
+            </summary>
+        </member>
+        <member name="E:ACtrllist.AGridList.OnMouseClick">
+            <summary>
+            鼠标单击时触发
+            </summary>
+        </member>
+        <member name="E:ACtrllist.AGridList.OnMouseDbClick">
+            <summary>
+            鼠标双击时触发
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AGridList.acFocusedBackColor">
+            <summary>
+            设置或获取焦点行或单元格的颜色
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AGridList.abPublic">
+            <summary>
+            设置或获取焦点行或单元格的颜色
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AGridList.asSaveTable">
+            <summary>
+            保存的字表名称模型中使用
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AGridList.asViewTable">
+            <summary>
+            保存的字表名称模型中使用
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AGridList.asSaveTableKey">
+            <summary>
+            字表主键 模型中使用
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AGridList.aiSelectedRows">
+            <summary>
+            获取行索引,选择模式设置为复选行,复选行可以返回,其他模式返回null
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AGridList.Item(System.Int32,System.Int32)">
+            <summary>
+            设置单元格值
+            </summary>
+            <param name="aRow">列索引</param>
+            <param name="aCol">行索引</param>
+        </member>
+        <member name="P:ACtrllist.AGridList.aeSorting">
+            <summary>
+            设置排序规则
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AGridList.aeSelectMode">
+            <summary>
+            设置选中样式
+            </summary>
+        </member>
+        <member name="T:ACtrllist.ECellTextAlign">
+            <summary>
+            列对齐样式
+            </summary>
+        </member>
+        <member name="T:ACtrllist.ETextDirection">
+            <summary>
+            文字方向
+            </summary>
+        </member>
+        <member name="M:ACtrllist.TRolCel.#ctor(System.Int32,System.Int32,System.String)">
+            <summary>
+            分组单元格
+            </summary>
+            <param name="rol">行索引</param>
+            <param name="col">列索引</param>
+            <param name="groupNum">分组号</param>
+        </member>
+        <member name="T:ACtrllist.TFenYe">
+            <summary>
+            分页类
+            </summary>
+        </member>
+        <member name="M:ACtrllist.FormOperaHandler.Cmd(System.Net.Sockets.Socket,System.String)">
+            <summary>
+            处理方法，接收参数固定为  Socket 与 string
+            对应的URL为 *.openForm
+            如果需要向客户端推送消息，则使用 WebSocket.Instance.Send(client, '消息');
+            </summary>
+            <param name="client">Socket对象</param>
+            <param name="data">输入参数,调用者自行约定</param>
+        </member>
+        <member name="F:ACtrllist.AButtonSel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AButtonSel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AButtonSel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGroupSel.Add(System.String,System.Boolean)">
+            <summary>
+            添加一个选项
+            </summary>
+            <param name="vsId">选项值</param>
+            <param name="vbSelect">是否默认选中</param>
+        </member>
+        <member name="M:ACtrllist.AGroupSel.Remove(System.String)">
+            <summary>
+            移除一个选项
+            </summary>
+            <param name="vsId"></param>
+        </member>
+        <member name="F:ACtrllist.AGroupSel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AGroupSel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AGroupSel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="E:ACtrllist.AGroupSel.OnSelect">
+            <summary>
+            在选择后触发
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AButton.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AButton.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AButton.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AButton.DrawRoundButton(System.String,System.Drawing.Graphics,System.Drawing.Rectangle,ACtrllist.AButton.State)">
+            <summary> 
+            绘制圆角按钮
+            </summary> 
+            <param name="Text">要绘制的文字</param>
+            <param name="g">Graphics 对象</param> 
+            <param name="rect">要填充的矩形</param> 
+            <param name="btnStyle"></param>
+        </member>
+        <member name="M:ACtrllist.AButton.GetRoundRectangle(System.Drawing.Rectangle,System.Int32)">
+            <summary> 
+            根据普通矩形得到圆角矩形的路径 
+            </summary> 
+            <param name="rectangle">原始矩形</param> 
+            <param name="r">半径</param> 
+            <returns>图形路径</returns> 
+        </member>
+        <member name="P:ACtrllist.AButton.asPerCode">
+            <summary>
+            是否保存asId的值,适用模板模式，不影响控件的使用
+            </summary>
+        </member>
+        <member name="F:ACtrllist.ACardTextBox.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ACardTextBox.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.ACardTextBox.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:ACtrllist.ACardTextBox.fb启用新卡号">
+            <summary>
+            临时使用
+            </summary>
+        </member>
+        <member name="F:ACtrllist.ACardTextBox.abPublicInfo">
+            <summary>
+            健康档案信息是否公用
+            </summary>
+        </member>
+        <member name="F:ACtrllist.ACardTextBox._abPublicInfo">
+            <summary>
+            健康档案信息是否公用 取自参数310060
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ACardTextBox.SerchAfter(ACtrllist.SerchClass)">
+            <summary>
+            触发检索
+            </summary>
+            <param name="vsSerchClass"></param>
+        </member>
+        <member name="E:ACtrllist.ACardTextBox.OnSerchAfter">
+            <summary>
+            在查询完成之后触发,返回刷卡信息
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ACardTextBox.asCaption">
+            <summary>
+            筛选文本标签
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ACardTextBox.abSerchModel">
+            <summary>
+            是否是筛选模式
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ATabControlEx.CreateParams">
+            <summary>
+             设置控件窗口创建参数的扩展风格
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AInputListForm.isSuccess(ANetAccess.EWhere,System.String,System.Object,System.Object)">
+            <summary>
+            单个条件是否满足
+            </summary>
+            <param name="eWhere">比对条件</param>
+            <param name="cache">数据对象</param>
+            <param name="name">字段名称</param>
+            <param name="value">字段值</param>
+            <returns>true:满足,false:不满足</returns>
+        </member>
+        <member name="F:ACtrllist.AInputListForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AInputListForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ACtrllist.AInputListForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AVerticalScroll_GDI.UpdateTop(System.Int32,System.Boolean)">
+            <summary>
+            更新滚动值
+            </summary>
+            <param name="top"></param>
+            <returns></returns>
+        </member>
+        <member name="E:ACtrllist.AVerticalScroll_GDI.OnScroll">
+            <summary>
+            滚动触发
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AProgressBar_GDI.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AProgressBar_GDI.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AProgressBar_GDI.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AFTreeSelect.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AFTreeSelect.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AFTreeSelect.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AFTreeSelect.SetTreeSQLText(System.String)">
+            <summary>
+            设置载入树的数据
+            </summary>
+            <param name="vsSQLText">需要字段：编码、名称、父编码、图标序号</param>
+            <returns></returns>
+        </member>
+        <member name="F:ACtrllist.AFormGird.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AFormGird.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ACtrllist.AFormGird.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AComboxSelectForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AComboxSelectForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ACtrllist.AComboxSelectForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ACtrllist.SerchClass">
+            <summary>
+            健康卡刷卡信息
+            </summary>
+        </member>
+        <member name="F:ACtrllist.SerchClass.fbCardMode">
+            <summary>
+            是否是刷卡模式
+            </summary>
+        </member>
+        <member name="F:ACtrllist.SerchClass.fsHealthCard">
+            <summary>
+            健康卡号,刷卡模式下有值,crm_d健康档案->健康卡号
+            </summary>
+        </member>
+        <member name="F:ACtrllist.SerchClass.fsHealthID">
+            <summary>
+            健康ID,刷卡模式下有值,crm_d健康档案->健康ID
+            </summary>
+        </member>
+        <member name="F:ACtrllist.SerchClass.fsHealthNum">
+            <summary>
+            健康序号,刷卡模式下有值,crm_d健康档案->系统序号
+            </summary>
+        </member>
+        <member name="F:ACtrllist.SerchClass.fsText">
+            <summary>
+            手工输入信息,非刷卡模式下获取使用
+            </summary>
+        </member>
+        <member name="F:ACtrllist.SerchClass.fiIDMessageInfo">
+            <summary>
+            身份证信息
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AMenu.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AMenu.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AMenu.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AMenu.SetMenuList(System.String,System.String)">
+            <summary>
+            设置右键菜单子项
+            </summary>
+            <param name="vsList">要设置的字符串name|text;name2|texee2</param>
+            <param name="vsParent">父节点文本名称</param>
+        </member>
+        <member name="M:ACtrllist.AMenu.SetMenuList(System.String)">
+            <summary>
+            设置右键菜单
+            </summary>
+            <param name="vsList">要设置的字符串name|text;name2|texee2</param>
+        </member>
+        <member name="F:ACtrllist.CefWebBrowserHander.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.CefWebBrowserHander.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.CefWebBrowserHander.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ABirDateInput.GetOrclDtFormat(ACtrllist.EDispFormat)">
+            <summary>
+            获取oralce的时间标准格式
+            </summary>
+            <param name="veDispFormt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.ABirDateInput.ResetDefValue">
+            <summary>
+            返回执行SaveDefValue时的值
+            恢复asid 和 asText
+            </summary>
+        </member>
+        <member name="M:ACtrllist.ABirDateInput.SaveDefValue">
+            <summary>
+            将当前数据保存为默认值
+            asId 和 asText
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.abLockInput">
+            <summary>
+            是否锁定值,不可更改!
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.asNianLingCaption">
+            <summary>
+            设置年龄Caption
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.asDateCaption">
+            <summary>
+            设置日期Caption
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.aeDateFormat">
+            <summary>
+            设置日期控件格式
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.asText">
+            <summary>
+            设置日期控件日期值
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.aiLeftSui">
+            <summary>
+            设置岁控件左边距
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.aiLeftYue">
+            <summary>
+            设置月控件左边距
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.aiLeftTian">
+            <summary>
+            设置天控件左边距
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.aiLeftShi">
+            <summary>
+            设置时控件左边距
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.aiLeftFen">
+            <summary>
+            设置分控件左边距
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.aiWidthDate">
+            <summary>
+            设置日期控件宽度
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.asTextSui">
+            <summary>
+            设置或设置岁控件值
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.asTextYue">
+            <summary>
+            设置或设置月控件值
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.asTextTian">
+            <summary>
+            设置或设置天控件值
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.asTextShi">
+            <summary>
+            设置或设置时控件值
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.asTextFen">
+            <summary>
+            设置或设置分控件值
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.abVisibleSui">
+            <summary>
+            设置岁控件是否显示
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.abVisibleYue">
+            <summary>
+            设置月控件是否显示
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.abVisibleTian">
+            <summary>
+            设置天控件是否显示
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.abVisibleShi">
+            <summary>
+            设置时控件是否显示
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ABirDateInput.abVisibleFen">
+            <summary>
+            设置分控件是否显示
+            </summary>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.AsyncWindowPosition">
+            <summary>
+            If the calling thread and the thread that owns the window are attached to different input queues, 
+            the system posts the request to the thread that owns the window. This prevents the calling thread from 
+            blocking its execution while other threads process the request.
+            </summary>
+            <remarks>SWP_ASYNCWINDOWPOS</remarks>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.DeferErase">
+            <summary>
+            Prevents generation of the WM_SYNCPAINT message.
+            </summary>
+            <remarks>SWP_DEFERERASE</remarks>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.DrawFrame">
+            <summary>
+            Draws a frame (defined in the window's class description) around the window.
+            </summary>
+            <remarks>SWP_DRAWFRAME</remarks>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.FrameChanged">
+            <summary>
+            Applies new frame styles set using the SetWindowLong function. Sends a WM_NCCALCSIZE message to 
+            the window, even if the window's size is not being changed. If this flag is not specified, WM_NCCALCSIZE 
+            is sent only when the window's size is being changed.
+            </summary>
+            <remarks>SWP_FRAMECHANGED</remarks>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.HideWindow">
+            <summary>
+            Hides the window.
+            </summary>
+            <remarks>SWP_HIDEWINDOW</remarks>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.NoActivate">
+            <summary>
+            Does not activate the window. If this flag is not set, the window is activated and moved to the 
+            top of either the topmost or non-topmost group (depending on the setting of the hWndInsertAfter parameter).
+            </summary>
+            <remarks>SWP_NOACTIVATE</remarks>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.NoCopyBits">
+            <summary>
+            Discards the entire contents of the client area. If this flag is not specified, the valid contents 
+            of the client area are saved and copied back into the client area after the window is sized or repositioned.
+            </summary>
+            <remarks>SWP_NOCOPYBITS</remarks>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.NoMove">
+            <summary>
+            Retains the current position (ignores X and Y parameters).
+            </summary>
+            <remarks>SWP_NOMOVE</remarks>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.NoOwnerZOrder">
+            <summary>
+            Does not change the owner window's position in the Z order.
+            </summary>
+            <remarks>SWP_NOOWNERZORDER</remarks>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.NoRedraw">
+            <summary>
+            Does not redraw changes. If this flag is set, no repainting of any kind occurs. This applies to 
+            the client area, the nonclient area (including the title bar and scroll bars), and any part of the parent 
+            window uncovered as a result of the window being moved. When this flag is set, the application must 
+            explicitly invalidate or redraw any parts of the window and parent window that need redrawing.
+            </summary>
+            <remarks>SWP_NOREDRAW</remarks>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.NoReposition">
+            <summary>
+            Same as the SWP_NOOWNERZORDER flag.
+            </summary>
+            <remarks>SWP_NOREPOSITION</remarks>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.NoSendChanging">
+            <summary>
+            Prevents the window from receiving the WM_WINDOWPOSCHANGING message.
+            </summary>
+            <remarks>SWP_NOSENDCHANGING</remarks>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.NoSize">
+            <summary>
+            Retains the current size (ignores the cx and cy parameters).
+            </summary>
+            <remarks>SWP_NOSIZE</remarks>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.NoZOrder">
+            <summary>
+            Retains the current Z order (ignores the hWndInsertAfter parameter).
+            </summary>
+            <remarks>SWP_NOZORDER</remarks>
+        </member>
+        <member name="F:ACtrllist.SetWindowPosFlags.ShowWindow">
+            <summary>
+            Displays the window.
+            </summary>
+            <remarks>SWP_SHOWWINDOW</remarks>
+        </member>
+        <member name="F:ACtrllist.AFTreeSelectForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AFTreeSelectForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ACtrllist.AFTreeSelectForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AFTreeSelectForm.SetTreeSQLText(System.String)">
+            <summary>
+            设置载入树的数据
+            </summary>
+            <param name="vsSQLText">需要字段：编码、名称、父编码、图标序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AFDateSelect.SetTheTime">
+            <summary>
+            设置默认时间段
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AFDateSelect.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AFDateSelect.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AFDateSelect.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AFDateSelect.acBackColor">
+            <summary>
+            获取或设置背景颜色
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AFDateSelect.aeDropDownStyle">
+            <summary>
+            获取或设置背景颜色
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AFDateSelect.afFont">
+            <summary>
+            获取或设置控件字体
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AFDateSelect.acFontColor">
+            <summary>
+            获取或设置背景颜色
+            </summary>
+        </member>
+        <member name="F:ABegin.FSelect.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ABegin.FSelect.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ABegin.FSelect.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:日期控件.DateInputText.InitializeComponent">
+            <summary>
+            当日期值变化时
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AAddressInput.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AAddressInput.inputList1_OnSelected(System.Object,System.EventArgs)">
+            <summary>
+            设置市、县、乡
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ACtrllist.AAddressInput.inputList市_OnSelected(System.Object,System.EventArgs)">
+            <summary>
+            设置县、乡
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ACtrllist.AAddressInput.inputList县_OnSelected(System.Object,System.EventArgs)">
+            <summary>
+            设置乡
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ACtrllist.AAddressInput.Do获取并设置SQL(ACtrllist.AInputList,ACtrllist.AInputList,System.Int32,System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="setList">要设置的InputList</param>
+            <param name="inputList">父InputList</param>
+            <param name="len">父节点长度</param>
+            <param name="where">附加条件</param>
+        </member>
+        <member name="M:ACtrllist.AAddressInput.inputList乡_OnSelected(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ACtrllist.AAddressInput.LocationRefresh">
+            <summary>
+            更新控件坐标
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AAddressInput._abVisibleSheng">
+            <summary>
+            详细地址保存字段名
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AAddressInput.SetSerchTips(System.String)">
+            <summary>
+            设置提示引导信息,分组样式有效
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AAddressInput.GetAddressNumByType(ACtrllist.AAddressInput.AddressType)">
+            <summary>
+            根据类型获取对应的编码
+            </summary>
+            <param name="vsType">枚举</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AAddressInput.GetAddressTextByType(ACtrllist.AAddressInput.AddressType)">
+            <summary>
+            根据类型获取对应的文本值
+            </summary>
+            <param name="vsType">枚举</param>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AAddressInput.GetAddressNum">
+            <summary>
+            获取当前地址控件的地址编码，以最小地址为准
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AAddressInput.SetAddressByNum(System.String)">
+            <summary>
+            通过地址编码设置地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ACtrllist.AAddressInput.ResetDefValue">
+            <summary>
+            返回执行SaveDefValue时的值
+            恢复asid 和 asText
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AAddressInput.SaveDefValue">
+            <summary>
+            将当前数据保存为默认值
+            asId 和 asText
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.abLockInput">
+            <summary>
+            是否锁定值,不可更改!
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.abVisibleSheng">
+            <summary>
+            省是否显示
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.abVisibleShi">
+            <summary>
+            市是否显示
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.abVisibleXian">
+            <summary>
+            县是否显示
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.abVisibleXiang">
+            <summary>
+            乡是否显示
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.abVisibleXiangXi">
+            <summary>
+            详细地址是否显示
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.aiWidthSheng">
+            <summary>
+            设置省控件宽度
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.aiWidthShi">
+            <summary>
+            设置市控件宽度
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.aiWidthXian">
+            <summary>
+            设置县控件宽度
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.aiWidthXiang">
+            <summary>
+            设置乡控件宽度
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.asCaptionSheng">
+            <summary>
+            设置省控件标签
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.asCaptionShi">
+            <summary>
+            设置市控件标签
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.asCaptionXian">
+            <summary>
+            设置县控件标签
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.asCaptionXiang">
+            <summary>
+            设置乡控件标签
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.asCaptionTitle">
+            <summary>
+            修改地址头标签
+            </summary>
+        </member>
+        <member name="P:ACtrllist.AAddressInput.asTextXiangxi">
+            <summary>
+            设置详细地址文本
+            </summary>
+        </member>
+        <!-- 对于成员“P:ACtrllist.AAddressInput.asId”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:ACtrllist.AAddressInput.asAllText”忽略有格式错误的 XML 注释 -->
+        <member name="M:ACtrllist.ATextBoxClass.SetCopy(System.Boolean)">
+            <summary>
+            屏蔽复制功能
+            </summary>
+            <param name="copy"></param>
+        </member>
+        <member name="M:ACtrllist.ATextBoxClass.SetPast(System.Boolean)">
+            <summary>
+            屏蔽粘贴功能
+            </summary>
+            <param name="copy"></param>
+        </member>
+        <member name="M:ACtrllist.ATextBoxClass.SetRight(System.Boolean)">
+            <summary>
+            屏蔽右键功能
+            </summary>
+            <param name="copy"></param>
+        </member>
+        <member name="M:ACtrllist.ATextBoxClass.WndProc(System.Windows.Forms.Message@)">
+            <summary>
+            消息处理
+            </summary>
+            <param name="m"></param>
+        </member>
+        <member name="M:ACtrllist.AHorizontalScroll_GDI.UpdateLeft(System.Int32,System.Boolean)">
+            <summary>
+            更新滚动值
+            </summary>
+            <param name="top"></param>
+            <returns></returns>
+        </member>
+        <member name="E:ACtrllist.AHorizontalScroll_GDI.OnScroll">
+            <summary>
+            滚动触发
+            </summary>
+        </member>
+        <member name="F:ACtrllist.DateInputBase.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.DateInputBase.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.DateInputBase.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:ACtrllist.AWebBrowser.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ACtrllist.AWebBrowser.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ACtrllist.AWebBrowser.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:ACtrllist.ARTF">
+            <summary>
+            AGridList 支持 富文本表格文本控件
+            </summary>
+        </member>
+        <member name="F:ACtrllist.ALabel._bordersize">
+            <summary>
+            边框大小
+            </summary>
+        </member>
+        <member name="F:ACtrllist.ALabel._bordercolor">
+            <summary>
+            边框颜色
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ALabel.BorderColor">
+            <summary>
+            边框颜色
+            </summary>
+        </member>
+        <member name="P:ACtrllist.ALabel.BorderSize">
+            <summary>
+            边框大小
+            </summary>
+        </member>
+    </members>
+</doc>
+@#@2018-12-24 15:39:49

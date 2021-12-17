@@ -1,0 +1,2298 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AManage</name>
+    </assembly>
+    <members>
+        <member name="F:报表设计.报表设计器.AMainForm.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:报表设计.报表设计器.AMainForm.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:报表设计.报表设计器.AMainForm.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:Z打印管理.F报表格式编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Z打印管理.F报表格式编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Z打印管理.F报表格式编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.参数管理.F医院参数设置.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.参数管理.F医院参数设置.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.参数管理.F医院参数设置.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F角色编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F角色编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F角色编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.业务分工.F医院角色列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.业务分工.F医院角色列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.业务分工.F医院角色列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.业务分工.F添加医院管理员新.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.业务分工.F添加医院管理员新.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.业务分工.F添加医院管理员新.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.消息推送.F消息查阅列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.消息推送.F消息查阅列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.消息推送.F消息查阅列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.消息推送.F人员选择_区域.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.消息推送.F人员选择_区域.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.消息推送.F人员选择_区域.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.报表设计器.F筛选细化管理.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.报表设计器.F筛选细化管理.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.报表设计器.F筛选细化管理.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.快捷菜单设置.F设置列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.快捷菜单设置.F设置列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.快捷菜单设置.F设置列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.其它管理.F资源上传.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.其它管理.F资源上传.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.其它管理.F资源上传.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.其它管理.F机构授权管理.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.其它管理.F机构授权管理.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.其它管理.F机构授权管理.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F角色授权_自.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F角色授权_自.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F角色授权_自.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F角色授权_自.sbxml">
+             <summary>
+            组织XML
+             </summary>
+             <param name="tc"></param>
+             <param name="系统序号"></param>
+             <param name="机构序号I"></param>
+             <param name="bCheckedAll"></param>
+             
+        </member>
+        <member name="M:AManage.F角色授权_自.Nodecheak(System.Windows.Forms.TreeNodeCollection,System.Xml.XmlDocument)">
+             <summary>
+            是否选中
+             </summary>
+             <param name="tc"></param>
+             <param name="系统序号"></param>
+             <param name="机构序号I"></param>
+             <param name="bCheckedAll"></param>
+               
+        </member>
+        <member name="F:AManage.F领导驾驶舱.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F领导驾驶舱.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F领导驾驶舱.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.终端管理.F终端列表编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.终端管理.F终端列表编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.终端管理.F终端列表编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.参数管理.F终端参数设置.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.参数管理.F终端参数设置.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.参数管理.F终端参数设置.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F校验密码.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F校验密码.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F校验密码.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AManage.F添加医院管理员.#ctor(System.Int32,ACtrllist.AGridList)">
+            <summary>
+            
+            </summary>
+            <param name="I打开状态">1新增2修改3查看</param>
+            <param name="agridlist医院管理员列表"></param>
+        </member>
+        <member name="F:AManage.F添加医院管理员.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F添加医院管理员.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F添加医院管理员.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F设置图表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F设置图表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F设置图表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F编辑驾驶舱.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F编辑驾驶舱.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F编辑驾驶舱.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.领导驾驶舱.F统计分析_驾驶舱.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.领导驾驶舱.F统计分析_驾驶舱.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.领导驾驶舱.F统计分析_驾驶舱.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.报表设计器.F筛选细化管理_表格.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.报表设计器.F筛选细化管理_表格.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.报表设计器.F筛选细化管理_表格.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.快捷菜单设置.F设置列表_个人.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.快捷菜单设置.F设置列表_个人.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.快捷菜单设置.F设置列表_个人.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.打印功能.F报表格式设计.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.打印功能.F报表格式设计.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.打印功能.F报表格式设计.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.参数管理.F医院批量参数设置.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.参数管理.F医院批量参数设置.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.参数管理.F医院批量参数设置.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F诊断目录选择.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F诊断目录选择.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F诊断目录选择.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.业务分工.F医院管理员列表新.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.业务分工.F医院管理员列表新.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.业务分工.F医院管理员列表新.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AManage.领导驾驶舱.DataGridTable.GetFormatXml">
+            <summary>
+            获取表格格式xml
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AManage.领导驾驶舱.DataGridTable.SetFormat(System.String,System.Int32)">
+            <summary>
+            设置表格格式
+            </summary>
+            <param name="vsID"></param>
+            <param name="vsCode"></param>
+        </member>
+        <member name="M:AManage.领导驾驶舱.DataGridTable.SetFormatXML(System.String)">
+            <summary>
+            设置表格格式XML,字符串
+            </summary>
+            <param name="vsXml"></param>
+        </member>
+        <member name="M:AManage.领导驾驶舱.DataGridTable.LoadList(System.String,AManage.ChartData)">
+            <summary>
+            加载数据
+            </summary>
+            <param name="sql"></param>
+            <param name="tag"></param>
+        </member>
+        <member name="F:AManage.其它管理.F授权机构添加.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.其它管理.F授权机构添加.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.其它管理.F授权机构添加.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.报表设计器.F汇总列设置.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.报表设计器.F汇总列设置.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.报表设计器.F汇总列设置.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.报表设计器.F关联查询设置.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.报表设计器.F关联查询设置.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.报表设计器.F关联查询设置.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.打印功能.F选择共享机构.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.打印功能.F选择共享机构.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.打印功能.F选择共享机构.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.领导驾驶舱.F汇总列设置.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.领导驾驶舱.F汇总列设置.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.领导驾驶舱.F汇总列设置.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.报表设计器.F数据对象选择.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.报表设计器.F数据对象选择.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.报表设计器.F数据对象选择.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F中医诊断目录选择.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F中医诊断目录选择.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F中医诊断目录选择.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AManage.消息推送.F筛选信息.勾选指定行gridlist(System.String,ACtrllist.AGridList)">
+            <summary>
+            指定和全勾
+            </summary>
+            <param name="系统序号"></param>
+            <param name="gridlist"></param>
+        </member>
+        <member name="F:AManage.消息推送.F筛选信息.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.消息推送.F筛选信息.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.消息推送.F筛选信息.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.打印功能.F报表批量导出.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.打印功能.F报表批量导出.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.打印功能.F报表批量导出.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AManage.参数管理.F区域参数细化管理列表.LoadList(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="fName"></param>
+            <param name="vs参数分类号"></param>
+            <param name="vs隶属机构I"></param>
+            <param name="vs对象序号I"></param>
+        </member>
+        <member name="F:AManage.参数管理.F区域参数细化管理列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.参数管理.F区域参数细化管理列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.参数管理.F区域参数细化管理列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F添加医院列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F添加医院列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F添加医院列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.其它管理.F系统日志查看cs.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.其它管理.F系统日志查看cs.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.其它管理.F系统日志查看cs.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.其它管理.F员工登录查询.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.其它管理.F员工登录查询.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.其它管理.F员工登录查询.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.消息推送.F消息列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.消息推送.F消息列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.消息推送.F消息列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:报表设计.A图片属性编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:报表设计.A图片属性编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:报表设计.A图片属性编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Z打印管理.F区域报表格式列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Z打印管理.F区域报表格式列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Z打印管理.F区域报表格式列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.参数管理.F区域参数列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.参数管理.F区域参数列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.参数管理.F区域参数列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.业务分工.F区域管理员列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.业务分工.F区域管理员列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.业务分工.F区域管理员列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.报表设计器.F同组列设置.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.报表设计器.F同组列设置.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.报表设计器.F同组列设置.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F员工报表绑定.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F员工报表绑定.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F员工报表绑定.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.其它管理.F系统日志_药店.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.其它管理.F系统日志_药店.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.其它管理.F系统日志_药店.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.业务分工.F授权查看.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.业务分工.F授权查看.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.业务分工.F授权查看.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F列格式编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F列格式编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.参数管理.F医院参数细化管理列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.参数管理.F医院参数细化管理列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.参数管理.F医院参数细化管理列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AManage.F角色成员管理.Load载入主表人员列表(System.String)">
+            <summary>
+            控制角色列表中，人员列表
+            </summary>
+            <param name="sWhereAndList"></param>
+        </member>
+        <member name="M:AManage.F角色成员管理.Do置换(ACtrllist.AGridList,System.Int32,ACtrllist.AGridList)">
+            <summary>
+            从Grid1->Grid2
+            </summary>
+            <param name="vGrid1"></param>
+            <param name="vGrid2"></param>
+        </member>
+        <member name="F:AManage.F角色成员管理.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F角色成员管理.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F角色成员管理.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F医院管理员目录编辑.sbxml">
+             <summary>
+            组织XML
+             </summary>
+             <param name="tc"></param>
+             <param name="系统序号"></param>
+             <param name="机构序号I"></param>
+             <param name="bCheckedAll"></param>
+             
+        </member>
+        <member name="M:AManage.F医院管理员目录编辑.Nodecheak(System.Windows.Forms.TreeNodeCollection,System.Xml.XmlDocument)">
+             <summary>
+            是否选中
+             </summary>
+             <param name="tc"></param>
+             <param name="系统序号"></param>
+             <param name="机构序号I"></param>
+             <param name="bCheckedAll"></param>
+               
+        </member>
+        <member name="M:AManage.F医院管理员目录编辑.LoadMTreeList(System.String,System.String)">
+            <summary>
+            更新主窗口treeview
+            </summary>
+            <param name="管理员序号"></param>
+            <param name="机构序号"></param>
+        </member>
+        <member name="F:AManage.F医院管理员目录编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F医院管理员目录编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F医院管理员目录编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.消息推送.F消息发送NEW_查看.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.消息推送.F消息发送NEW_查看.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.消息推送.F消息发送NEW_查看.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F选择报表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F选择报表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F选择报表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F角色授权.sbxml">
+             <summary>
+            组织XML
+             </summary>
+             <param name="tc"></param>
+             <param name="系统序号"></param>
+             <param name="机构序号I"></param>
+             <param name="bCheckedAll"></param>
+             
+        </member>
+        <member name="M:AManage.F角色授权.Nodecheak(System.Windows.Forms.TreeNodeCollection,System.Collections.Generic.List{System.String})">
+             <summary>
+            是否选中
+             </summary>
+             <param name="tc"></param>
+             <param name="系统序号"></param>
+             <param name="机构序号I"></param>
+             <param name="bCheckedAll"></param>
+               
+        </member>
+        <member name="F:AManage.F角色授权.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F角色授权.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F角色授权.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F高级查询.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F高级查询.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F高级查询.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.领导驾驶舱.F抗菌药物_驾驶舱.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.领导驾驶舱.F抗菌药物_驾驶舱.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.领导驾驶舱.F抗菌药物_驾驶舱.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:报表设计.A标签属性编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:报表设计.A标签属性编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:报表设计.A标签属性编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.参数管理.F操作员参数设置.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.参数管理.F操作员参数设置.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.参数管理.F操作员参数设置.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F选择对象.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F选择对象.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F选择对象.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.领导驾驶舱.F导出.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.领导驾驶舱.F导出.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.领导驾驶舱.F导出.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.领导驾驶舱.FWait.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.领导驾驶舱.FWait.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.领导驾驶舱.FWait.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.消息推送.F消息发送NEW.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.消息推送.F消息发送NEW.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.消息推送.F消息发送NEW.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.消息推送.F消息列表NEW.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.消息推送.F消息列表NEW.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.消息推送.F消息列表NEW.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.业务分工.F权限导出.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.业务分工.F权限导出.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.业务分工.F权限导出.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F列格式设计.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F列格式设计.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计._subCode">
+            <summary>
+            子系统编号
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计._gridId">
+             <summary>
+            表格序号
+             </summary>
+        </member>
+        <member name="F:AManage.F列格式设计._fontName">
+            <summary>
+            字体名称
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计._fontSize">
+            <summary>
+            字体大小
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计._rowHeight">
+            <summary>
+            行高
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计._columnFormats">
+            <summary>
+            列格式对象集合
+            </summary>
+        </member>
+        <member name="M:AManage.F列格式设计.#ctor(System.String,System.Int32)">
+            <summary>
+            初始化设计
+            </summary>
+            <param name="vsSubCode">子系统编号</param>
+            <param name="viGridId">AHC编码</param>
+        </member>
+        <member name="M:AManage.F列格式设计.GetAlignValue(System.String)">
+            <summary>
+            获取对齐值字符串
+            </summary>
+            <param name="p"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AManage.F列格式设计.GetBoolValue(System.String)">
+            <summary>
+            获取布尔值
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="F:AManage.F列格式设计.AGridColumnFormat._id">
+            <summary>
+            系统序号
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计.AGridColumnFormat._name">
+            <summary>
+            字段名称
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计.AGridColumnFormat._title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计.AGridColumnFormat._type">
+            <summary>
+            字段类型 S:字符串 N:数字 D:日期
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计.AGridColumnFormat._width">
+            <summary>
+            列宽度 厘米
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计.AGridColumnFormat._mustselect">
+            <summary>
+            true：必选 false:可选
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计.AGridColumnFormat._select">
+            <summary>
+            当_mustselect为必选时true,当_mustselect为false时可以为true或者false
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计.AGridColumnFormat._titlealign">
+            <summary>
+            表头对齐
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计.AGridColumnFormat._dataalign">
+            <summary>
+            数据对齐
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计.AGridColumnFormat._sum">
+            <summary>
+            是否求和 当_type为N时才可以求和
+            </summary>
+        </member>
+        <member name="P:AManage.F列格式设计.AGridColumnFormat.Id">
+            <summary>
+            系统序号
+            </summary>
+        </member>
+        <member name="P:AManage.F列格式设计.AGridColumnFormat.name">
+            <summary>
+            字段名称
+            </summary>
+        </member>
+        <member name="P:AManage.F列格式设计.AGridColumnFormat.Title">
+            <summary>
+            字段标题
+            </summary>
+        </member>
+        <member name="P:AManage.F列格式设计.AGridColumnFormat.Type">
+            <summary>
+            标题类型 S:字符串  D:日期  N:数字
+            </summary>
+        </member>
+        <member name="P:AManage.F列格式设计.AGridColumnFormat.Width">
+            <summary>
+            像素
+            </summary>
+        </member>
+        <member name="P:AManage.F列格式设计.AGridColumnFormat.MustSelect">
+            <summary>
+            是否必选
+            </summary>
+        </member>
+        <member name="P:AManage.F列格式设计.AGridColumnFormat.Select">
+            <summary>
+            是否选择
+            </summary>
+        </member>
+        <member name="P:AManage.F列格式设计.AGridColumnFormat.TitleAlign">
+            <summary>
+            表头对齐 表头对齐 S:字符串 D:日期 N:数字 B:布尔
+            </summary>
+        </member>
+        <member name="P:AManage.F列格式设计.AGridColumnFormat.DataAlign">
+            <summary>
+            数据对齐 S:字符串 D:日期 N:数字 B:布尔
+            </summary>
+        </member>
+        <member name="P:AManage.F列格式设计.AGridColumnFormat.Sum">
+            <summary>
+            是否求和
+            </summary>
+        </member>
+        <member name="T:AManage.F列格式设计.XmlEncodingType">
+            <summary>
+            XmlDocument的编码类型
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计.XmlEncodingType.None">
+            <summary>
+            不做任何处理
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计.XmlEncodingType.UTF_8">
+            <summary>
+            utf-8(推荐使用)
+            </summary>
+        </member>
+        <member name="F:AManage.F列格式设计.XmlEncodingType.GB2312">
+            <summary>
+            gb2312
+            </summary>
+        </member>
+        <member name="T:AManage.F列格式设计.XmlHelper">
+            <summary>
+            xml文件操作类
+            </summary>
+        </member>
+        <member name="T:AManage.F列格式设计.XmlHelper.XmlDocunet">
+            <summary>
+            XmlDocunet控制类
+            </summary>
+        </member>
+        <member name="M:AManage.F列格式设计.XmlHelper.XmlDocunet.Create(AManage.F列格式设计.XmlEncodingType)">
+            <summary>
+            创建一个XmlDocument
+            </summary>
+            <param name="aEncodingType">XmlDocument的编码类型</param>
+            <returns>XmlDocument</returns>
+        </member>
+        <member name="M:AManage.F列格式设计.XmlHelper.XmlDocunet.Create">
+            <summary>
+            创建一个utf-8编码的XmlDocument
+            </summary>
+            <returns>XmlDocument</returns>
+        </member>
+        <member name="M:AManage.F列格式设计.XmlHelper.XmlDocunet.Load(System.String)">
+            <summary>
+            创建一个utf-8编码的XmlDocument
+            </summary>
+            <param name="aPath">路径</param>
+            <returns>XmlDocument</returns>
+        </member>
+        <member name="T:AManage.F列格式设计.XmlHelper.Node">
+            <summary>
+            节点控件类
+            </summary>
+        </member>
+        <member name="M:AManage.F列格式设计.XmlHelper.Node.Add(System.Xml.XmlDocument,System.Xml.XmlElement,System.String)">
+            <summary>
+            添加一个XML节点
+            </summary>
+            <param name="aDoc">XmlDocument</param>
+            <param name="aParentNode">父节点</param>
+            <param name="aName">节点名</param>
+            <returns>节点</returns>
+        </member>
+        <member name="M:AManage.F列格式设计.XmlHelper.Node.Add(System.Xml.XmlDocument,System.Xml.XmlElement,System.String,System.String)">
+            <summary>
+            添加一个XML节点
+            </summary>
+            <param name="aDoc">XmlDocument</param>
+            <param name="aParentNode">父节点</param>
+            <param name="aName">节点名</param>
+            <param name="aValue">节点值</param>
+            <returns>节点</returns>
+        </member>
+        <member name="T:AManage.F列格式设计.XmlHelper.Attribute">
+            <summary>
+            属性控制类
+            </summary>
+        </member>
+        <member name="M:AManage.F列格式设计.XmlHelper.Attribute.Add(System.Xml.XmlDocument,System.Xml.XmlElement,System.String)">
+            <summary>
+            为XML的节点添加一个属性
+            </summary>
+            <param name="aDoc">XmlDocument</param>
+            <param name="aNode">节点</param>
+            <param name="aName">属性名</param>
+            <returns>属性</returns>
+        </member>
+        <member name="M:AManage.F列格式设计.XmlHelper.Attribute.Add(System.Xml.XmlDocument,System.Xml.XmlElement,System.String,System.String)">
+            <summary>
+            为XML的节点添加一个属性
+            </summary>
+            <param name="aDoc">XmlDocument</param>
+            <param name="aNode">节点</param>
+            <param name="aName">属性名</param>
+            <param name="aValue">属性值</param>
+            <returns>属性</returns>
+        </member>
+        <member name="M:AManage.F列格式设计.XmlHelper.Attribute.GetAttributes(System.Xml.XmlElement,System.String)">
+            <summary>
+            读取节点中的属性的值
+            </summary>
+            <param name="aNode">XmlDocument</param>
+            <param name="aName"></param>
+            <returns>如果为空返回"Empty"</returns>
+        </member>
+        <member name="M:AManage.F列格式设计.XmlHelper.Attribute.GetElement(System.Xml.XmlDocument,System.String)">
+            <summary>
+            读取xml文档中指定的节点
+            </summary>
+            <param name="aDoc"></param>
+            <param name="aName"></param>
+            <returns></returns>
+        </member>
+        <member name="F:AManage.终端管理.F终端管理列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.终端管理.F终端管理列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.终端管理.F终端管理列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:报表设计.报表设计器.FSQL.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:报表设计.报表设计器.FSQL.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:报表设计.报表设计器.FSQL.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:报表设计.A报表属性编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:报表设计.A报表属性编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:报表设计.A报表属性编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F添加区域管理医院.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F添加区域管理医院.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F添加区域管理医院.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F表达式设计.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F表达式设计.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F表达式设计.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Z打印管理.F区域报表格式编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Z打印管理.F区域报表格式编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Z打印管理.F区域报表格式编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.打印功能.F报表机构共享.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.打印功能.F报表机构共享.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.打印功能.F报表机构共享.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.参数管理.F区域批量参数设置.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.参数管理.F区域批量参数设置.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.参数管理.F区域批量参数设置.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.快捷菜单设置.F快捷键设置.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.快捷菜单设置.F快捷键设置.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.快捷菜单设置.F快捷键设置.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:报表设计.A表格属性编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:报表设计.A表格属性编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:报表设计.A表格属性编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.其它管理.F查找.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.其它管理.F查找.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.其它管理.F查找.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.业务分工.F区域管理员编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.业务分工.F区域管理员编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.业务分工.F区域管理员编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.领导驾驶舱.F同组决策选择.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.领导驾驶舱.F同组决策选择.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.领导驾驶舱.F同组决策选择.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.消息推送.F人员选择.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.消息推送.F人员选择.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.消息推送.F人员选择.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.ICD选择.F诊断名称修改.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.ICD选择.F诊断名称修改.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.ICD选择.F诊断名称修改.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AManage.DirClss">
+            <summary>
+            决策目录
+            </summary>
+        </member>
+        <member name="F:AManage.终端管理.F终端认证列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.终端管理.F终端认证列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.终端管理.F终端认证列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AManage.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:AManage.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:AManage.Properties.Resources.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="P:AManage.Properties.Resources.back">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AManage.Properties.Resources.blueline">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AManage.Properties.Resources.blueline1">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AManage.Properties.Resources.node">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AManage.Properties.Resources.nodeopen">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AManage.Properties.Resources.ok">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AManage.Properties.Resources.subnode">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AManage.Properties.Resources.titlebg">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="F:AManage.消息推送.F发送消息.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.消息推送.F发送消息.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.消息推送.F发送消息.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AManage.消息推送.F发送消息.勾选指定行gridlist(System.String,ACtrllist.AGridList)">
+            <summary>
+            指定和全勾
+            </summary>
+            <param name="系统序号"></param>
+            <param name="gridlist"></param>
+        </member>
+        <member name="F:报表设计.A图表属性编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:报表设计.A图表属性编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:报表设计.A图表属性编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:报表设计.报表设计器.A筛选属性编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:报表设计.报表设计器.A筛选属性编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:报表设计.报表设计器.A筛选属性编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.打印功能.F区域报表批量导出.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.打印功能.F区域报表批量导出.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.打印功能.F区域报表批量导出.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F角色授权_个人.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F角色授权_个人.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F角色授权_个人.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F角色授权_个人.sbxml">
+             <summary>
+            组织XML
+             </summary>
+             <param name="tc"></param>
+             <param name="系统序号"></param>
+             <param name="机构序号I"></param>
+             <param name="bCheckedAll"></param>
+             
+        </member>
+        <member name="M:AManage.F角色授权_个人.Nodecheak(System.Windows.Forms.TreeNodeCollection,System.Xml.XmlDocument)">
+             <summary>
+            是否选中
+             </summary>
+             <param name="tc"></param>
+             <param name="系统序号"></param>
+             <param name="机构序号I"></param>
+             <param name="bCheckedAll"></param>
+               
+        </member>
+        <member name="F:AManage.F角色列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F角色列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F角色列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F管理员分工.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F管理员分工.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F管理员分工.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.报表设计器.F筛选细化设置.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.报表设计器.F筛选细化设置.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.报表设计器.F筛选细化设置.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.其它管理.F系统日志.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.其它管理.F系统日志.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.其它管理.F系统日志.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.其它管理.F授权用户添加.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.其它管理.F授权用户添加.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.其它管理.F授权用户添加.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.F角色成员管理_药店.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F角色成员管理_药店.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F角色成员管理_药店.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AManage.F角色成员管理_药店.Load载入主表人员列表(System.String)">
+            <summary>
+            控制角色列表中，人员列表
+            </summary>
+            <param name="sWhereAndList"></param>
+        </member>
+        <member name="M:AManage.F角色成员管理_药店.Do置换(ACtrllist.AGridList,System.Int32,ACtrllist.AGridList)">
+            <summary>
+            从Grid1->Grid2
+            </summary>
+            <param name="vGrid1"></param>
+            <param name="vGrid2"></param>
+        </member>
+        <member name="F:Z打印管理.F格式列表.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Z打印管理.F格式列表.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Z打印管理.F格式列表.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.报表设计器.F筛选细化设置_表格.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.报表设计器.F筛选细化设置_表格.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.报表设计器.F筛选细化设置_表格.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.业务分工.F个人权限授权.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.业务分工.F个人权限授权.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.业务分工.F个人权限授权.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AManage.InterFace.SUB_CODE">
+            <summary>
+            当前子系统的 AHC编号   (T子系统列表.AHC编号）
+            </summary>
+        </member>
+        <member name="M:AManage.InterFace._GetSubCode">
+            <summary>
+            向AHC平台提供本子系统的编号
+            </summary>
+        </member>
+        <member name="M:AManage.InterFace.CheckPassword(System.Int32)">
+            <summary>
+            校验输入密码
+            </summary>
+            <param name="viSysId">健康档案号唯一标示.系统序号</param>
+            <returns>密码是否校验成功</returns>
+        </member>
+        <member name="M:AManage.InterFace.ChangePassword(System.Int32)">
+            <summary>
+            修改健康卡交易密码
+            </summary>
+            <param name="viSysId">健康档案号唯一标示.系统序号</param>
+            <returns>密码是否修改成功</returns>
+        </member>
+        <member name="M:AManage.InterFace.SelectICD(ABegin.AESerchModel,ABegin.ASelectICD)">
+            <summary>
+            选择ICD
+            </summary>
+            <param name="aeSerchModel"></param>
+            <param name="aDefaultSelect"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AManage.InterFace.SelectObject(System.String,System.Boolean,System.String,System.Boolean,System.String,System.String)">
+            <summary>
+            选择对象窗口
+            </summary>
+            <param name="vsTitle"></param>
+            <param name="vbSignle"></param>
+            <param name="vsSQLText"></param>
+            <param name="vbAutoLoad"></param>
+            <param name="vsSelIdList"></param>
+            <param name="vsWidthList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AManage.InterFace._SelectPrintFormat(AModelList.AForm,System.String,System.String,ABegin.AELineModel,System.String@)">
+            <summary>
+            Fun.RunPrint()将会调用此函数
+            </summary>
+            <param name="vs子系统编号"></param>
+            <param name="vs打印子编号"></param>
+            <param name="rs格式名称">返回选中的格式名称</param>
+            <returns>0:取消   1:预览   2:打印</returns>
+        </member>
+        <member name="F:AManage.InterFace.vl当前组件版本">
+            <summary>
+            当前组件最新版本号
+            </summary>
+        </member>
+        <member name="M:AManage.InterFace._Update(System.String,System.String)">
+            <summary>
+            系统组件升级更新
+            </summary>
+            <param name="vs组件编码">当前组件注册的编码</param>
+            <param name="vi原版本号">组件原版本号</param>
+            <returns>空:升级成功,非空:失败的信息</returns>
+        </member>
+        <member name="M:AManage.InterFace.V1ToV2">
+            <summary>
+            0版本升级到1版本
+            </summary>
+        </member>
+        <member name="M:AManage.InterFace.V2ToV3">
+            <summary>
+            2版本升级到3版本
+            </summary>
+        </member>
+        <member name="M:AManage.InterFace.V3ToV4">
+            <summary>
+            3版本升级到4版本
+            </summary>
+        </member>
+        <member name="M:AManage.InterFace.V4ToV5">
+            <summary>
+            4版本升级到5版本
+            </summary>
+        </member>
+        <member name="P:AManage.InterFace.Vl当前组件版本">
+            <summary>
+            当前组件最新版本号,此属性用于外部获取
+            </summary>
+        </member>
+        <member name="F:AManage.F修改密码.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AManage.F修改密码.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AManage.F修改密码.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AManage.GDataMain">
+            <summary>
+            领导驾驶舱公共类,存储驾驶舱主界面
+            </summary>
+        </member>
+        <member name="T:AManage.DataFormat">
+            <summary>
+            表格格式对象
+            </summary>
+        </member>
+        <member name="F:AManage.报表设计器.AUseInfo.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AManage.报表设计器.AUseInfo.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AManage.报表设计器.AUseInfo.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AManage.AdvSerchRember.listRember">
+            <summary>
+            高级查询保存记忆列表
+            </summary>
+        </member>
+        <member name="F:AManage.AdvSerchRember.listRemberSql">
+            <summary>
+            高级查询保存记忆列表Sql
+            </summary>
+        </member>
+    </members>
+</doc>
+@#@2018-12-24 15:39:46

@@ -1,0 +1,1239 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AModelList</name>
+    </assembly>
+    <members>
+        <member name="F:AModelList.F选择模块.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AModelList.F选择模块.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AModelList.F选择模块.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:AModelList.AForm.SetMsgLisenter(System.String)">
+            <summary>
+            设置监听消息信息
+            </summary>
+            <param name="vsMsgTypes">要监听的消息类型,多个消息用,分割</param>
+        </member>
+        <member name="M:AModelList.AForm.ShowDialog">
+            <summary>
+            不允许直接调用此函数打开窗口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.Show">
+            <summary>
+            不允许直接调用此函数打开窗口
+            </summary>
+        </member>
+        <member name="M:AModelList.AForm.AVPrintGetVarList(System.String,System.String)">
+            <summary>
+            获得本地变量
+            </summary>
+            <param name="vs子系统编号"></param>
+            <param name="vs打印子编号"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.AVPrintBorder(System.Int32,System.Int32)">
+            <summary>
+            打印边线控制
+            </summary>
+            <param name="vi当前页数"></param>
+            <param name="vi页码行数"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.AVPrintGetValue(System.String)">
+            <summary>
+            当打印程序需要取变量的值时调用
+            </summary>
+            <param name="vsVarName">变量名称</param>
+            <returns>返回变量对应的值</returns>
+        </member>
+        <member name="M:AModelList.AForm.AVPrintLoop">
+            <summary>
+            循环打印次数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.AVPrintGetValue(System.String,System.Int32)">
+            <summary>
+            当使用循环打印的时候，获取每次循环的时候的变量值
+            </summary>
+            <param name="vsVarName"></param>
+            <param name="viIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.AVPrintDrawImage(System.Drawing.Graphics,System.Drawing.RectangleF,ABegin.TNameValueList,System.String)">
+            <summary>
+            将打印程序执行“回调绘图”时调用
+            </summary>
+            <param name="gp"></param>
+            <param name="rectCell">当前单元格Rect</param>
+            <param name="vsNameValueList">可选参数，目前版本支持：总页数、当前页号</param>
+            <param name="vsCellText">单元格录入的内容</param>
+        </member>
+        <member name="M:AModelList.AForm.AVPrintCustom(AModelList.AForm,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)">
+            <summary>
+            是否使用自定义打印
+            </summary>
+            <param name="vpForm"></param>
+            <param name="vs子系统编号"></param>
+            <param name="vs打印子编号"></param>
+            <param name="vs格式名称"></param>
+            <param name="vbToPrinter"></param>
+            <param name="vbDispSelectList"></param>
+            <param name="vs格式编号"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.ShowForm(System.Windows.Forms.IWin32Window)">
+            <summary>
+            在AHC平台上基于另一个窗口弹出一个新窗口，新窗口打印时可以操作父窗口
+            </summary>
+            <param name="pParentWin">基于的父窗口</param>
+        </member>
+        <member name="M:AModelList.AForm.ShowForm(AModelList.AForm,System.Boolean)">
+            <summary>
+            指定打开窗口的模式下，以指定的分页参数为准
+            </summary>
+            <param name="f1"></param>
+            <param name="vbPading"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.ShowForm(System.Boolean,System.Boolean)">
+            <summary>
+            在AHC平台上打开一个对话窗口
+            </summary>
+            <param name="f1">窗口对象</param>
+            <param name="vbDefAttrib">是否使用默认值</param>
+            <param name="vbWinMax">是否强制最大化</param>
+            <param name="vbWinMax">是否启用表格分页</param>
+            <returns>窗口中设置的值，用于通知调用程序的状态</returns>
+        </member>
+        <member name="M:AModelList.AForm.RegMsgReceive(System.String)">
+            <summary>
+            向AHC注册本窗口将接收某种类型的消息
+            </summary>
+            <param name="vsMsgType"></param>
+        </member>
+        <member name="M:AModelList.AForm.UnRegMsg(System.String)">
+            <summary>
+            向AHC撤消本窗口接收的消息
+            </summary>
+        </member>
+        <member name="M:AModelList.AForm.AVRegPara">
+            <summary>
+            注册窗口参数,参数将在F1界面显示
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.AVRegPer">
+            <summary>
+            注册窗口权限,权限将在F1界面显示
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.AVRegKeys">
+            <summary>
+            注册窗口快捷菜单,将在F1界面显示
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.AVRegRemark">
+            <summary>
+            向窗口注册其他备注说明信息,将在F1界面显示
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.AVF1">
+            <summary>
+            当前窗口是否允许F1
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.AVCheckDataRuleBase">
+            <summary>
+            检查保存数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.CheckDataRule(System.Windows.Forms.Control)">
+            <summary>
+            检测本窗口各录入字段的数据规则，返回False则程序应返回
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.FindCtrl(System.String,System.Windows.Forms.Control)">
+            <summary>
+            根据控件名称，获取到在本窗口的引用
+            </summary>
+            <param name="vsName">控件名称</param>
+            <param name="vpParent">父控件，默认为当前窗口</param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.AForm.AVAdvSerchBefore(System.Boolean)">
+            <summary>
+            获取高级查询条件
+            </summary>
+            <param name="vbRefresh">是否刷新搜索栏</param>
+            <returns>获取的高级查询搜索栏条件</returns>
+        </member>
+        <member name="F:AModelList.AForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.AForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.AForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AModelList.ADictListBase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.ADictListBase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.ADictListBase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AModelList.ADictListBase.abEnableKb">
+            <summary>
+            是否启用知识库管理
+            </summary>
+        </member>
+        <member name="M:AModelList.ADictListBase.AddInitMe(System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,AModelList.AFaceBase)">
+            <summary>
+            往DictList中增加一个模块
+            </summary>
+            <param name="vs模块名称">模块名称</param>
+            <param name="vs分级类别">分级类别编码  T分级类别.AHC编号,可以为空则树不显示</param>
+            <param name="vs分级SQL">载入树的sql语句，如果为空，则按T分级列表中的内容加载</param>
+            <param name="vi表格序号"></param>
+            <param name="vi打印序号"></param>
+            <param name="vs表名称"></param>
+            <param name="vs编辑窗口类名称"></param>
+            <param name="vpFace"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.ADictListBase.AddButton(System.Int32,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            自定义操作按钮
+            </summary>
+            <param name="idx">显示的顺序号（1-n)</param>
+            <param name="vsName">按钮名称，回调函数的参数</param>
+            <param name="vsText">按钮标题</param>
+            <param name="vs模块名称">隶属于那一些模块，一般用于多模块同时管理时有用，默认为空（全部有用）</param>
+            <param name="fbRow">是否需要选中行才可以操作</param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.ADictListBase.AHCParent_Load">
+            <summary>
+            通知基类子类的参数已就绪，一般在此进行界面布局和数据加载工作
+            </summary>
+        </member>
+        <member name="M:AModelList.ADictListBase.AVSearchBefore(System.String@)">
+            <summary>
+            当用户点击“搜索”按钮时被调用，可以替换vsWhereList变量的值来实现自己的搜索
+            </summary>
+            <param name="vsWhereList">准备被运用于ListThem(Select)的Where条件，可以更改</param>
+            <returns>是否继续调用ListThem</returns>
+        </member>
+        <member name="F:AModelList.ADictListBase.fbTreeSerch">
+            <summary>
+            是否添加分级编码筛选功能
+            </summary>
+        </member>
+        <member name="M:AModelList.ADictListBase.AVClassLoadGrid(System.Windows.Forms.TreeNode,System.Object,System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            当点击Class树准备加载数据时被调用
+            </summary>
+            <param name="pNode"></param>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.ADictListBase.AVShowClassMenu(System.Windows.Forms.TreeNode,System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            当用户鼠标点击Class树准备弹出右键菜单时被调用
+            </summary>
+            <param name="pNode">当前选中的树结a</param>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:AModelList.SkinMain.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.SkinMain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.SkinMain.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AModelList.ABillListBase.AVSearchBefore(System.String@)">
+            <summary>
+            当用户点击“搜索”按钮时被调用，可以替换vsWhereList变量的值来实现自己的搜索
+            </summary>
+            <param name="vsWhereList">准备被运用于ListThem(Select)的Where条件，可以更改</param>
+            <returns>是否继续调用ListThem</returns>
+        </member>
+        <member name="F:AModelList.ABillListBase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.ABillListBase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.ABillListBase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AModelList.AFaceBase._ChangeItem(System.Int64)">
+            <summary>
+            项目被改变时调用
+            </summary>
+            <param name="vlSysId"></param>
+        </member>
+        <member name="F:AModelList.AFaceBase.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AModelList.AFaceBase.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AModelList.AFaceBase.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AModelList.ADictFaceBase.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AModelList.ADictFaceBase.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AModelList.ADictFaceBase.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AModelList.AUserControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AModelList.AUserControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AModelList.AUserControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:AModelList.AUserControl.AVPrintDrawImage(System.Drawing.Graphics,System.Drawing.RectangleF,ABegin.TNameValueList,System.String)">
+            <summary>
+            将打印程序执行“回调绘图”时调用
+            </summary>
+            <param name="gp"></param>
+            <param name="rectCell">当前单元格Rect</param>
+            <param name="vsNameValueList">可选参数，目前版本支持：总页数、当前页号</param>
+            <param name="vsCellText">单元格录入的内容</param>
+        </member>
+        <member name="F:AModelList.UEMREditBase.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AModelList.UEMREditBase.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AModelList.UEMREditBase.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AModelList.F界面非空验证.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.F界面非空验证.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.F界面非空验证.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AModelList.F帮助界面.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.F帮助界面.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.F帮助界面.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AModelList.F分类编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.F分类编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.F分类编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AModelList.F窗口插件管理.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.F窗口插件管理.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.F窗口插件管理.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AModelList.ADictEditBase.AVDelWhere(ACtrllist.AGridList,System.String@)">
+            <summary>
+            当子表采用NEW模式更新数据库，要删除历史子记录时被调用
+            </summary>
+            <param name="pSubList">待更新的子表对象</param>
+            <param name="vsWhere">Delete xxxx Where ....</param>
+        </member>
+        <member name="M:AModelList.ADictEditBase.SaveSubTableXXX(ACtrllist.AGridList,System.Int64)">
+            <summary>
+            暂时不用
+            </summary>
+            <param name="pSubList"></param>
+            <param name="viParentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.ADictEditBase.InitMe(AModelList.EDictOptMode,System.String,System.Int64,System.String,System.String,ACtrllist.AGridList,System.String)">
+            <summary>
+            向ADictEditBase传递调用信息
+            </summary>
+            <param name="veOptMode">EDictOptMode.NEW/EDIT/VIEW</param>
+            <param name="vs主表名称">主表名称</param>
+            <param name="vlSysId">如果veOptMode=EDIT/VIEW时的 系统序号</param>
+            <param name="vpParentGridList">父列表对象，可用于上一条下一条的查看</param>
+            <param name="vsClassTag">树结点的Tag值</param>
+        </member>
+        <member name="M:AModelList.ADictEditBase.AVSaveThemAfter(System.Boolean)">
+            <summary>
+            当点周保存成功后，被调用
+            </summary>
+            <param name="vbAutoNew">是否连续新建</param>
+        </member>
+        <member name="F:AModelList.ADictEditBase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.ADictEditBase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.ADictEditBase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AModelList.F目录编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.F目录编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.F目录编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Win32">
+            <summary>
+            Wind32API声明
+            </summary>
+        </member>
+        <member name="F:Win32.AW_HOR_POSITIVE">
+            <summary>
+            从左到右显示
+            </summary>
+        </member>
+        <member name="F:Win32.AW_HOR_NEGATIVE">
+            <summary>
+            从右到左显示
+            </summary>
+        </member>
+        <member name="F:Win32.AW_VER_POSITIVE">
+            <summary>
+            从上到下显示
+            </summary>
+        </member>
+        <member name="F:Win32.AW_VER_NEGATIVE">
+            <summary>
+            从下到上显示
+            </summary>
+        </member>
+        <member name="F:Win32.AW_CENTER">
+            <summary>
+            若使用了AW_HIDE标志，则使窗口向内重叠，即收缩窗口；否则使窗口向外扩展，即展开窗口
+            </summary>
+        </member>
+        <member name="F:Win32.AW_HIDE">
+            <summary>
+            隐藏窗口，缺省则显示窗口
+            </summary>
+        </member>
+        <member name="F:Win32.AW_ACTIVATE">
+            <summary>
+            激活窗口。在使用了AW_HIDE标志后不能使用这个标志
+            </summary>
+        </member>
+        <member name="F:Win32.AW_SLIDE">
+            <summary>
+            使用滑动类型。缺省则为滚动动画类型。当使用AW_CENTER标志时，这个标志就被忽略
+            </summary>
+        </member>
+        <member name="F:Win32.AW_BLEND">
+            <summary>
+            透明度从高到低
+            </summary>
+        </member>
+        <member name="M:Win32.AnimateWindow(System.IntPtr,System.Int32,System.Int32)">
+            <summary>
+            执行动画
+            </summary>
+            <param name="whnd">控件句柄</param>
+            <param name="dwtime">动画时间</param>
+            <param name="dwflag">动画组合名称</param>
+            <returns>bool值，动画是否成功</returns>
+        </member>
+        <member name="F:AModelList.ARecEditBase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.ARecEditBase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.ARecEditBase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AModelList.ARecEditBase.aRecordLoad">
+            <summary>
+            修改或查看模式下获取的主表记录集
+            </summary>
+        </member>
+        <member name="M:AModelList.ARecEditBase.AVSaveAfter(System.Boolean)">
+            <summary>
+            当点周保存成功后，被调用
+            </summary>
+            <param name="vbAutoNew">是否连续新建</param>
+        </member>
+        <member name="M:AModelList.ARecEditBase.AVPrintAfter(System.Boolean)">
+            <summary>
+            点击[bt打印]后调用
+            </summary>
+            <param name="vbReaslut">打印成功与否</param>
+        </member>
+        <member name="M:AModelList.ARecEditBase.AVDealPara(ANetAccess.TSQLPara)">
+            <summary>
+            处理输出参数
+            </summary>
+            <param name="tSQLPara">执行存储过程后的返回参数</param>
+        </member>
+        <member name="M:AModelList.ARecEditBase.AVDelWhere(ACtrllist.AGridList,System.String@)">
+            <summary>
+            当子表采用NEW模式更新数据库，要删除历史子记录时被调用
+            </summary>
+            <param name="pSubList">待更新的子表对象</param>
+            <param name="vsWhere">Delete xxxx Where ....</param>
+        </member>
+        <member name="M:AModelList.ARecEditBase.InitMe(AModelList.ERecOptMode,System.String,System.Int64,ACtrllist.AGridList,System.Int64,System.Int64)">
+            <summary>
+            向ARecEditBase传递调用信息
+            </summary>
+            <param name="veOptMode">ERecOptMode.NEW/EDIT/VIEW</param>
+            <param name="vs主表名称">主表名称</param>
+            <param name="vlSysId">如果veOptMode=EDIT/VIEW时的 系统序号</param>
+            <param name="vpParentGridList">父列表对象，可用于上一条下一条的查看</param>
+            <param name="vlParentId">当为新建子表时的“单据序号”</param>
+            <param name="vlMainId">当为新建子表时的“主表序号”</param>
+        </member>
+        <member name="F:AModelList.F设置输入法.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.F设置输入法.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.F设置输入法.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AModelList.AOPTLabel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AModelList.AOPTLabel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AModelList.AOPTLabel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AModelList.ADJLabel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AModelList.ADJLabel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AModelList.ADJLabel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:AModelList.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.biggest">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.biggest_click">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.biggest_click_flagship">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.biggest_flagship">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.close_click">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.close_flagship">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.close2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.divider_control">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.divider_control_flagship">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.divider_cross">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.minimize">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.minimize_click">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.minimize_click_flagship">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.minimize_flagship">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.reduction">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.reduction_click">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.reduction_click_flagship">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AModelList.Properties.Resources.reduction_flagship">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="F:AModelList.F窗口插件编辑.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.F窗口插件编辑.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.F窗口插件编辑.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <!-- 对于成员“M:AModelList.TCtrlTabList.LoadCtrls(System.Windows.Forms.Control,System.Boolean)”忽略有格式错误的 XML 注释 -->
+        <member name="T:AModelList.ARegPara">
+            <summary>
+            注册参数
+            </summary>
+        </member>
+        <member name="F:AModelList.ARegPara.fsComCode">
+            <summary>
+            组件编码i
+            </summary>
+        </member>
+        <member name="F:AModelList.ARegPara.fsType">
+            <summary>
+            参数类型
+            </summary>
+        </member>
+        <member name="F:AModelList.ARegPara.fsCode">
+            <summary>
+            参数编号
+            </summary>
+        </member>
+        <member name="F:AModelList.ARegPara.fsGetWay">
+            <summary>
+            采集方式
+            </summary>
+        </member>
+        <member name="F:AModelList.ARegPara.fsTitle">
+            <summary>
+            参数标题
+            </summary>
+        </member>
+        <member name="F:AModelList.ARegPara.fsValue">
+            <summary>
+            参数值
+            </summary>
+        </member>
+        <member name="F:AModelList.ARegPara.fsSource">
+            <summary>
+            参数来源
+            </summary>
+        </member>
+        <member name="F:AModelList.ARegPara.fsRemark">
+            <summary>
+            参数描述
+            </summary>
+        </member>
+        <member name="M:AModelList.ARegPara.#ctor(System.String,System.String,System.String)">
+            <summary>
+            注册参数信息
+            </summary>
+            <param name="sComCode">参数组件编码</param>
+            <param name="sType">参数类型</param>
+            <param name="sCode">参数编号</param>
+        </member>
+        <member name="T:AModelList.ARegPer">
+            <summary>
+            注册权限
+            </summary>
+        </member>
+        <member name="F:AModelList.ARegPer.fsCode">
+            <summary>
+            权限编码
+            </summary>
+        </member>
+        <member name="F:AModelList.ARegPer.fsName">
+            <summary>
+            权限名称
+            </summary>
+        </member>
+        <member name="F:AModelList.ARegPer.fsRemark">
+            <summary>
+            权限描述
+            </summary>
+        </member>
+        <member name="F:AModelList.ARegPer.fbPer">
+            <summary>
+            是否有此权限
+            </summary>
+        </member>
+        <member name="M:AModelList.ARegPer.#ctor(System.String)">
+            <summary>
+            注册一个权限
+            </summary>
+            <param name="sCode">权限编码</param>
+        </member>
+        <member name="T:AModelList.ARegKey">
+            <summary>
+            注册快捷按键
+            </summary>
+        </member>
+        <member name="F:AModelList.ARegKey.fsKey">
+            <summary>
+            快捷按键
+            </summary>
+        </member>
+        <member name="F:AModelList.ARegKey.fsRemark">
+            <summary>
+            快捷菜单描述
+            </summary>
+        </member>
+        <member name="M:AModelList.ARegKey.#ctor(System.String,System.String)">
+            <summary>
+            注册一个快捷按键
+            </summary>
+            <param name="sKey">按键</param>
+            <param name="sRemark">按键描述</param>
+        </member>
+        <member name="M:AModelList.ARegKey.IsMarry(System.Windows.Forms.Keys)">
+            <summary>
+            当前键盘事件是否匹配快捷键
+            </summary>
+            <param name="k"></param>
+            <returns></returns>
+        </member>
+        <member name="F:AModelList.SkinForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.SkinForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.SkinForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AModelList.ARecListBase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.ARecListBase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.ARecListBase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AModelList.ARecListBase.abEnableDataLoad">
+            <summary>
+            是否启用数据装载模式
+            </summary>
+        </member>
+        <member name="M:AModelList.ARecListBase.AddButton(System.Int32,System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            自定义操作按钮
+            </summary>
+            <param name="idx">显示的顺序号（1-n)</param>
+            <param name="vsName">按钮名称，回调函数的参数</param>
+            <param name="vsText">按钮标题</param>
+            <param name="vbLeftBottom">是否加在左下角的位置</param>
+            <param name="vbTag">判断数据来源是否必须是列表中的系统序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.ARecListBase.AVSearchBefore(System.String@)">
+            <summary>
+            当用户点击“搜索”按钮时被调用，可以替换vsWhereList变量的值来实现自己的搜索
+            </summary>
+            <param name="vsWhereList">准备被运用于ListThem(Select)的Where条件，可以更改</param>
+            <returns>是否继续调用ListThem</returns>
+        </member>
+        <member name="F:AModelList.EDelExeprcType.None">
+            <summary>
+            不执行存储过程
+            </summary>
+        </member>
+        <member name="F:AModelList.EDelExeprcType.General">
+            <summary>
+            执行通用无子表或关联表的存储过程
+            </summary>
+        </member>
+        <member name="F:AModelList.EDelExeprcType.Unique">
+            <summary>
+            有子表或关联表存储过程, 需独立写存储过程名称PD_表名称
+            </summary>
+        </member>
+        <member name="F:AModelList.F插件管理.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.F插件管理.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.F插件管理.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AModelList.ABillEditBase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.ABillEditBase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.ABillEditBase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AModelList.ABillEditBase.fsCustomSaveProc">
+            <summary>
+            自定义保存存储过程
+            </summary>
+        </member>
+        <member name="F:AModelList.ABillEditBase.fbMemoryPrint">
+            <summary>
+            是否保存打印次数
+            </summary>
+        </member>
+        <member name="F:AModelList.ABillEditBase.fbPrintTimes">
+            <summary>
+            是否提示打印次数
+            </summary>
+        </member>
+        <member name="M:AModelList.ABillEditBase.GetBillState">
+            <summary>
+            获取当前单据的操作状态
+            </summary>
+            <returns>单据状态枚举</returns>
+        </member>
+        <member name="M:AModelList.ABillEditBase.AVLoadThemOther(System.Int64)">
+            <summary>
+            窗口数据加载完了之后调用,用户可加载其他信息
+            </summary>
+            <param name="vlSysId">主表序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.ABillEditBase.AVAddAfter(System.String)">
+            <summary>
+            在数据被加到列表后被调用
+            </summary>
+            <param name="vsId"></param>
+        </member>
+        <member name="M:AModelList.ABillEditBase.AVAddCheckDataRule">
+            <summary>
+            数据准备被加到表格中时被调用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.ABillEditBase.AVRemoveBefore">
+            <summary>
+            在将数据从表格中移除之前被调用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.ABillEditBase.AVSaveThemOtherT_SQL">
+            <summary>
+            跟随模型保存其他信息 直接返回要执行的SQL集合即可
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.ABillEditBase.AVUpdateStateOtherT_SQL(AModelList.EBillState)">
+            <summary>
+            跟随模型保存其他信息，传入对象有模型状态 直接返回要执行的SQL集合即可
+            </summary>
+            <param name="ebillState">当前操作单据状态</param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.ABillEditBase.AVSaveThemOtherT(System.Int64)">
+            <summary>
+            此函数在事务中 使用XML保存数据模式 失败返回为非空值
+            </summary>
+            <param name="vlSysId">主表序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.ABillEditBase.AVSaveAfter(System.Boolean)">
+            <summary>
+            当点击保存成功后 如果连续新增单据 被调用此函数
+            </summary>
+            <param name="vbAutoNew">是否连续新建</param>
+        </member>
+        <member name="M:AModelList.ABillEditBase.AVCheckDataRule">
+            <summary>
+            检测数据逻辑验证 保存前验证所录入数据是否合法
+            </summary>
+            <returns>true 验证通过继续保存 false 验证失败停止保存</returns>
+        </member>
+        <member name="M:AModelList.ABillEditBase.AVSaveThemBefore(System.String@)">
+            <summary>
+            保存数据之前 传入当前单据生成的单据编号信息
+            </summary>
+            <param name="vs单据编号"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.ABillEditBase.AVSaveThenAfter">
+            <summary>
+            请使用XML模式存储数据 此函数不在事务中
+            </summary>
+        </member>
+        <member name="M:AModelList.ABillEditBase.Do过单XML(System.Int32)">
+            <summary>
+            保存单据
+            </summary>
+            <param name="vbSubmit">是否直接提交</param>
+            <returns></returns>
+        </member>
+        <member name="M:AModelList.ABillEditBase.AVUpdateStateOtherTXML(System.Int32,AModelList.EBillState)">
+            <summary>
+            当更新状态后留机会给工程师撰写自己的更新代码 使用XML保存  注意XML中不要开起事务 此函数已经在事务中
+            </summary>
+            <param name="viSycnNo">配合lSysId使用的同步序号</param>
+            <param name="veBillState">当前正更新的状态值，一般用于判断是何种操作</param>
+            <returns>空：成功   非空：失败描述</returns>
+        </member>
+        <member name="M:AModelList.ABillEditBase.AVUpdateStateOtherT(System.Int32,AModelList.EBillState)">
+            <summary>
+            当更新状态后留机会给工程师撰写自己的更新代码 此函数在事务中 使用XML保存 失败返回非空值
+            </summary>
+            <param name="viSycnNo">配合lSysId使用的同步序号</param>
+            <param name="veBillState">当前正更新的状态值，一般用于判断是何种操作</param>
+            <returns>空：成功   非空：失败描述</returns>
+        </member>
+        <member name="M:AModelList.ABillEditBase.AVUpdateStateBofore(AModelList.EBillState)">
+            <summary>
+            更新单据状态前调用
+            </summary>
+            <param name="veBillState">单据状态</param>
+            <returns>空：成功   非空：失败描述</returns>
+        </member>
+        <member name="F:AModelList.F选择输入法.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.F选择输入法.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.F选择输入法.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AModelList.DICT.F移动位置.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.DICT.F移动位置.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.DICT.F移动位置.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AModelList.ASubEditBase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AModelList.ASubEditBase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AModelList.ASubEditBase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AModelList.ASubEditBase.InitMe(ACtrllist.AGridList,AModelList.ASubEditBaseOptMode,ABegin.TNameValueList)">
+            <summary>
+            初始化本对象
+            </summary>
+            <param name="vpGridList">与子窗口关联的AGridList对象</param>
+            <param name="veOptMode">操作方式 NEW/EDIT/VIEW</param>
+            <param name="vbContinueNew">针对新建模式，是否连接新建</param>
+        </member>
+    </members>
+</doc>
+@#@2018-12-24 15:39:51
